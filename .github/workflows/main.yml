@@ -24,7 +24,7 @@ jobs:
         run: npm install && yarn build
 
       # 部署到 GitHub Pages
-      - name: Deploy
+      - name: MCGD
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: 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 # 也就是我们刚才生成的 secret
