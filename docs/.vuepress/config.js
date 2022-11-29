@@ -3,7 +3,6 @@ import { defaultTheme } from '@vuepress/theme-default'
 module.exports = {
   lang: 'zh-CN',
   title: 'MGC Docs',
-  // base: "/MCGD/",
   description: 'Minecraft Graphic Community Documents',
   port: "8080",
   head: [
@@ -30,7 +29,16 @@ module.exports = {
       },
       {
         text: '误区纠正',
-        children: ['/correct/',]
+        children: [
+          {
+            text: '歧义观点',
+            link: '/correct/',
+          },
+          {
+            text: '答疑手册',
+            link: '/answer_java/',
+          }
+        ]
       },
     ],
 
@@ -62,6 +70,12 @@ module.exports = {
         '/correct/netease_shader',
         '/correct/author_says',
       ],
+      '/anser_java': [
+        '/answer_java/README.md',
+        '/answer_java/shaders.md',
+        '/answer_java/settings.md',
+        '/answer_java/mods.md',
+      ]
     },
   })
 }
