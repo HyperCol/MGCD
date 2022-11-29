@@ -57,7 +57,7 @@ module.exports = {
           collapsible: true,
           children: ['/correct/qas/shadow', '/correct/qas/texture'],
         },
-        '/correct/mistakes',
+        '/correct/RT_mistakes',
         '/correct/other',
         '/correct/netease_shader',
         '/correct/author_says',
