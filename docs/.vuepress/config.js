@@ -70,7 +70,7 @@ module.exports = {
         '/correct/netease_shader',
         '/correct/author_says',
       ],
-      '/anser_java': [
+      '/answer_java': [
         '/answer_java/README.md',
         '/answer_java/shaders.md',
         '/answer_java/settings.md',
