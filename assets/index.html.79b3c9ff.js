@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-88e16204","path":"/correct/","title":"导言","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1669741832000,"contributors":[{"name":"shaoxiu","email":"shaoxiu@skiesworld.com","commits":2},{"name":"17TheWord","email":"17theword@gmail.com","commits":1}]},"filePathRelative":"correct/README.md"}');export{e as data};
