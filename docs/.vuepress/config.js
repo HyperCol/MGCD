@@ -1,5 +1,3 @@
-import { defaultTheme } from '@vuepress/theme-default'
-
 module.exports = {
   lang: 'zh-CN',
   title: 'MGC Docs',
