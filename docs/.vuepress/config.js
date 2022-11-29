@@ -7,6 +7,7 @@ module.exports = {
   port: "8080",
   head: [
     ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
+    ['meta', { name: 'theme-color', content: '#FF9201' }]
   ],
   theme: defaultTheme({
     logo: '/images/MGC-logo.png',
