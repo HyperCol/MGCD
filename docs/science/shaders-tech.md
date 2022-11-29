@@ -1,12 +1,12 @@
 # 着色器技术科普
 
-## 一、光线追踪、路径追踪与 RTX
+## 光线追踪、路径追踪与 RTX
 
-### 1.3.1 前言：传统渲染的局限性
+### 前言：传统渲染的局限性
 
 受限于计算机性能，早期游戏所渲染的画面都是二维的。所以我们平常看到的传统游戏的光照与反射等效果，都是在**屏幕内计算**的，只能看到屏幕内物体的反射与光线计算。但这样效果就太差了，于是我们可以利用**光栅化渲染**去**预烘焙**游戏世界，使得光线可以与预先写入程序的物体交互并返回到屏幕内，**简单说就是游戏里各种光线反射都是程序员预先写好的，比如房间里有面镜子，程序员就要告诉它这个房间里有什么内容（预先写好的），然后镜子再计算反射**。但这种方式**局限性太大**，预烘焙**制作成本极高**（一个完美的小场景远景预烘焙就需要数十小时），而且**不适用于大多动态场景**（例如 Minecraft ，受限于自由创造的游戏玩法，基本无法进行预烘焙）。于是**基于三维空间实时渲染**的光线追踪便进入了各大厂商的视野。然而，由于硬件性能不足，早期光追仅用于**离线渲染**（电影、CG等行业），直到 RTX 显卡为我们带来**光线追踪加速核心**后光线追踪才进入大众视野，应用到游戏中的**实时渲染**（ Minecraft 可以使用特殊手段来进行加速和降噪，故不算，下文会提到）。
 
-### 1.3.2 光线追踪的概念
+### 光线追踪的概念
 
       **光线追踪在1968年由 Arthur Appel 首次提出**。在上一段中我们讲到，传统渲染是基于二维的，尽管可以预烘焙三维世界，但局限和破绽仍然很大。因此，光线追踪的目的即为直接运算得出三维图像。
         目前光线追踪算法均基于**构建体素空间**，即将游戏内的内容导入三维空间进行渲染，可分为切割立方体（基本是Minecraft专用）与切割三角面两种方式。
@@ -14,13 +14,13 @@
 **正向光线追踪**：在渲染时，场景中的光源会发射光线，光线在行进过程中与物体发生反射、折射等交互，最终撞击到摄像机（玩家视角）上，得出结果。
 但这种方法过于消耗算力，而且物理学告诉我们**光路可逆，**于是游戏界光追采用了**逆向光线追踪**，即将上述过程反向，**从玩家视角出发发射光源**，并计算在这过程中的光线交互，最终撞击到光源或光线逸出场景后将结果返回给摄像机（玩家视角），我们将这个过程称为**求交**运算。
 
-### 1.3.3 何为路径追踪
+### 何为路径追踪
 
 路径追踪算法是基于**蒙特卡洛采样算法**的光线渲染方法，**其核心思想与逆向光线追踪一致**。
 **Kajiya 于1986年提出了路径追踪算法的理念**，开创了基于蒙特卡洛采样算法的全局光照这一领域。路径追踪的基本思想是经过逆向光线追踪的一系列计算，撞击到光源后，用蒙特卡洛的方法，计算其贡献，作为像素的颜色值。
 **简单来说，路径追踪 = 光线追踪+ 蒙特卡洛采样算法**。
 
-### 1.3.4 光线追踪在 Minecraft 中的应用
+### 光线追踪在 Minecraft 中的应用
 
 在**Minecraft：Java Edition** 中，我们**使用路径追踪**算法。在上文中提到，Minecraft 由于其动态世界，故无法大范围使用预烘焙光栅。因此在 Minecraft 中是否存在光追，对画面的影响很大。具体方法为将 Optifine 自带的 **ShadowMap**（原本用于绘制阴影）转化到**体素空间**（即三维空间）内来计算路径追踪。
 而不依靠 RT CORE ，JAVA 版光追光影又是如何做到高帧的实时运算呢？在这里，我们主要利用**辐照度缓存**来优化光追运算量（实际 Bedrock 版的 RTX 光追也有用到这个技术），利用 **SVGF过滤** 进行降噪处理（ JE 和 BE 的辐照度缓存技术在 [https://www.bilibili.com/video/BV1X54y1v7za?zw](https://www.bilibili.com/video/BV1X54y1v7za?zw) 这个视频的 5:30、8:38 分别有讲到）。
@@ -30,7 +30,7 @@
 - 光源被阻挡形成的软阴影、正确的光照范围、光线在不同介质中的色散、不同光源不同颜色发光、光线混色![2022-02-22_21.50.10.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539852349-1208cb8d-41f5-4aae-a715-abcea00e79a1.png#averageHue=%231d152b&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u9adb4a5a&margin=%5Bobject%20Object%5D&name=2022-02-22_21.50.10.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=3473181&status=error&style=shadow&taskId=u841373c3-75e2-43c2-88c4-d7262c49efd&title=SEUS%20PTGI%20GFME "SEUS PTGI GFME")![2022-02-22_21.51.41.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539903973-1e347288-6ca8-4ffa-b388-c13bd8b88f6e.png#averageHue=%23ab9272&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u4fad21dc&margin=%5Bobject%20Object%5D&name=2022-02-22_21.51.41.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=2201183&status=error&style=none&taskId=u118bed89-f210-42f1-b2f6-26e2ade0e49&title=%E4%BC%A0%E7%BB%9F%E5%85%89%E5%BD%B1 "传统光影")
 - 可以反射/折射视野外的物体、多次反射/折射、真实的粗糙与金属质感![2022-10-26_22.39.04.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666795467177-d2d83a0b-3a9f-45e8-946f-8326bf34f373.png#averageHue=%234c2d0e&clientId=u2833c759-124f-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u7725a101&margin=%5Bobject%20Object%5D&name=2022-10-26_22.39.04.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=4509001&status=done&style=shadow&taskId=u6d58c369-8175-4664-8228-065a7ec766b&title=Kappa%20PT "Kappa PT")![2022-10-26_22.40.13.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666795483594-8fa82b7e-cb0d-4651-955f-8cc22274ff8f.png#averageHue=%23472b0b&clientId=u2833c759-124f-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u65e4cc16&margin=%5Bobject%20Object%5D&name=2022-10-26_22.40.13.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=5025902&status=done&style=shadow&taskId=u4ef62f2a-2843-4048-83db-48a7f898b52&title=%E4%BC%A0%E7%BB%9F%E5%85%89%E5%BD%B1 "传统光影")
 
-### 1.3.5 RTX 与光线追踪的联系、“伪光追”
+### RTX 与光线追踪的联系、“伪光追”
 
         本段主要谈论 RTX 光追原理与伪光追。在阅读本段之前我们建议你先查看以下内容进行简单了解。
 [MGC 歧义及观点纠正](https://mgchelp.yuque.com/docs/share/29cd3ba2-e040-4ad3-874c-2edbb7103ec3?view=doc_embed&inner=V8q0R)
@@ -53,25 +53,25 @@ RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE*
  至于光栅化，引用内容内已经说过，**现在绝大多数游戏的光追都是 光栅化+光追 混合**，并无混合光追就是伪光追的说法。
 _**顺带一提，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻意限制罢了，一般的3A大作都有支持，甚至 GTX 1660 能在《古墓丽影：暗影》的 1080p 最高档光线追踪下取得复杂场景平均 30fps 的成绩**。_
 
-## 4. 全局光照
+## 全局光照
 
-### 1.4.1 介绍
+### 介绍
 
 一般来说，**全局光照=直接光照+间接光照**。全局光照，表现了直接照明和间接照明的综合效果。它有多种实现方法，例如**辐射度、光线追踪、环境光遮蔽（ambient occlusion）、光子贴图、Light Probe**等。当光从光源被发射出来后，碰到障碍物就反射和折射，经过无数次的反射和折射，物体表面和角落都会有光感，像真实的自然光。
 全局光照计算量很大。渲染带有全局光照效果的图片，耗时会较长（取决于场景复杂度）。渲染静态图片可以接受这较长的耗时，但渲染视频或者应用到游戏时，要求的渲染时间就要减少很多，于是便有了**反向追踪算法（即蒙特卡洛算法）**。此算法以摄像机视角为基准，仅计算可见的地方，这样就可以在不牺牲质量的情况下提高渲染效率。
 
-### 1.4.2 Reflective Shadow Maps
+### Reflective Shadow Maps
 
 Reflective Shadow Maps，简称RSM。它是一种实现全局光照的方式，原理为：将直接光照能够照亮的像素点作为次级光源，让它们照亮以它们为中心的像素。
 参考资料：
 
-### 1.4.3 Light Propagation Volumes
+### Light Propagation Volumes
 
 Light Propagation Volumes（光照传播体积），是CryEngine3 提出的一种实时的、无需任何预计算的全局光照技术，其在RSM和SH的基础上创造性地提出了使用体素来存储、传播间接光照的方法。
 LPV首先将整个场景划分为一个个的小格子（体素），将整个场景离散开来，直接计算每个格子内的光照是不现实的，解决方法是让光照像墨滴一样在这些格子中弥散、传播，从而计算最终到达着色点的间接光照。
 参考资料：
 
-### 1.4.4 Voxel Global Illumination
+### Voxel Global Illumination
 
 类似于LPV，Voxel Global Illumination（体素全局光照）也是一个两趟的、实时的全局光照算法，它以体积渲染作为算法核心，将场景通过体素离散化为树状结构并存储光照计算相关信息，并在渲染时通过体素圆锥追踪来计算光照，相比LPV拥有更好的效果。
 参考资料：
