@@ -40,6 +40,11 @@ module.exports = {
       '/science/': [
         "/science/README.md",
         "/science/science.md",
+        "/science/shaders-base.md",
+        "/science/shaders-tech.md",
+        "/science/resourcepack.md",
+        "/science/render.md",
+        "/science/film.md",
       ],
 
     },
