@@ -3,10 +3,7 @@ module.exports = {
   title: 'MGC Docs',
   description: 'Minecraft Graphic Community Documents',
   port: "8080",
-  head: [
-    ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
-    ['meta', { name: 'theme-color', content: '#FF9201' }]
-  ],
+  head: ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
   themeConfig: {
     logo: '/images/MGC-logo.png',
     logoDark: '/images/MGC-darklogo.png',
