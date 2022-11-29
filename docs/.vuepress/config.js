@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 module.exports = {
   lang: 'zh-CN',
   title: 'MCGD',
-  base: "/MCGD/",
+  // base: "/MCGD/",
   description: 'Minecraft Community Graphic Documents',
   port: "8080",
   head: [
