@@ -6,16 +6,14 @@
 
 ## Astral Sorcery
 
-### 1.12.2及更早版本
+- 1.12.2及更早版本
 
-在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
-`S:weakSkyRenders <
-    0
- >`
+  在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
+`S:weakSkyRenders < 0 >`
 
-### 1.15.x
+- 1.15.x
 
-在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样:
+  在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
 `weakSkyRenders = [ 0 ]`
 
 ### 1.16.x
@@ -38,11 +36,11 @@
 
 ## Botania
 
-将****_**fancySkybox.enable**_ 和 _**shaders.enabled**_ 设置为 **false**。
+将_**fancySkybox.enable**_ 和 _**shaders.enabled**_ 设置为 **false**。
 
 ## COFH核心（1.15以上）
 
-将 _**Render Area Effect Block Breaking**_ 设置为 **false**。
+   将 _**Render Area Effect Block Breaking**_ 设置为 **false**。
 
 ## Computer Craft Tweaked
 
