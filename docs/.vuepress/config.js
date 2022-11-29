@@ -9,7 +9,7 @@ module.exports = {
     ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
     ['meta', { name: 'theme-color', content: '#FF9201' }]
   ],
-  theme: defaultTheme({
+  themeConfig: {
     logo: '/images/MGC-logo.png',
     logoDark: '/images/MGC-darklogo.png',
     notFound: ["404 Not Found，页面丢失。"],
@@ -78,5 +78,5 @@ module.exports = {
         '/answer_java/mods.md',
       ]
     },
-  })
+  }
 }
