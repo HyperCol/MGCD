@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/MCGD/\",\"lang\":\"zh-CN\",\"title\":\"MCGD\",\"description\":\"Minecraft Graphic Community Documents\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/MGC-logo.png\"}]],\"locales\":{}}")
