@@ -29,7 +29,7 @@ module.exports = {
         link: '/science/',
       },
       {
-        text: '歧义及观点纠正',
+        text: '误区纠正',
         link: '/correct/',
       },
     ],
