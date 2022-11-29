@@ -42,7 +42,7 @@ module.exports = {
         "/science/science.md",
         "/science/shaders-base.md",
         "/science/shaders-tech.md",
-        "/science/resourcepack.md",
+        "/science/resourcepacks.md",
         "/science/render.md",
         "/science/film.md",
       ],
