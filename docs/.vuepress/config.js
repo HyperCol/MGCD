@@ -1,3 +1,5 @@
+import { defaultTheme } from '@vuepress/theme-default'
+
 module.exports = {
   lang: 'zh-CN',
   title: 'MGC Docs',
@@ -6,7 +8,7 @@ module.exports = {
   head: [
     ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
   ],
-  themeConfig: {
+  theme: defaultTheme({
     logo: '/images/MGC-logo.png',
     logoDark: '/images/MGC-darklogo.png',
     notFound: ["404 Not Found，页面丢失。"],
@@ -75,5 +77,5 @@ module.exports = {
         '/answer_java/mods.md',
       ]
     },
-  }
+  })
 }
