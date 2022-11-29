@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         text: '误区纠正',
-        link: '/correct/',
+        children: ['/correct/',]
       },
     ],
 
