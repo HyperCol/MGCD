@@ -1,7 +1,7 @@
 {
   "name": "mcgd",
   "version": "1.0.0",
-  "description": "Minecraft Graphic's Document",
+  "description": "Minecraft Graphic's Community Document",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
