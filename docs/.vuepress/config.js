@@ -128,6 +128,7 @@ module.exports = {
         '/answer_java/mods.md',
       ],
       '/creator/': [
+        '/creator/README.md',
         '/creator/resources.md',
       ],
       '/instructions/': [
