@@ -42,11 +42,19 @@ module.exports = {
       },
       {
         text: '创作指南',
-        link: '/creator/',
+        children: [
+          {
+            text: '创作者指南',
+            link: '/creator/'
+          },
+          {
+            text: '资料整理',
+            link: '/creator/resources.md/'
+          }
+        ]
       },
       {
         text: '作品表格',
-        link: '/works/',
         children: [
           {
             text: 'Java版光影',
