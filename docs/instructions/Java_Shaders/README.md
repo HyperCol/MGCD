@@ -22,7 +22,7 @@
 安装步骤：点击进入 [OptiFine 官网](https://www.optifine.net/home)，打开后点击上面的 **Download**（如果广告无法跳过就点击旁边的 **Mirror** ，随后下载对应版本的最新OptiFine。随后双击打开下载到的文件，选择想要安装的客户端根目录，点击 **Install**即可完成安装。
 ![安装optifine-3.png](/images/instructions/安装optifine-3.png)
 
-### 加载光影
+## 加载光影
 
 启动安装后的游戏版本。点击 **设置** -> **视频设置** ->**光影** 即可选择加载 shaderpacks 文件夹内的任意光影包。
 以下是自带的两个选项说明：
