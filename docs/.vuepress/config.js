@@ -40,6 +40,10 @@ module.exports = {
           }
         ]
       },
+      {
+        text: '创作指南',
+        link: '/creator/',
+      }
     ],
 
     //左侧列表
@@ -63,19 +67,23 @@ module.exports = {
         {
           text: '问题集锦',
           collapsible: true,
-          children: ['/correct/qas/shadow', '/correct/qas/texture'],
+          children: ['/correct/qas/shader.md', '/correct/qas/texture.md'],
         },
-        '/correct/RT_mistakes',
-        '/correct/other',
-        '/correct/netease_shader',
-        '/correct/author_says',
+        '/correct/RT_mistakes.md',
+        '/correct/other.md',
+        '/correct/netease_shader.md',
+        '/correct/author_says.md',
       ],
-      '/answer_java': [
+      '/answer_java/': [
         '/answer_java/README.md',
         '/answer_java/shaders.md',
         '/answer_java/settings.md',
         '/answer_java/mods.md',
-      ]
+      ],
+      '/creator/': [
+        '/creator/README.md',
+        '/creator/resources.md',
+      ],
     },
   })
 }

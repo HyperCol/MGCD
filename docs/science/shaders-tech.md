@@ -23,35 +23,52 @@
 ### 光线追踪在 Minecraft 中的应用
 
 在 **Minecraft：Java Edition** 中，我们使用**路径追踪**算法。在上文中提到，Minecraft 由于其动态世界，故无法大范围使用预烘焙光栅。因此在 Minecraft 中是否存在光追，对画面的影响很大。具体方法为将 Optifine 自带的 **ShadowMap**（原本用于绘制阴影）转化到**体素空间**（即三维空间）内来计算路径追踪。
-而不依靠 RT CORE ，JAVA 版光追光影又是如何做到高帧的实时运算呢？在这里，我们主要利用**辐照度缓存**来优化光追运算量（实际 Bedrock 版的 RTX 光追也有用到这个技术），利用 **SVGF过滤** 进行降噪处理（ JE 和 BE 的辐照度缓存技术在 [https://www.bilibili.com/video/BV1X54y1v7za?zw](https://www.bilibili.com/video/BV1X54y1v7za?zw) 这个视频的 5:30、8:38 分别有讲到）。
+而不依靠 RT CORE ，JAVA 版光追光影又是如何做到高帧的实时运算呢？在这里，我们主要利用**辐照度缓存**来优化光追运算量（实际 Bedrock 版的 RTX 光追也有用到这个技术），利用 **SVGF过滤** 进行降噪处理（ JE 和 BE 的辐照度缓存技术在 [BSL到底是不是光追？光追为mc带来了什么？【素影之下 #2】×【光影实验室 #3】](https://www.bilibili.com/video/BV1X54y1v7za?zw) 这个视频的 5:30、8:38 分别有讲到）。
 下面展示一些光线追踪在MC中与传统光影不同的效果：
 
-- 完全物理的光线追踪阴影和衔接阴影、光线追踪全局光照![2022-02-22_21.35.16.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539665399-a2d879b8-bccc-45fd-b735-019177c026f9.png#averageHue=%23008d00&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u9bbd05d8&margin=%5Bobject%20Object%5D&name=2022-02-22_21.35.16.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=3700045&status=error&style=shadow&taskId=u01023e91-b492-4d3f-82a4-7455d8da296&title=Octray "Octray")![2022-02-22_21.37.22.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539678668-5e19f545-61ac-4e68-ae09-aa1de854747b.png#averageHue=%230c5991&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u47550d63&margin=%5Bobject%20Object%5D&name=2022-02-22_21.37.22.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=1804879&status=error&style=shadow&taskId=uf5a3c95c-8947-4cd8-b69f-0ecbd137f46&title=%E4%BC%A0%E7%BB%9F%E5%85%89%E5%BD%B1 "传统光影")
-- 光源被阻挡形成的软阴影、正确的光照范围、光线在不同介质中的色散、不同光源不同颜色发光、光线混色![2022-02-22_21.50.10.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539852349-1208cb8d-41f5-4aae-a715-abcea00e79a1.png#averageHue=%231d152b&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u9adb4a5a&margin=%5Bobject%20Object%5D&name=2022-02-22_21.50.10.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=3473181&status=error&style=shadow&taskId=u841373c3-75e2-43c2-88c4-d7262c49efd&title=SEUS%20PTGI%20GFME "SEUS PTGI GFME")![2022-02-22_21.51.41.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645539903973-1e347288-6ca8-4ffa-b388-c13bd8b88f6e.png#averageHue=%23ab9272&clientId=u44f12535-e88c-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u4fad21dc&margin=%5Bobject%20Object%5D&name=2022-02-22_21.51.41.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=2201183&status=error&style=none&taskId=u118bed89-f210-42f1-b2f6-26e2ade0e49&title=%E4%BC%A0%E7%BB%9F%E5%85%89%E5%BD%B1 "传统光影")
-- 可以反射/折射视野外的物体、多次反射/折射、真实的粗糙与金属质感![2022-10-26_22.39.04.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666795467177-d2d83a0b-3a9f-45e8-946f-8326bf34f373.png#averageHue=%234c2d0e&clientId=u2833c759-124f-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u7725a101&margin=%5Bobject%20Object%5D&name=2022-10-26_22.39.04.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=4509001&status=done&style=shadow&taskId=u6d58c369-8175-4664-8228-065a7ec766b&title=Kappa%20PT "Kappa PT")![2022-10-26_22.40.13.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666795483594-8fa82b7e-cb0d-4651-955f-8cc22274ff8f.png#averageHue=%23472b0b&clientId=u2833c759-124f-4&crop=0&crop=0&crop=1&crop=1&from=ui&id=u65e4cc16&margin=%5Bobject%20Object%5D&name=2022-10-26_22.40.13.png&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=true&size=5025902&status=done&style=shadow&taskId=u4ef62f2a-2843-4048-83db-48a7f898b52&title=%E4%BC%A0%E7%BB%9F%E5%85%89%E5%BD%B1 "传统光影")
+- 完全物理的光线追踪阴影和衔接阴影、光线追踪全局光照
+  - Octray
+![2022-02-22_21.35.16.png](images/2022-02-22_21.35.16.png "Octray")
+  - 传统光影
+![2022-02-22_21.37.22.png](images/2022-02-22_21.37.22.png "传统光影")
+- 光源被阻挡形成的软阴影、正确的光照范围、光线在不同介质中的色散、不同光源不同颜色发光、光线混色
+  - SEUS PTGI GFME
+![2022-02-22_21.50.10.png](images/2022-02-22_21.50.10.png "SEUS PTGI GFME")
+  - 传统光影
+![2022-02-22_21.51.41.png](images/2022-02-22_21.51.41.png "传统光影")
+- 可以反射/折射视野外的物体、多次反射/折射、真实的粗糙与金属质感
+  - Kappa PT
+    ![2022-10-26_22.39.04.png](images/2022-10-26_22.39.04.png "Kappa PT")
+  - 传统光影
+    ![2022-10-26_22.40.13.png](images/2022-10-26_22.39.04.png "传统光影")
 
 ### RTX 与光线追踪的联系、“伪光追”
 
-        本段主要谈论 RTX 光追原理与伪光追。在阅读本段之前我们建议你先查看以下内容进行简单了解。
-[MGC 歧义及观点纠正](https://mgchelp.yuque.com/docs/share/29cd3ba2-e040-4ad3-874c-2edbb7103ec3?view=doc_embed&inner=V8q0R)
+本段主要谈论 RTX 光追原理与伪光追。在阅读本段之前我们建议你先查看以下内容进行简单了解。
+
+- [MGC 歧义及观点纠正](../correct/RT_mistakes.md)
+
 RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE** ，中文名称“**光线追踪加速核心**”。在光线追踪的概念里我们提到过**求交**运算，**而 RT CORE 的主要作用即为加速求交运算**。所以说**RTX 只是用于加速光线追踪运算用**，并不直接计算全部光追过程。
 
 - 下面的第一二张图摘自英伟达20系显卡发布会
+  - 可见，即使是GTX系列也有着光追计算能力
+![QQ截图20221025102723.png](images/QQ截图20221025102723.png "可见，即使是GTX系列也有着光追计算能力")\
+  - 图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”
+![QQ截图20221025103226.png](images/QQ截图20221025103226.png "图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”")\
+![QQ截图20221025104558.png](images/QQ截图20221025104558.png "TITAN V 是唯一使用 Volta 架构的显卡，其并没有搭载光追核心")\
 
-![QQ截图20221025102723.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666676677936-0777c11a-fdcd-4904-9963-5a7a1137f92e.png#averageHue=%230a0a02&clientId=u2fa0191d-1146-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u9023d872&margin=%5Bobject%20Object%5D&name=QQ%E6%88%AA%E5%9B%BE20221025102723.png&originHeight=1077&originWidth=2062&originalType=binary&ratio=1&rotation=0&showTitle=true&size=388825&status=error&style=shadow&taskId=ub74b5758-fa74-4bdb-9bfc-70861f7c83c&title=%E5%8F%AF%E8%A7%81%EF%BC%8C%E5%8D%B3%E4%BD%BF%E6%98%AFGTX%E7%B3%BB%E5%88%97%E4%B9%9F%E6%9C%89%E7%9D%80%E5%85%89%E8%BF%BD%E8%AE%A1%E7%AE%97%E8%83%BD%E5%8A%9B "可见，即使是GTX系列也有着光追计算能力")
-![QQ截图20221025103226.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666676711250-69e861fb-933b-49a2-a96f-d040d6494390.png#averageHue=%2318150b&clientId=u2fa0191d-1146-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=ud58e675e&margin=%5Bobject%20Object%5D&name=QQ%E6%88%AA%E5%9B%BE20221025103226.png&originHeight=1114&originWidth=1827&originalType=binary&ratio=1&rotation=0&showTitle=true&size=1209636&status=error&style=shadow&taskId=u190f94ac-0cf6-4885-b0e9-fe7c56c5b0f&title=%E5%9B%BE%E4%B8%AD%E6%9C%80%E4%B8%8A%E9%9D%A2%E7%9A%84%E4%B8%80%E5%8F%A5%E8%AF%9D%E2%80%9CTuring%20%E6%9E%B6%E6%9E%84%E7%9B%B8%E6%AF%94%20Volta%20%E6%9E%B6%E6%9E%84%E7%9A%84%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA%E6%80%A7%E8%83%BD%E6%8F%90%E5%8D%87%E4%BA%86%E5%85%AD%E5%80%8D%E2%80%9D "图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”")
-![QQ截图20221025104558.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1666676922096-8f09118f-3f01-4500-861b-b01961dd3d36.png#averageHue=%23fbfbfa&clientId=u2fa0191d-1146-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&id=u2b089075&margin=%5Bobject%20Object%5D&name=QQ%E6%88%AA%E5%9B%BE20221025104558.png&originHeight=153&originWidth=1500&originalType=binary&ratio=1&rotation=0&showTitle=true&size=12546&status=error&style=shadow&taskId=u308b35db-d483-4d3c-832c-9280a749c1d&title=TITAN%20V%20%E6%98%AF%E5%94%AF%E4%B8%80%E4%BD%BF%E7%94%A8%20Volta%20%E6%9E%B6%E6%9E%84%E7%9A%84%E6%98%BE%E5%8D%A1%EF%BC%8C%E5%85%B6%E5%B9%B6%E6%B2%A1%E6%9C%89%E6%90%AD%E8%BD%BD%E5%85%89%E8%BF%BD%E6%A0%B8%E5%BF%83 "TITAN V 是唯一使用 Volta 架构的显卡，其并没有搭载光追核心")
-基于第一张图，没有什么好说的，事实就是事实。基于第二张图和第三张图，如果你认为不使用光追核心运算的就是伪光追，那么请问基于 Turing 架构的20系显卡，**光追性能六倍提升于没有光追核心**的 Volta 架构显卡 TITAN V ，提升是从哪来的呢？伪光追性能乘六，还是零乘六不等于零？这显然是说不通的。
-此外，我们在上文提到过，计算机图形学的光线追踪早在**上世纪**就已经由**数学科学组织提出**了，况且，在计算机领域最早使用的光线追踪属于**离线渲染**（例如C4D、Blender和电影渲染一类），直到近年硬件飞速发展，英伟达才首次将其推广到**在线渲染**领域。但即便如此，**英伟达并不是第一个在游戏界中应用光追**的厂商。例如 **SEUS 光影作者**早在**2017年**就已经开始**路径追踪测试，**并于**18年年初**在其 Patreon 上**发布第一个开发进度贴**，而**RTX 20系显卡首次发布在2018下半年**。![QQ截图20220220224158.png](https://cdn.nlark.com/yuque/0/2022/png/25462013/1645368279299-314daf8e-64fa-4e42-a8ad-c073d1a63ac7.png#averageHue=%23d7d7d6&clientId=u4f41a58e-c5b8-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=ui&height=480&id=u184f9e77&margin=%5Bobject%20Object%5D&name=QQ%E6%88%AA%E5%9B%BE20220220224158.png&originHeight=572&originWidth=1013&originalType=binary&ratio=1&rotation=0&showTitle=true&size=293108&status=error&style=shadow&taskId=u4afd83ac-2d3e-40cb-9fde-a6d1bd90971&title=%E6%8F%B4%E5%BC%95%E8%87%AA%E8%A7%86%E9%A2%91%E3%80%8ABSL%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%8D%E6%98%AF%E5%85%89%E8%BF%BD%EF%BC%9F%E5%85%89%E8%BF%BD%E4%B8%BAmc%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F%E3%80%8B&width=850 "援引自视频《BSL到底是不是光追？光追为mc带来了什么？》")
-而且，**光线追踪技术只是一系列算法，不取决于硬件是否支持**，**CPU（不依靠GPU） 也可以运行 PC 光追**。在极客湾的一期视频中，演示了手机上运行 Windows 11 on ARM 系统，并在视频末尾（约 23:40 左右开始演示）展示了用骁龙845运行 PC 端实时RTX光追 demo ，视频如下：
-[点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV1MU4y137Yi)
-**所以说光线追踪并不是英伟达或 AMD 的专属名词或专利技术**。
-至于 DLSS ，则是通过训练人工智能，将游戏分辨率降低后再智能放大回原分辨率，与 SEUS PTGI 的 HRR 技术相似（只不过 HRR 并没有用到人工智能的一系列功能，而是单纯采用时间性抗锯齿算法——TAA，进行多帧超采样放大），而且DLSS是依靠RTX显卡中的 **Tensor Core** 来运算，与 RT CORE 并无联系，**所以DLSS与光追技术并无直接联系**。
-关于 Minecraft for Windows10 官方的 RTX 光追技术分析，详见这篇文章（纯技术性文章）：  
-        关于 JAVA 版光追，详见这个视频：
-[点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV1X54y1v7za)
- 至于光栅化，引用内容内已经说过，**现在绝大多数游戏的光追都是 光栅化+光追 混合**，并无混合光追就是伪光追的说法。
-_**顺带一提，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻意限制罢了，一般的3A大作都有支持，甚至 GTX 1660 能在《古墓丽影：暗影》的 1080p 最高档光线追踪下取得复杂场景平均 30fps 的成绩**。_
+- 基于第一张图，没有什么好说的，事实就是事实。基于第二张图和第三张图，如果你认为不使用光追核心运算的就是伪光追，那么请问基于 Turing 架构的20系显卡，**光追性能六倍提升于没有光追核心**的 Volta 架构显卡 TITAN V ，提升是从哪来的呢？伪光追性能乘六，还是零乘六不等于零？这显然是说不通的。
+- 此外，我们在上文提到过，计算机图形学的光线追踪早在**上世纪**就已经由**数学科学组织提出**了，况且，在计算机领域最早使用的光线追踪属于**离线渲染**（例如C4D、Blender和电影渲染一类），直到近年硬件飞速发展，英伟达才首次将其推广到**在线渲染**领域。但即便如此，**英伟达并不是第一个在游戏界中应用光追**的厂商。例如 **SEUS 光影作者**早在**2017年**就已经开始**路径追踪测试，**并于**18年年初**在其 Patreon 上**发布第一个开发进度贴**，而**RTX 20系显卡首次发布在2018下半年**。
+  - 援引自视频《BSL到底是不是光追？光追为mc带来了什么？》
+![图片](images/QQ截图20220220224158.png "援引自视频《BSL到底是不是光追？光追为mc带来了什么？》")\
+- 而且，**光线追踪技术只是一系列算法，不取决于硬件是否支持**，**CPU（不依靠GPU） 也可以运行 PC 光追**。在极客湾的一期视频中，演示了手机上运行 Windows 11 on ARM 系统，并在视频末尾（约 23:40 左右开始演示）展示了用骁龙845运行 PC 端实时RTX光追 demo ，视频如下：
+  - [给手机装Windows11！还能玩大型游戏？！](https://www.bilibili.com/video/BV1MU4y137Yi)\
+- **所以说光线追踪并不是英伟达或 AMD 的专属名词或专利技术。**
+- 至于 DLSS ，则是通过训练人工智能，将游戏分辨率降低后再智能放大回原分辨率，与 SEUS PTGI 的 HRR 技术相似（只不过 HRR 并没有用到人工智能的一系列功能，而是单纯采用时间性抗锯齿算法——TAA，进行多帧超采样放大），而且DLSS是依靠RTX显卡中的 **Tensor Core** 来运算，与 RT CORE 并无联系，**所以DLSS与光追技术并无直接联系**。
+- 关于 JAVA 版光追，详见这个视频：
+  - [BSL到底是不是光追？光追为mc带来了什么？【素影之下 #2】×【光影实验室 #3】](https://www.bilibili.com/video/BV1X54y1v7za)
+- 至于光栅化，引用内容内已经说过，**现在绝大多数游戏的光追都是 光栅化+光追 混合**，并无混合光追就是伪光追的说法。
+_**而且，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻意限制罢了，一般的3A大作都有支持，甚至 GTX 1660 能在《古墓丽影：暗影》的 1080p 最高档光线追踪下取得复杂场景平均 30fps 的成绩**。_
 
 ## 全局光照
 
@@ -63,15 +80,18 @@ _**顺带一提，RTX 光追在部分 GTX 显卡上也可以开启，只是 Moja
 ### Reflective Shadow Maps
 
 Reflective Shadow Maps，简称RSM。它是一种实现全局光照的方式，原理为：将直接光照能够照亮的像素点作为次级光源，让它们照亮以它们为中心的像素。
-参考资料：
+
+- 参考资料：[【论文复现】Reflective Shadow Maps](https://zhuanlan.zhihu.com/p/357259069)
 
 ### Light Propagation Volumes
 
 Light Propagation Volumes（光照传播体积），是CryEngine3 提出的一种实时的、无需任何预计算的全局光照技术，其在RSM和SH的基础上创造性地提出了使用体素来存储、传播间接光照的方法。
 LPV首先将整个场景划分为一个个的小格子（体素），将整个场景离散开来，直接计算每个格子内的光照是不现实的，解决方法是让光照像墨滴一样在这些格子中弥散、传播，从而计算最终到达着色点的间接光照。
-参考资料：
+
+- 参考资料：[Light Propagation Volumes](https://zhuanlan.zhihu.com/p/412287249)
 
 ### Voxel Global Illumination
 
 类似于LPV，Voxel Global Illumination（体素全局光照）也是一个两趟的、实时的全局光照算法，它以体积渲染作为算法核心，将场景通过体素离散化为树状结构并存储光照计算相关信息，并在渲染时通过体素圆锥追踪来计算光照，相比LPV拥有更好的效果。
-参考资料：
+
+- 参考资料：[Voxel Global Illumination 体素全局光照（一）](https://zhuanlan.zhihu.com/p/414691569)
