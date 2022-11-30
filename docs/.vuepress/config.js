@@ -49,7 +49,7 @@ module.exports = {
         children: [
           {
             text: 'Java版光影',
-            link: '/instructions/java-shaders/'
+            link: '/instructions/java_shaders/'
           },
           {
             text: 'Java版材质',
