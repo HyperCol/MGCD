@@ -14,7 +14,7 @@ features:
   details: 由光影爱好者组成。
 - title: 注重科普
   details: 致力于科普图形学知识，纠正误区。
-- title: 交流学习
-  details: 整理开发相关资料，协同发展。
+- title: 协同发展
+  details: 交流开发相关资料，共同学习。
 footer: 
 ---
