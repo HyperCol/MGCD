@@ -288,7 +288,7 @@ itt2
 
 ### 手电筒模式
 
-![itt2-flashlight.png](/images/instructions/)
+![itt2-flashlight.png](/images/instructions/itt2-flashlight.png)
 给你的解密或恐怖地图加点料
 
 ⚙️自定义位置：光照 -> 手持光源设置 -> 手电筒模式
