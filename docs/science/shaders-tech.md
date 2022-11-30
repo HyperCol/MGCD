@@ -38,7 +38,7 @@
 ![shader_2.png](/images/shader_2.png "传统光影")
 - 可以反射/折射视野外的物体、多次反射/折射、真实的粗糙与金属质感
   - Kappa PT
-    ![Kappa_PT](/images/Kappa_PT".png "Kappa PT")
+    ![Kappa_PT](/images/Kappa_PT.png "Kappa PT")
   - 传统光影
     ![shader_3.png](/images/shader_3.png "传统光影")
 
