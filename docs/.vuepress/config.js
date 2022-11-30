@@ -45,6 +45,19 @@ module.exports = {
         link: '/creator/',
       },
       {
+        text: '使用说明',
+        children: [
+          {
+            text: 'Java版光影',
+            link: '/instructions/Java_Shaders/'
+          },
+          {
+            text: 'Java版材质',
+            link: '/instructions/java_resourcepacks/'
+          }
+        ]
+      },
+      {
         text: '关于',
         link: '/about.md',
       },
@@ -85,9 +98,21 @@ module.exports = {
         '/answer_java/mods.md',
       ],
       '/creator/': [
-        '/creator/README.md',
         '/creator/resources.md',
       ],
+      '/instructions/': [
+        '/instructions/README.md',
+        {
+          text: 'Java版光影',
+          collapsible: true,
+          children: ['/instructions/java_shaders/itt2.md', '/instructions/java_shaders/itt3.md']
+        },
+        {
+          text: 'Java版材质',
+          collapsible: true,
+          children: ['/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
+        }
+      ]
     },
   })
 }
