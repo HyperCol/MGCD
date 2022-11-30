@@ -46,7 +46,25 @@ module.exports = {
       },
       {
         text: '作品表格',
-        link: "/works/",
+        link: '/works/',
+        children: [
+          {
+            text: 'Java版光影',
+            link: '/works/Java_Shaders/'
+          },
+          {
+            text: 'Java版材质',
+            link: '/works/Java_Resourcepacks/'
+          },
+          {
+            text: '基岩版光影',
+            link: '/works/Bedrock_Shaders/'
+          },
+          {
+            text: '基岩版材质',
+            link: '/works/Bedrock_Resourcepacks/'
+          }
+        ]
       },
       {
         text: '使用说明',
@@ -117,6 +135,7 @@ module.exports = {
         }
       ],
       '/works/': [
+        '/works/README.md',
         '/works/java_shaders.md',
         '/works/java_resourcepacks.md',
         '/works/bedrock_shaders.md',
