@@ -45,6 +45,10 @@ module.exports = {
         link: '/creator/',
       },
       {
+        text: '作品表格',
+        link: "/works/",
+      },
+      {
         text: '使用说明',
         children: [
           {
@@ -111,6 +115,12 @@ module.exports = {
           collapsible: true,
           children: ['/instructions/java_resourcepacks/README.md', '/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
         }
+      ],
+      '/works/': [
+        '/works/java_shaders.md',
+        '/works/java_resourcepacks.md',
+        '/works/bedrock_shaders.md',
+        '/works/bedrock_resourcepacks.md',
       ]
     },
   })
