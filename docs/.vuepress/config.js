@@ -135,7 +135,6 @@ module.exports = {
         }
       ],
       '/works/': [
-        '/works/README.md',
         '/works/java_shaders.md',
         '/works/java_resourcepacks.md',
         '/works/bedrock_shaders.md',
