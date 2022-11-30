@@ -33,7 +33,7 @@
 
 - 创作流程图：
 
-![创作流程图](/images/yuque_mind.jpeg "创作流程图")
+![创作流程图](/images/creator/yuque_mind.jpeg "创作流程图")
 
 ---
 

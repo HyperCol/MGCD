@@ -30,19 +30,19 @@
 
 - 完全物理的光线追踪阴影和衔接阴影、光线追踪全局光照
   - Octray
-![Octray.png](/images/Octray.png "Octray")
+![Octray.png](/images/science/Octray.png "Octray")
   - 传统光影
-![shader_1.png](/images/shader_1.png "传统光影")
+![shader_1.png](/images/science/shader_1.png "传统光影")
 - 光源被阻挡形成的软阴影、正确的光照范围、光线在不同介质中的色散、不同光源不同颜色发光、光线混色
   - SEUS PTGI GFME
-![SEUS_PTGI_GFME](/images/SEUS_PTGI_GFME.png "SEUS PTGI GFME")
+![SEUS_PTGI_GFME](/images/science/SEUS_PTGI_GFME.png "SEUS PTGI GFME")
   - 传统光影
-![shader_2.png](/images/shader_2.png "传统光影")
+![shader_2.png](/images/science/shader_2.png "传统光影")
 - 可以反射/折射视野外的物体、多次反射/折射、真实的粗糙与金属质感
   - Kappa PT
-    ![Kappa_PT](/images/Kappa_PT.png "Kappa PT")
+    ![Kappa_PT](/images/science/Kappa_PT.png "Kappa PT")
   - 传统光影
-    ![shader_3.png](/images/shader_3.png "传统光影")
+    ![shader_3.png](/images/science/shader_3.png "传统光影")
 
 ### RTX 与光线追踪的联系、“伪光追”
 
@@ -54,15 +54,15 @@ RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE*
 
 - 下面的第一二张图摘自英伟达20系显卡发布会
   - 可见，即使是GTX系列也有着光追计算能力
-![QQ截图20221025102723.png](/images/QQ截图20221025102723.png "可见，即使是GTX系列也有着光追计算能力")
+![QQ截图20221025102723.png](/images/science/QQ截图20221025102723.png "可见，即使是GTX系列也有着光追计算能力")
   - 图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”
-![QQ截图20221025103226.png](/images/QQ截图20221025103226.png "图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”")
-![QQ截图20221025104558.png](/images/QQ截图20221025104558.png "TITAN V 是唯一使用 Volta 架构的显卡，其并没有搭载光追核心")
+![QQ截图20221025103226.png](/images/science/QQ截图20221025103226.png "图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”")
+![QQ截图20221025104558.png](/images/science/QQ截图20221025104558.png "TITAN V 是唯一使用 Volta 架构的显卡，其并没有搭载光追核心")
 
 - 基于第一张图，没有什么好说的，事实就是事实。基于第二张图和第三张图，如果你认为不使用光追核心运算的就是伪光追，那么请问基于 Turing 架构的20系显卡，**光追性能六倍提升于没有光追核心**的 Volta 架构显卡 TITAN V ，提升是从哪来的呢？伪光追性能乘六，还是零乘六不等于零？这显然是说不通的。
 - 此外，我们在上文提到过，计算机图形学的光线追踪早在**上世纪**就已经由**数学科学组织提出**了，况且，在计算机领域最早使用的光线追踪属于**离线渲染**（例如C4D、Blender和电影渲染一类），直到近年硬件飞速发展，英伟达才首次将其推广到**在线渲染**领域。但即便如此，**英伟达并不是第一个在游戏界中应用光追**的厂商。例如 **SEUS 光影作者**早在**2017年**就已经开始**路径追踪测试，**并于**18年年初**在其 Patreon 上**发布第一个开发进度贴**，而**RTX 20系显卡首次发布在2018下半年**。
   - 援引自视频《BSL到底是不是光追？光追为mc带来了什么？》
-  ![图片](/images/QQ截图20220220224158.png "援引自视频《BSL到底是不是光追？光追为mc带来了什么？》")
+  ![图片](/images/science/QQ截图20220220224158.png "援引自视频《BSL到底是不是光追？光追为mc带来了什么？》")
 
 - 而且，**光线追踪技术只是一系列算法，不取决于硬件是否支持**，**CPU（不依靠GPU） 也可以运行 PC 光追**。在极客湾的一期视频中，演示了手机上运行 Windows 11 on ARM 系统，并在视频末尾（约 23:40 左右开始演示）展示了用骁龙845运行 PC 端实时RTX光追 demo ，视频如下：
   - [给手机装Windows11！还能玩大型游戏？！](https://www.bilibili.com/video/BV1MU4y137Yi)
