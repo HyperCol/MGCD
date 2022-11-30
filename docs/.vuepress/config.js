@@ -101,16 +101,15 @@ module.exports = {
         '/creator/resources.md',
       ],
       '/instructions/': [
-        '/instructions/README.md',
         {
           text: 'Java版光影',
           collapsible: true,
-          children: ['/instructions/java_shaders/itt2.md', '/instructions/java_shaders/itt3.md']
+          children: ['/instructions/java_shaders/README.md', '/instructions/java_shaders/itt2.md', '/instructions/java_shaders/itt3.md']
         },
         {
           text: 'Java版材质',
           collapsible: true,
-          children: ['/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
+          children: ['/instructions/java_resourcepacks/README.md', '/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
         }
       ]
     },
