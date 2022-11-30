@@ -10,10 +10,10 @@
 ## 开始
 
 - 想了解 Minecraft 图形学科普知识？欢迎阅读下方文档：  
-[MGC 大众科普](https://mgchelp.yuque.com/docs/share/3c90de71-781c-4617-9b82-4b52752e79c2?view=doc_embed)
+[MGC 大众科普](https://hypercol.github.io/science/)
 
 - 想了解 Minecraft 图形学中常见的知识误区？建议阅读下方文档：  
-[MGC 歧义及观点纠正](https://mgchelp.yuque.com/docs/share/29cd3ba2-e040-4ad3-874c-2edbb7103ec3?view=doc_embed)
+[MGC 歧义观点](https://hypercol.github.io/correct/)
 
 - 想申请作者身份和作品频道？前往 **广场大喇叭分区**-[#📜身份组认证与子频道申请](https://pd.qq.com/s/42bztit0y) 处提交作品信息，并等待审核。
 - 想制作自己的光影？快去 **实时话题 -** [#🤯茶匙的图形学科普](https://pd.qq.com/s/bk3goy6tk) 学习学习！  
