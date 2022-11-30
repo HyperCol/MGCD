@@ -55,7 +55,7 @@ module.exports = {
       ],
       '/science/': [
         "/science/README.md",
-        "/science/science.md",
+        "/science/faq.md",
         "/science/shaders-base.md",
         "/science/shaders-tech.md",
         "/science/resourcepacks.md",
