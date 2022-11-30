@@ -15,7 +15,7 @@
 
 - **`Blaze4D` 是一个目前基于 Fabric API 的实验性项目，使用 Vulkan API** 。与 OptiFine 或 Iris 不同，它不是一个优化mod。虽然它进行了一定的性能改进，但远不及 OptiFine 与 Iris 。值得一提的是，Blaze4D 唯一真正制作的优化工作是 baked-entity-models 烘焙实体模型，并将其提交给了 Sodium 供所有人使用。**Blaze4D 未来将允许开发者将 DLSS 或 FSR 、硬件加速光线追踪引入到光影开发中** 。当然，这些功能目前还是有生之年系列。
   - [相关链接 - Blaze4D](https://github.com/KilnGraphics/Blaze4D)
-- **`Focal Engine` 是由 Continuum 光影团队开发的一个基于 Vulkan API 的独立光影渲染模组，基于 Forge 或 Fabric**。目前其专用于 Continuum 2.1/RT 光影。主要目的是借助 Vulkan 编写光影来获得更高的效率、更多的渲染空间乃至**实现硬件光追**（有生之年系列×2）。同时还可以帮助光影作者实现光影加密和联网验证。
+- **`Focal Engine` 是由 Continuum 光影团队开发的一个基于 Vulkan API 的独立光影渲染模组，基于 Forge 或 Fabric，同时基于 OptiFine。**其专用于 Continuum 2.1 / RT 光影与 Stratum 材质。主要目的是借助 Vulkan 编写光影来获得更高的效率、更多的渲染空间乃至**实现硬件光追**（有生之年系列×2）。同时还可以帮助光影作者实现光影加密和联网验证。目前**能够独立于 OptiFine** 的 Vulkan 版本仍在开发中，当前版本为依赖 Optifine 的 OpenGL 版。
   - [相关链接 - Continuum Graphics](https://continuum.graphics/)
 - **`Vulkan Mod`是一个基于 Fabric 的模组，将 MC 的渲染API换为 Vulkan ，借此提高帧数**。目前存在较多bug与兼容性问题，并不支持光影。
   - [相关链接 - Vulkan Mod](https://github.com/xCollateral/VulkanMod)
