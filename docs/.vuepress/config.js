@@ -43,7 +43,11 @@ module.exports = {
       {
         text: '创作指南',
         link: '/creator/',
-      }
+      },
+      {
+        text: '关于',
+        link: '/about.md',
+      },
     ],
 
     //左侧列表
