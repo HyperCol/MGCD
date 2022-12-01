@@ -22,7 +22,7 @@ body:
     attributes:
       label: 简述
       description: 简单概括要加入的内容
-      placeholder: 如：
+      placeholder: 如：XX阅读帮助
     validations:
       required: true
 
