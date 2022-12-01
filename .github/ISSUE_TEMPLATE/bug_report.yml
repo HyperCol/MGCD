@@ -14,7 +14,7 @@ body:
     attributes:
       label: 模块
       description: 从导航栏的哪个模块进入的？
-      placeholder: 填写该页面所属导航
+      placeholder: 如"大众科普"或"误区纠正 -> 歧义观点"
     validations:
       required: true
 
@@ -24,7 +24,7 @@ body:
     attributes:
       label: URL
       description: 错误页面的具体地址
-      placeholder: 填写错误页面的具体地址
+      placeholder: 如：https://mgcd.hypercol.com/science/#基础概念
     validations:
       required: true
 

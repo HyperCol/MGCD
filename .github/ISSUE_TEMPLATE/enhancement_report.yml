@@ -13,7 +13,7 @@ body:
     attributes:
       label: 模块
       description: 希望加入到导航栏的哪个模块？
-      placeholder: 如"误区纠正"或"误区纠正 -> 歧义观点"
+      placeholder: 如"大众科普"或"误区纠正 -> 歧义观点"
     validations:
       required: true
 
@@ -22,6 +22,7 @@ body:
     attributes:
       label: 简述
       description: 简单概括要加入的内容
+      placeholder: 如：
     validations:
       required: true
 
@@ -29,13 +30,14 @@ body:
     id: document_url
     attributes:
       label: 文档原址
-      description: （选填）
-      placeholder: 选填，如果有
+      description: 选填，如果有
+      placeholder: 如：https://mgcd.hypercol.com/science/#阅读帮助
 
   - type: textarea
     id: document_info
     attributes:
-      label: 重点内容
-      description: 填写一些你认为重要的内容
+      label: 具体内容
+      description: 具体描述新增内容，但请注意新增内容的着重点
+      placeholder: 在此填写
     validations:
       required: true
