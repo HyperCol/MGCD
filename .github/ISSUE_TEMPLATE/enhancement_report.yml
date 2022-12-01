@@ -17,15 +17,15 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: feature_description
     attributes:
-      label: 内容描述
+      label: 简述
       description: 简单概括要加入的内容
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: document_url
     attributes:
       label: 文档原址
@@ -36,6 +36,6 @@ body:
     id: document_info
     attributes:
       label: 重点内容
-      description: 填写你认为重要的内容
+      description: 填写一些你认为重要的内容
     validations:
       required: true
