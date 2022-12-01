@@ -28,7 +28,7 @@ module.exports = {
         link: '/science/',
       },
       {
-        text: '误区纠正',
+        text: '疑难解答',
         children: [
           {
             text: '歧义观点',

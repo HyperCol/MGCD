@@ -11,7 +11,7 @@
 
 - 什么是MGC？
   - MGC（Minecraft Graphics Community）是一个 **Minecraft 图形学交流社区**；
-  - 由中国 Minecraft 光影工作室 `HyperCol`发起建设；
+  - 由中国 Minecraft 光影工作室 `HyperCol` 发起建设；
   - 爱好用 Minecraft 实践稀奇古怪的图形学理论，以**创建一个开发者与玩家之间的友好交流环境**为目标。
 
 - 我是玩家，我能在里面获得什么？
