@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - run: |
+        cp ./docs/package-lock.json ./package-lock.json
+        cp ./docs/package.json ./package.json
     - run: npm ci # 相当于npm install
     - run: npm run docs:build
 
