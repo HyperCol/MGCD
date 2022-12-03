@@ -117,7 +117,6 @@ module.exports = {
           children: ['/correct/qas/shader.md', '/correct/qas/texture.md'],
         },
         '/correct/RT_mistakes.md',
-        '/correct/other.md',
         '/correct/netease_shader.md',
         '/correct/author_says.md',
       ],
