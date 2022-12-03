@@ -4,7 +4,7 @@
 |-----|---------------------|-------------------------|-----------|-------|-----------|--------------|----------------------|
 | 001 | Altas Shader        | 滑稽菌                     | 梦幻        | 正常更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1248541-1-1.html)        | -                    |
 | 002 | Arlic               | VacGrd Lab              | 写实        | 技术性维护 | -         | [GitHub](https://github.com/HyperCol/Arlic)       | -                    |
-| 003 |  Lucid shaders      | 樱雪Baka                  | 梦幻        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/video/BV1GQ4y1D7Zm/)         | -                    |
+| 003 |  Lucid shaders      | 樱雪Baka                  | 清晰明快、梦幻     | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv20047447)         | -                    |
 | 004 | Compass             | VacGrd Lab              | 写实        | 开发中   | -         | -            | -                    |
 | 005 | Dav-Gy              | Dav-land                | 写实        | 正常更新  | 免费        | [百度贴吧](https://tieba.baidu.com/p/7178503686)         | -                    |
 | 006 | Dazzling            | Frix                    | 梦幻        | 正常更新  | 免费        | [百度贴吧](http://jump2.bdimg.com/p/7520341385?)         | -                    |

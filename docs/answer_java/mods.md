@@ -16,7 +16,7 @@
   在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
 `weakSkyRenders = [ 0 ]`
 
-### 1.16.x
+- 1.16.x
 
 在 _**skyRenderingConstellations**_ 中添加 **"minecraft:overworld"**。它应该看起来像这样：
 `skyRenderingConstellations = [ "minecraft:overworld" ]`
