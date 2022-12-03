@@ -10,8 +10,8 @@
 | 006 | Dazzling            | Frix                    | 梦幻        | 正常更新  | 免费        | [百度贴吧](http://jump2.bdimg.com/p/7520341385?)         | -                    |
 | 007 | ForceSEUS           | 咸鱼                      | 写实        | 暂停更新  | 免费        | *网易版内搜索*     | -                    |
 | 008 | Horizon             | 黄蓝                      | -         | 开发中   | -         | -            | -                    |
-| 009 | iterationT 2.0.0    | Tahnass                 | 写实        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv15049938)         | [iterationT 2.0.0使用手册](../instructions/java_shaders/itt2.md) |
-| 010 | iterationT 3.0.0    | Tahnass                 | 写实        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv15049938)         | [iterationT 3.0.0使用手册](../instructions/java_shaders/itt3.md) |
+| 009 | iterationT 2.0.0    | Tahnass                 | 写实        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv15049938)         | [iterationT 2.0.0 使用手册](../instructions/java_shaders/itt2.md) |
+| 010 | iterationT 3.0.0    | Tahnass                 | 写实        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv15049938)         | [iterationT 3.0.0 使用手册](../instructions/java_shaders/itt3.md) |
 | 011 | SEUS PTGI GFME      | GeForceLegend           | 光线追踪 - 写实 | 技术性维护 | 免费        | [MCBBS](https://www.mcbbs.net/thread-1211964-1-1.html)        | -                    |
 | 012 | iterationRP         | Tahnass                 | 光线追踪 - 写实 | 开发中   | 免费        | -            | -                    |
 | 013 | JMSEUS              | Ciitta シータ、sitinpeace卫星 | 梦幻        | 正常更新  | 免费        | QQ群659180138 | -                    |
