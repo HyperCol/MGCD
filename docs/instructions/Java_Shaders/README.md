@@ -2,7 +2,7 @@
 
 ## 光影基础概念
 
-- 光影的专业名称为着色器。它基于MC提供的接口修改了许多MC的光照效果。这些接口由一些渲染模组控制，关于着色器的渲染模组介绍如下：
+光影的专业名称为着色器。它基于MC提供的接口修改了许多MC的光照效果。这些接口由一些渲染模组控制，关于着色器的渲染模组介绍如下：
 
 >### 主要渲染模组
 >
@@ -27,11 +27,11 @@
 >
 >- `AdcanvedShader` 是一个 **OptiFine** 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0 ）。
 >
-- [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
+>- [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
 
 —— 引用自 [MGC 大众科普](../../science/shader-base.md)
 
-- **从引用文案可知，我们使用的渲染模组以 OptiFine 为主。考虑到新手学习内容较多且不应该过于深奥，我们仅提供 OptiFine 的安装使用与光影的加载步骤。**
+**从引用文案可知，我们使用的渲染模组以 OptiFine 为主。考虑到新手学习内容较多且不应该过于深奥，我们仅提供 OptiFine 的安装使用与光影的加载步骤。**
 
 ---
 
