@@ -7,31 +7,31 @@
 >### 主要渲染模组
 >
 >- **`OptiFine` 是 Minecraft Java 版的一个 Mod**。其主要功能是加载光影包、性能优化与一些渲染改进功能，为玩家获得更好的视觉体验。你可能也听说过 ShadersMod 或光影核心，但请勿再使用它。 ShadersMod 已经过期已久，因为 OptiFine 已经将它集成进代码，并接管了它的后续更新工作，而且现在的 OptiFine 有许多原来的 ShadersMod 所没有的新功能。几乎所有的现代光影包都使用了这些新功能（这些光影包往往不再适用于 ShadersMod） 。
-> - [相关链接 - OptiFine](https://www.optifine.net/home)
+>   - [相关链接 - OptiFine](https://www.optifine.net/home)
 >- **`Iris` 是 OptiFine 的衍生物**。其自身开源，与 Sodium（钠）模组共同开启时可以获得更好的游玩体验，同时为了 Fabric 模组加载器社区的模组兼容性而生。但其开发方向与 OptiFine 相反（适配现有的光影，不追求新效果新光影），而光影的开发是与 Optfine 或 Canvas 同向的。因此未来一段时间内，我们仍然需要 OptiFine 或 Canvas 作为光影的主体 API，不可能直接替换为 Iris 。  
-> - [相关链接 - Iris](https://irisshaders.net/)
+>   - [相关链接 - Iris](https://irisshaders.net/)
 >- **`Canvas` 是基于 Fabric API 的一个渲染 Mod**。其主要功能是为模组开发者提供更好的渲染体验，但其也适用于开发光影包。Canvas 通过深度结合 Fabric API 的独立渲染API以及原版着色器，来达到比 Optifine 更多的可能性，以及 Iris 都无法匹敌的模组兼容性。但因其主要为模组开发而生，渲染管线极为复杂，学习成本非常高，导致目前基于 Canvas 开发光影的创作者极少。
-> - [相关链接 - Canvas](https://github.com/vram-guild/canvas)
+>   - [相关链接 - Canvas](https://github.com/vram-guild/canvas)
 >
 >### 其他渲染模组
 >
 >- **`Blaze4D` 是一个目前基于 Fabric API 的实验性项目，使用 Vulkan API** 。与 OptiFine 或 Iris 不同，它不是一个优化mod。虽然它进行了一定的性能改进，但远不及 OptiFine 与 Iris 。值得一提的是，Blaze4D 唯一真正制作的优化工作是 baked-entity-models 烘焙实体模型，并将其提交给了 Sodium 供所有人使用。**Blaze4D 未来将允许开发者将 DLSS 或 FSR 、硬件加速光线追踪引入到光影开发中** 。当然，这些功能目前还是有生之年系列。
 >
-> - [相关链接 - Blaze4D](https://github.com/KilnGraphics/Blaze4D)
+>   - [相关链接 - Blaze4D](https://github.com/KilnGraphics/Blaze4D)
 >- **`Focal Engine` 是由 Continuum 光影团队开发的一个基于 Vulkan API 的独立光影渲染模组，基于 Forge 或 Fabric，同时基于 OptiFine。** 其专用于 Continuum 2.1 / RT 光影与 Stratum 材质。主要目的是借助 Vulkan 编写光影来获得更高的效率、更多的渲染空间乃至**实现硬件光追**（有生之年系列×2）。同时还可以帮助光影作者实现光影加密和联网验证。目前**能够独立于 OptiFine** 的 Vulkan 版本仍在开发中，当前版本为依赖 Optifine 的 OpenGL 版。
-> - [相关链接 - Continuum Graphics](https://continuum.graphics/)
+>   - [相关链接 - Continuum Graphics](https://continuum.graphics/)
 >- **`Vulkan Mod`是一个基于 Fabric 的模组，将 MC 的渲染API换为 Vulkan ，借此提高帧数**。目前存在较多bug与兼容性问题，并不支持光影。
-> - [相关链接 - Vulkan Mod](https://github.com/xCollateral/VulkanMod)
+>   - [相关链接 - Vulkan Mod](https://github.com/xCollateral/VulkanMod)
 >
 >### 辅助渲染模组
 >
 >- `AdcanvedShader` 是一个 **OptiFine** 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0 ）。
 >
->- [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
+>   - [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
 
 —— 引用自 [MGC 大众科普](../../science/shader-base.md)
 
-**从引用文案可知，我们使用的渲染模组以 `OptiFine` 为主。考虑到新手学习内容较多且不应该过于深奥，我们仅提供 `OptiFine 的安装使用` 与 `光影的加载步骤` 。**
+**从引用文案可知，我们使用的渲染模组以 `OptiFine` 为主。考虑到新手学习内容较多且不应该过于深奥，我们仅提供 `OptiFine 的安装使用` 与 `光影的加载步骤`** 两部分内容。
 
 ---
 
