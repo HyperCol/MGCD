@@ -28,15 +28,15 @@
 ## Better Foliage（1.12）
 
 不一定会崩溃，但在某些光影包中会导致树叶断裂。要解决这个问题，你需要去确定主界面的 _Mods -> Better Foliage -> Shader Configuration_ 是否与你的光影包的 _**block.properties**_ 文件中的指定值相匹配。
-注意：_**block.properties**_可以包含多个MC版本的ID，所以一定要为你的MC版本使用正确的ID。如果你不确定要使用什么ID，请询问光影包的创作者。
+注意：_**block.properties**_ 可以包含多个MC版本的ID，所以一定要为你的MC版本使用正确的ID。如果你不确定要使用什么ID，请询问光影包的创作者。
 
 ## Betweenlands
 
-将 _**use_shader**_ 设置为 **false**。注意：这将解决一些渲染问题，但维度本身可能没有你的光影包的工作效果。
+将 **use_shader** 设置为 **false**。注意：这将解决一些渲染问题，但维度本身可能没有你的光影包的工作效果。
 
 ## Botania
 
-将_**fancySkybox.enable**_ 和 _**shaders.enabled**_ 设置为 **false**。
+将 _**fancySkybox.enable**_ 和 _**shaders.enabled**_ 设置为 **false**。
 
 ## COFH核心（1.15以上）
 
@@ -44,7 +44,7 @@
 
 ## Computer Craft Tweaked
 
-将 _**monitor_renderer**_ 设置为 "gui.computercraft:config.peripheral.monitor_renderer.vbo"。
+将 **_monitor_renderer_** 设置为 "gui.computercraft:config.peripheral.monitor_renderer.vbo"。
 
 ## Extended Days
 
