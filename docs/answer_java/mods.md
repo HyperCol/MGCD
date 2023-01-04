@@ -23,11 +23,14 @@
 
 ## Better End（更好的末地）
 
-如果它导致你使用的光影包出现问题，请在 **_config/betterend/client.json_**中把 `customSky [default: true]`设置为 **false**。
+如果它导致你使用的光影包出现问题，请在 **_config/betterend/client.json_** 中把 `customSky [default: true]`设置为 **false**。
 
 ## Better Foliage（更好的树叶）（1.12）
 
-不一定会崩溃，但在某些光影包中会导致树叶断裂。要解决这个问题，你需要去确定主界面的 _Mods -> Better Foliage -> Shader Configuration_ 是否与你的光影包的 _**block.properties**_ 文件中的指定值相匹配。
+不一定会崩溃，但在某些光影包中会导致树叶断裂。
+
+要解决这个问题，你需要去确定主界面的 _Mods -> Better Foliage -> Shader Configuration_ 是否与你的光影包的 _**block.properties**_ 文件中的指定值相匹配。
+
 注意：_**block.properties**_ 可以包含多个MC版本的ID，所以一定要为你的MC版本使用正确的ID。如果你不确定要使用什么ID，请询问光影包的创作者。
 
 ## Betweenlands（交错次元 / 黑暗沼泽）
