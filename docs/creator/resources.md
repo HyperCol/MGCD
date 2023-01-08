@@ -14,7 +14,7 @@
 
 线性代数对着色器开发很有用，因为矢量和矩阵操作在着色器（以及一般的三维图形）中非常常见。 YouTube 上的 3blue1brown 在这里有一个不错的系列介绍：
 
-- [https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [【官方双语/合集】线性代数的本质 - 系列合集](https://www.bilibili.com/video/BV1ys411472E)
 
 **GLSL 是 OpenGL 的着色器语言。** 互联网上有不少这方面的教程，但 《Minecraft》 特别使用了一个旧的 OpenGL 版本，所以试着找到一个同样旧的 GLSL 教程可能是有用的。任何写着 #version 120 的东西都是没问题的。 Minecraft 1.17 将使用 #version 150 ，但你并不局限于这些特定的 #version 。你可以使用你的 GPU / 驱动支持的任何版本
 
