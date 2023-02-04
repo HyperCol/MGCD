@@ -4,7 +4,7 @@
 |-----|---------------------------------|------------------|-------------|-------|-----------|--------------|-----------------|
 | 001 | Minecraft Designer              | 鱼神Fishzera       | PBR - 写实    | 暂停更新  | RMB 5.00  | [爱发电](https://afdian.net/@Fishzera)          | -               |
 | 002 | 春意材质                            | 中影ZY             | 田园清新        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv12522127)         | [MGC-Java版材质通用手册](../instructions/java_resourcepacks/README.md) |
-| 003 | 幻梦 Texture                      | COHK晨哦凯          | PBR - 卡通漫画  | 正常更新  | 免费        | QQ群799318063 | -               |
+| 003 | 幻梦 Texture                      | COHK晨哦凯          | PBR - 卡通漫画  | 正常更新  | 免费        | [哔哩哔哩](https://space.bilibili.com/503826955) | -               |
 | 004 | 秦                               | 金丹哦              | PBR - 写实    | 正常更新  | RMB 5.00  | [爱发电](https://afdian.net/@qintexture)          | [MGC-作品使用手册](../instructions/java_resourcepacks/qin.md)      |
 | 005 | 唐                               | 金丹哦              | -           | 开发中   | -         | -            | -               |
 | 006 | 3D Default                      | GeForceLegend    | 模型 - 原版像素   | 技术性维护 | 免费        | [MCBBS](https://www.mcbbs.net/thread-914350-1-1.html)        | -               |
