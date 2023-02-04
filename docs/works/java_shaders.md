@@ -24,6 +24,6 @@
 | 018 | SMUS                | sitinpeace卫星            | 写实        | 暂停更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv12391185)         | -                    |
 | 019 | STM Shader          | Lycan                   | 写实        | 暂停更新  | 免费        | [百度贴吧](https://tieba.baidu.com/p/6508838411)         | -                    |
 | 020 | 春                  | 尘封                      | 清新        | 正常更新  | 免费        | 频道内下载        | -                    |
-| 021 |  sss                |  葡萄和太阳                  |  写实       | 正常更新  | 免费        | 频道内下载        | -                    |
+| 021 | sss                 |  葡萄和太阳                  |  写实       | 正常更新  | 免费        | 频道内下载        | -                    |
 | 022 | Quantum             | /、FT_456/、              |  梦幻现实      | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv20249167)   | -                    |
 | 023 | Derivative          | HaringPro               |  -        | 正常更新  | 免费        | -            | -                    |
