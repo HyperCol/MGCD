@@ -59,8 +59,8 @@ RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE*
 ![QQ截图20221025103226.png](/images/science/QQ截图20221025103226.png "图中最上面的一句话“Turing 架构相比 Volta 架构的光线追踪性能提升了六倍”")
 ![QQ截图20221025104558.png](/images/science/QQ截图20221025104558.png "TITAN V 是唯一使用 Volta 架构的显卡，其并没有搭载光追核心")
 
-- 基于第一张图，没有什么好说的，事实就是事实。基于第二张图和第三张图，如果你认为不使用光追核心运算的就是伪光追，那么请问基于 Turing 架构的20系显卡，**光追性能六倍提升于没有光追核心**的 Volta 架构显卡 TITAN V ，提升是从哪来的呢？伪光追性能乘六，还是零乘六不等于零？这显然是说不通的。
-- 此外，我们在上文提到过，计算机图形学的光线追踪早在**上世纪**就已经由**数学科学组织提出**了，况且，在计算机领域最早使用的光线追踪属于**离线渲染**（例如C4D、Blender和电影渲染一类），直到近年硬件飞速发展，英伟达才首次将其推广到**在线渲染**领域。但即便如此，**英伟达并不是第一个在游戏界中应用光追**的厂商。例如 **SEUS 光影作者**早在**2017年**就已经开始**路径追踪测试，**并于**18年年初**在其 Patreon 上**发布第一个开发进度贴**，而**RTX 20系显卡首次发布在2018下半年**。
+- 基于第一张图，没有什么好说的，事实就是事实。基于第二张图和第三张图，如果不使用光追核心运算的就是伪光追，那么基于 Turing 架构的20系显卡，**光追性能六倍提升于没有光追核心**的 Volta 架构显卡 TITAN V ，提升是从哪来的呢？伪光追性能乘六，还是零乘六不等于零？这显然无法解释清楚。
+- 此外，上文提到过，计算机图形学的光线追踪早在**上世纪**就已经由**数学科学组织提出**了，况且，在计算机领域最早使用的光线追踪属于**离线渲染**（例如C4D、Blender和电影渲染一类），直到近年硬件飞速发展，英伟达才首次将其推广到**在线渲染**领域。但即便如此，**英伟达并不是第一个在游戏界中应用光追**的厂商。例如 **SEUS 光影作者**早在**2017年**就已经开始**路径追踪测试，**并于**18年年初**在其 Patreon 上**发布第一个开发进度贴**，而**RTX 20系显卡首次发布在2018下半年**。
   - 援引自视频《BSL到底是不是光追？光追为mc带来了什么？》
   ![图片](/images/science/QQ截图20220220224158.png "援引自视频《BSL到底是不是光追？光追为mc带来了什么？》")
 
@@ -72,6 +72,39 @@ RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE*
   - [BSL到底是不是光追？光追为mc带来了什么？【素影之下 #2】×【光影实验室 #3】](https://www.bilibili.com/video/BV1X54y1v7za)
 - 至于光栅化，引用内容内已经说过，**现在绝大多数游戏的光追都是 `光栅化`+`光追` 混合渲染**，并无混合光追就是伪光追的说法。
 _**而且，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻意限制。一般的3A大作都有支持，甚至 GTX 1660 能在《古墓丽影：暗影》的 1080p 最高档光线追踪下取得复杂场景平均 30fps 的成绩**。_
+- 对于**混合渲染**，NVIDIA RTXremix 开发团队的顶级工程师之一 Mark 提过一个术语变化：
+    >Old Industry Jargon:
+    >
+    >ray tracing = the original technique from 30 years ago where ray stops when it hits something.
+    >
+    >path tracing = an obvious upgrade to ray tracing where you trace the full path of the photon, through reflections, refractions, etc.
+    >
+    >All the stuff people are calling ray tracing in hybrid rendering engines are actually doing what I would call path tracing.  No one really does basic raytracing anymore.
+    >
+    >The actual difference that those marketing terms are trying to show:
+    >
+    >Modern Marketing Terms:
+    >Ray Tracing = Hybrid  rendering engine using some path tracing to add information to a primarily raster pipeline
+    >
+    >Path Tracing = Path tracing rendering engine using no rasterization at all.
+    >
+- 译文：
+    >旧的行业术语：
+    >
+    >光线追踪 = 30年前的原始技术，光线在碰到东西时就停止了。
+    >
+    >路径跟踪 = Ray tracing 的一个明显的升级，在这里你要追踪光子的全部路径，包括反射、折射等等。
+    >
+    >所有在混合渲染引擎中被称为光线追踪的东西，实际上都是在做我称之为路径跟踪的事。 现在没有人真正做基本的光线追踪了。
+    >
+    >这些营销术语所要表达的实际差异：
+    >
+    >现代营销术语:
+    >
+    >光线追踪 = 混合渲染引擎使用一些路径跟踪来为主要的光栅管道添加信息
+    >
+    >路径跟踪 = 路径跟踪渲染引擎，完全不使用光栅化技术。
+    >
 
 ## 全局光照
 
