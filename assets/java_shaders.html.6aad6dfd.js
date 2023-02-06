@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-0546d702","path":"/works/java_shaders.html","title":"Java版光影","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1675531051000,"contributors":[{"name":"shaoxiu","email":"shaoxiu@skiesworld.com","commits":11}]},"filePathRelative":"works/java_shaders.md"}');export{a as data};
