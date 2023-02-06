@@ -2,7 +2,7 @@
 
 注：本表格仅记录国内光影。国外光影请前往：[ShaderLABS Wiki](https://wiki.shaderlabs.org/wiki/Shaderpacks)
 
-| 编号  | 作品名称                | 作者/团队                   | 风格        | 状态    | 价格（参考）    | 作品链接         | 使用指南                 |
+| 编号  &emsp;&emsp;| 作品名称  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 作者/团队  &emsp;&emsp; | 风格 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 状态  &emsp;&emsp;&emsp;&emsp;&emsp;| 价格（参考）| 作品链接  &emsp;&emsp;| 使用指南  &emsp;&emsp;&emsp;&emsp;|
 |-----|---------------------|-------------------------|-----------|-------|-----------|--------------|----------------------|
 | 001 | Altas Shader        | 滑稽菌                     | 梦幻        | 正常更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1248541-1-1.html)        | -                    |
 | 002 | Arlic               | VacGrd Lab              | 写实        | 技术性维护 | -         | [GitHub](https://github.com/HyperCol/Arlic)       | -                    |

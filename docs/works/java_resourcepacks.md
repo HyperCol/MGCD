@@ -1,6 +1,6 @@
 # Java版材质
 
-| 编号  | 作品名称                            | 作者/团队            | 风格          | 状态    | 价格（参考）    | 作品链接         | 使用指南            |
+| 编号 &emsp;&emsp; | 作品名称 &emsp;&emsp;&emsp;&emsp;  | 作者/团队 &emsp;&emsp; | 风格 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 状态 &emsp;&emsp;&emsp;&emsp;&emsp;| 价格（参考）&emsp;&emsp;&emsp; | 作品链接 &emsp;&emsp;&emsp;| 使用指南  &emsp;&emsp;&emsp;&emsp;|
 |-----|---------------------------------|------------------|-------------|-------|-----------|--------------|-----------------|
 | 001 | Minecraft Designer              | 鱼神Fishzera       | PBR - 写实    | 暂停更新  | RMB 5.00  | [爱发电](https://afdian.net/@Fishzera)          | -               |
 | 002 | 春意材质                            | 中影ZY             | 田园清新        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv12522127)         | [MGC-Java版材质通用手册](../instructions/java_resourcepacks/README.md) |
@@ -39,3 +39,5 @@
 | 035 | DoubleCraft                     | Cazes-           | 模型 - 原版     | 暂停更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1370835-1-1.html)        | -               |
 | 036 | UPBRT                           | Cazes-           | PBR - 原版    | 开发中   | -         | -            | -               |
 | 037 | 花园梦香材质包                    | 花环BH           | 卡通    | 正常更新   | 免费         | [哔哩哔哩](https://space.bilibili.com/1812804238)            | -               |
+| 038 |  oCd Pack Modified by Aijienlement   |  Aijienlement   | 卡通 | 正常更新 | 免费 |  [MCBBS](https://www.mcbbs.net/thread-1030309-1-1.html)  | -                |
+| 039 |  梧桐材质   |  药水棒冰   | 原版 | 正常更新 | 免费 |  [爱发电](https://afdian.net/a/YSBBBB)  | [密码：YSBB](https://wwwu.lanzouf.com/b031x2b3e)                |
