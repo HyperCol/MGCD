@@ -17,8 +17,8 @@ Minecraft 建模相关的软件较多，目前仍然可用主要有：
 
 ## 国内主流 Minecraft 建模软件
 
-- Blockbench**（仅适用于 Minecraft 建模）**
-- Blockbuster**（仅适用于 Minecraft 建模的 MOD）**
+- Blockbench（仅适用于 Minecraft 建模）
+- Blockbuster（仅适用于 Minecraft 建模的 MOD）
 - Blender（通用的生产力工具）
 - C4D（通用的生产力工具）
 
@@ -51,7 +51,7 @@ Blender 是一款**全平台通用**的可以用于 3D 建模的软件、广泛�
 ### C4D
 
 C4D 与 Blender 一样，也是一款**全平台**、广应用的生产力工具。
-可惜的是，它是**付费**的……我们在此并**不提供**相关的盗版资源**。尊重知识产权**，营造创新氛围，你我义不容辞。
+可惜的是，它是**付费**的……我们在此并**不提供**相关的盗版资源。**尊重知识产权**，营造创新氛围，你我义不容辞。
 互联网上的 C4D 使用教程也十分多。
 
 - 官网：[https://www.maxon.net/zh/cinema-4d](https://www.maxon.net/zh/cinema-4d)
