@@ -1,5 +1,8 @@
 # 模组兼容问题
 
+- 以下问题需要在 `.minecraft/config` 中寻找模组对应的配置文件，使用文本编辑器进行修改。
+- 也可在游戏内 `模组设置` 中找到各个模组的配置项。但可能缺少必要的注释说明，默认不建议。
+
 ## Advanced Rocketry（高级火箭）
 
 将 _**overworldSkyOverride**_ 设置为 **false**。
@@ -8,18 +11,53 @@
 
 - 1.12.2及更早版本
 
-  在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
-`S:weakSkyRenders < 0 >`
+  删除 `S:skySupportedDimensions < 0 >` 中的 `0`；
+
+  在 _**weakSkyRenders**_ 中添加 **0**。它们应该看起来像这样：
+
+```txt
+S:skySupportedDimensions < 
+ 
+  >
+
+S:weakSkyRenders < 
+  0 
+  >
+```
+
+ 注意：在 **iterationT 3.1** 中或许会导致 `白屏` 现象，但在高版本星辉中测试正常。我们猜测问题出在 1.12.2 的星辉本身。
 
 - 1.15.x
 
+  删除 `skySupportedDimensions = [ 0 ]` 中的 `0`；
+
   在 _**weakSkyRenders**_ 中添加 **0**。它应该看起来像这样：
-`weakSkyRenders = [ 0 ]`
+  
+```txt
+skySupportedDimensions = [ 
+ 
+  ]
+ 
+weakSkyRenders = [ 
+ 0 
+  ]
+```
 
 - 1.16.x
 
+ 删除 `skyRenderingEnabled = [ "minecraft: overworld" ]` 中的 `minecraft: overworld`；
+
 在 _**skyRenderingConstellations**_ 中添加 **"minecraft:overworld"**。它应该看起来像这样：
-`skyRenderingConstellations = [ "minecraft:overworld" ]`
+
+```txt
+skyRenderingEnabled = [ 
+ 
+  ]
+
+skyRenderingConstellations = [ 
+  "minecraft:overworld" 
+  ]
+```
 
 ## Better End（更好的末地）
 
