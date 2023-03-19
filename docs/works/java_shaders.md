@@ -5,7 +5,7 @@
 | 编号  &emsp;&emsp;| 作品名称  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 作者/团队  &emsp;&emsp; | 风格 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 状态  &emsp;&emsp;&emsp;&emsp;&emsp;| 价格（参考）| 作品链接  &emsp;&emsp;| 使用指南  &emsp;&emsp;&emsp;&emsp;|
 |-----|---------------------|-------------------------|-----------|-------|-----------|--------------|----------------------|
 | 001 | Altas Shader        | 滑稽菌                   | 梦幻        | 正常更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1248541-1-1.html)        | -                    |
-| 002 | Renaissance Project | 滑稽菌                   | 写实        | 正常更新 | 免费        | QQ群602499334       | -                    |
+| 002 | Lunar Drips         | 滑稽菌                   | 写实        | 正常更新 | 免费        | QQ群602499334       | -                    |
 | 003 | Arlic               | VacGrd Lab              | 写实        | 技术性维护 | -         | [GitHub](https://github.com/HyperCol/Arlic)       | -                    |
 | 004 | Lucid shaders       | 樱雪Baka                  | 清晰明快、梦幻     | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv20047447)         | -                    |
 | 005 | Compass             | VacGrd Lab              | 写实        | 开发中   | -         | -            | -                    |
