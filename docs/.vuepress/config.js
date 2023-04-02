@@ -13,7 +13,7 @@ module.exports = {
     logoDark: '/images/MGC-darklogo.png',
     notFound: ["404 Not Found，页面丢失。"],
     backToHome: "<-回到首页",
-    // repo: 'HyperCol/MGCD',
+    repo: 'HyperCol/MGCD',
     navbar: [
       {
         text: '首页',
@@ -88,15 +88,8 @@ module.exports = {
         ]
       },
       {
-        text: '关于我们',
+        text: '关于',
         link: '/about.md',
-        children: [
-          {
-            text: 'Github',
-            link: 'https://github.com/HyperCol/MGCD'
-          }
-        ]
-
       },
     ],
 
