@@ -74,21 +74,8 @@ RTX / RX 显卡内有一个特殊的光线追踪运算部分，叫做 **RT CORE*
 _**而且，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻意限制。一般的3A大作都有支持，甚至 GTX 1660 能在《古墓丽影：暗影》的 1080p 最高档光线追踪下取得复杂场景平均 30fps 的成绩**。_
 - 对于**混合渲染**，NVIDIA RTXremix 开发团队的顶级工程师之一 Mark 提过一个术语变化：
 
->Old Industry Jargon:
->
->ray tracing = the original technique from 30 years ago where ray stops when it hits something.
->
->path tracing = an obvious upgrade to ray tracing where you trace the full path of the photon, through reflections, refractions, etc.
->
->All the stuff people are calling ray tracing in hybrid rendering engines are actually doing what I would call path tracing.  No one really does basic raytracing anymore.
->
->The actual difference that those marketing terms are trying to show:
->
->Modern Marketing Terms:
->Ray Tracing = Hybrid  rendering engine using some path tracing to add information to a primarily raster pipeline
->
->Path Tracing = Path tracing rendering engine using no rasterization at all.
->
+![图片](/images/science/nv_mark_0.jpg "术语变化")
+
 - 译文：
 
 >旧的行业术语：
@@ -107,6 +94,37 @@ _**而且，RTX 光追在部分 GTX 显卡上也可以开启，只是 Mojang 刻
 >
 >路径跟踪 = 路径跟踪渲染引擎，完全不使用光栅化技术。
 >
+
+![图片](/images/science/nv_mark_2.jpg)
+
+- 译文：
+
+>Nvidia营销部门显然不喜欢 "混合与全RT"，所以他们把混合渲染称为 "光线追踪"，然后把全RT称为 "路径追踪"......对这些术语的定义已经很薄弱了。
+
+![图片](/images/science/nv_mark_1.jpg)
+
+- 译文：
+
+>在这次谈话之后，我又对 "光线追踪 "和 "路径追踪 "的区别做了一些研究，觉得我应该发表一些澄清：
+>
+>"光线追踪"：
+>
+>- 核心渲染仍然是使用光栅管道完成的。
+>- 像阴影、反射、全局光照等个别效果是单独进行光线追踪的，然后与光栅管线集成。
+>- 这就是目前市场上大多数光线追踪游戏的做法。
+>
+>在RTX20系列之前，即使是这样的实时操作也被认为是疯狂的。
+>
+>"路径追踪"：（或 "完全光线追踪"）
+>
+>- 所有的渲染都是通过追踪光线完成的。
+>- 整个照明算法简单而优雅
+>- 完全不使用光栅渲染。
+>- 电影已经使用了很久。
+>- 门户网站与 RTX、Remix mods 和 CP77 中的新 Overdrive 模式表明，使用现代 RTX 硬件可以实时实现这一点。
+>
+>Nvidia的一篇博文详细介绍了——包括解释路径追踪这个词的实际历史：
+><https://blogs.nvidia.com/log/2022/03/23/what-is-path-tracing/>
 
 ## 全局光照
 
