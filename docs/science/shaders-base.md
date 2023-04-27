@@ -4,7 +4,7 @@
 
 ### 主要渲染模组
 
-- **`OptiFine` 是 Minecraft Java 版的一个 Mod**。其主要功能是加载光影包、性能优化与一些渲染改进功能，为玩家获得更好的视觉体验。你可能也听说过 `ShadersMod` 或 `光影核心` ，但请勿再使用它。 ShadersMod 已经过期已久，因为 OptiFine 已经将它集成进代码，并接管了它的后续更新工作，而且现在的 OptiFine 有许多原来的 ShadersMod 所没有的新功能。几乎所有的现代光影包都使用了这些新功能（这些光影包往往不再适用于 ShadersMod） 。
+- **`OptiFine` 是 Minecraft Java 版的一个 Mod**。其主要功能是加载光影包、性能优化与一些渲染改进功能，为玩家获得更好的视觉体验。你可能也听说过 `ShadersMod` 或 `光影核心` ，但请勿再使用它。 ShadersMod 已经过期已久，因为 OptiFine 已经将它集成进代码，并接管了它的后续更新工作，而且现在的 OptiFine 有许多原来的 ShadersMod 所没有的新功能。几乎所有的现代光影包都使用了这些新功能（这些光影包往往不再适用于 ShadersMod）。
   - [相关链接 - OptiFine](https://www.optifine.net/home)
 - **`Iris` 是 OptiFine 的衍生物**。其自身开源，与 Sodium（钠）模组共同开启时可以获得更好的游玩体验，同时为了 **Fabric** 模组加载器社区的模组兼容性而生（ **Forge** 中也有移植版，名为 `Oculus` ，由于社区的一些特性，不推荐使用）。但其开发方向与 OptiFine 相反（适配现有的光影，不追求新效果新光影），而光影的开发是与 Optfine 或 Canvas 同向的。而且 Iris 到目前为止对开发者并不友好。因此未来很长一段时间内， Iris 仍然只是 OptiFine 的临时替代品。  
   - [相关链接 - Iris](https://irisshaders.net/)
@@ -23,7 +23,7 @@
 ### 辅助渲染模组
 
 - `AdcanvedShader` 是一个 **OptiFine** 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0 ）。
-  - [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
+  - [相关链接 - AdcanvedShader](https://www.mcmod.cn/class/7814.html)
 
 ### 关于基岩版光影与 RenderDragon
 
