@@ -73,7 +73,7 @@ skyRenderingConstellations = [
 
 ## Betweenlands（交错次元 / 黑暗沼泽）
 
-将 **use_shader** 设置为 **false**。注意：这将解决一些渲染问题，但维度本身可能没有你的光影包的工作效果。
+将 **use_shader** 设置为 **false**。注意：这将解决一些渲染问题，但光影可能不会在模组的维度工作。
 
 ## Botania（植物魔法）
 
@@ -126,7 +126,7 @@ skyRenderingConstellations = [
 
 ## The Midnight Mod（午夜）
 
-将 **_rift_shaders_** 设置为 **false**。注意：这将解决一些渲染问题，但维度本身可能没有你的光影包的工作效果。
+将 **_rift_shaders_** 设置为 **false**。注意：这将解决一些渲染问题，但光影可能不会在模组的维度工作。
 
 ## Thermal Dynamics（热动力学）
 
