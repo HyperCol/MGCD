@@ -149,7 +149,7 @@
 
 - 安装光影的过程与上方 [加载光影](#加载光影) 的步骤大同小异，只是界面上的不同。
 
-![Iris安装列表](images\instructions\Iris安装列表.jpg)
+![Iris安装列表](/images/instructions/Iris安装列表.jpg)
 
 ---
 
