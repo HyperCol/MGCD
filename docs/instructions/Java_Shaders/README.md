@@ -4,9 +4,9 @@
 
 ### 入门必看
 
-[#光影基础概念](#光影基础概念)
+- **光影基础概念**
 
-[#关于 OptiFine / Iris 如何搭配 Forge / Fabric](#关于+OptiFine+/+Iris+如何搭配+Forge+/+Fabric)
+- **关于 OptiFine / Iris 如何搭配 Forge / Fabric**
 
 在了解以上两栏内容后，再根据自己的情况选择下方对应的安装指南。
 
