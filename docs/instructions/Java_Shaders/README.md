@@ -37,7 +37,7 @@
 >
 >   - [相关链接 - AdvancedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
 
-—— 引用自 [MGC 大众科普](../../science/shader-base.md)
+—— 引用自 [MGC 大众科普](../../science/shaders-base.md)
 
 ---
 
