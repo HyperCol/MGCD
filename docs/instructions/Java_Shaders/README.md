@@ -33,9 +33,9 @@
 >
 >### 辅助渲染模组
 >
->- `AdcanvedShader` 是一个 **OptiFine** 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0 ）。
+>- `AdvancedShader` 是一个 **OptiFine** 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0 ）。
 >
->   - [相关链接 - AdcanvedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
+>   - [相关链接 - AdvancedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
 
 —— 引用自 [MGC 大众科普](../../science/shader-base.md)
 
