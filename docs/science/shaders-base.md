@@ -4,9 +4,9 @@
 
 ### 主要渲染模组
 
-- **`OptiFine` 是 Minecraft Java 版的一个 Mod**。其主要功能是加载光影包、性能优化与一些渲染改进功能，为玩家获得更好的视觉体验。你可能也听说过 `ShadersMod` 或 `光影核心` ，但请勿再使用它。 ShadersMod 已经过期已久，因为 OptiFine 已经将它集成进代码，并接管了它的后续更新工作，而且现在的 OptiFine 有许多原来的 ShadersMod 所没有的新功能。几乎所有的现代光影包都使用了这些新功能（这些光影包往往不再适用于 ShadersMod） 。
+- **`OptiFine` 是 Minecraft Java 版的一个 Mod** ，作者为 sp614x 。该模组属于独立开发者的闭源项目。其主要功能是加载光影包、性能优化与一些渲染改进功能，为玩家获得更好的视觉体验。其前身为 ShaderMod，目前 OptiFine 已将它集成进代码，并接管了它的后续更新工作。因此不建议玩家再去使用老旧的 ShaderMod。
   - [相关链接 - OptiFine](https://www.optifine.net/home)
-- **`Iris` 是 OptiFine 的衍生物**。其自身开源，与 Sodium（钠）模组共同开启时可以获得更好的游玩体验，同时为了 **Fabric** 模组加载器社区的模组兼容性而生（ **Forge** 中也有移植版，名为 `Oculus` ，由于社区的一些特性，不推荐使用）。但其开发方向与 OptiFine 相反（适配现有的光影，不追求新效果新光影），而光影的开发是与 Optfine 或 Canvas 同向的。而且 Iris 到目前为止对开发者并不友好。因此未来很长一段时间内， Iris 仍然只是 OptiFine 的临时替代品。  
+- **`Iris` 是 OptiFine 的衍生物**，属于多人开发的开源项目，与 Sodium（钠）模组共同开启时可以获得更好的游玩体验，同时为了 **Fabric** 模组加载器社区的模组兼容性而生（ **Forge** 中也有移植版，名为 `Oculus` ，由于社区的一些特性，不推荐使用）。但其开发方向与 OptiFine 相反（适配现有的光影），而光影的开发是与 Optfine 或 Canvas 同向的。而且 Iris 到目前为止对开发者并不友好。但随着 Iris 慢慢增加新的光影接口，它的新光影功能已经逐渐追上并赶超 OptiFine 。或许在未来的某个时候，我们可以看到 Iris 取代 OptiFine 的一天。
   - [相关链接 - Iris](https://irisshaders.net/)
 - **`Canvas` 是基于 Fabric API 的一个渲染 Mod**。其主要功能是为模组开发者提供更好的渲染体验，但其也适用于开发光影包。Canvas 通过深度结合 Fabric API 的独立渲染API以及原版着色器，来达到比 Optifine 更多的可能性，以及 Iris 都无法匹敌的模组兼容性。但因其主要为模组开发而生，渲染管线极为复杂，学习成本非常高，导致目前基于 Canvas 开发光影的创作者极少。
   - [相关链接 - Canvas](https://github.com/vram-guild/canvas)
