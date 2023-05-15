@@ -140,6 +140,11 @@ module.exports = {
           text: 'Java版材质',
           collapsible: true,
           children: ['/instructions/java_resourcepacks/README.md', '/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
+        },
+        {
+          text: 'BetterRTX',
+          collapsible: true,
+          children: ['/instructions/better_rtx/README.md']
         }
       ],
       '/works/': [
