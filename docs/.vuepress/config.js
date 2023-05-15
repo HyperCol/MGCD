@@ -84,6 +84,10 @@ module.exports = {
           {
             text: 'Java版材质',
             link: '/instructions/Java_Resourcepacks/'
+          },
+          {
+            text: 'BetterRTX',
+            link: '/instructions/better_rtx/'
           }
         ]
       },
