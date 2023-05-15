@@ -58,19 +58,19 @@ module.exports = {
         children: [
           {
             text: 'Java版光影',
-            link: '/works/Java_Shaders/'
+            link: '/works/java_shaders/'
           },
           {
             text: 'Java版材质',
-            link: '/works/Java_Resourcepacks/'
+            link: '/works/java_resourcepacks/'
           },
           {
             text: '基岩版光影',
-            link: '/works/Bedrock_Shaders/'
+            link: '/works/bedrock_shaders/'
           },
           {
             text: '基岩版材质',
-            link: '/works/Bedrock_Resourcepacks/'
+            link: '/works/bedrock_resourcepacks/'
           }
         ]
       },
@@ -79,11 +79,11 @@ module.exports = {
         children: [
           {
             text: 'Java版光影',
-            link: '/instructions/Java_Shaders/'
+            link: '/instructions/java_shaders/'
           },
           {
             text: 'Java版材质',
-            link: '/instructions/Java_Resourcepacks/'
+            link: '/instructions/java_resourcepacks/'
           },
           {
             text: 'BetterRTX',
