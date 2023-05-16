@@ -16,17 +16,19 @@
 
 ## 安装
 
-要安装这个模组，需要注意以下几点。
+要安装 BetterRTX，需要注意以下几点。
 
-- 从 **MGC 文档** 下载 `安装脚本` ，然后按照 MGC 的教程运行脚本。
+- 自动安装脚本链接：[BetterRTX_Installer_MGCEdit.ps1](https://mgcfiles.skiesworld.com/BetterRTX_Installer_MGCEdit.ps1)
 
-- 脚本会自动从 BetterRTX 官方网站 API 获取 BetterRTX 的最新版本，及时了解到 BetterRTX 不同配置的更新。
+- 脚本会自动从 MGC 提供的 BetterRTX 国内 API 获取 BetterRTX 的最新版本，及时了解到 BetterRTX 不同配置的更新。
 
-- BetterRTX 有多种配置可供选择，你可以查看手动安装部分了解更多详情。
+- BetterRTX 有 **多种配置** 可供选择，你可以查看手动安装部分了解更多详情。
+
+- 相关视频教程：<https://www.bilibili.com/video/BV19z4y1878N>
 
 ## 更新
 
-- 文档会同步更新官方BetterRTX的新功能和默认配置的内容，可能还用于公布一些尚未揭示的其他项目！
+文档会同步更新官方 BetterRTX 的新功能和默认配置的内容，可能还用于公布一些尚未揭示的其他项目！
 
 ## 反馈
 
