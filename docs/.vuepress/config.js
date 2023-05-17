@@ -20,6 +20,10 @@ module.exports = {
         link: '/',
       },
       {
+        text: 'BetterRTX',
+        link: '/instructions/better_rtx/'
+      },
+      {
         text: '社区介绍',
         link: '/guide/',
       },
@@ -75,7 +79,7 @@ module.exports = {
         ]
       },
       {
-        text: '使用说明',
+        text: '作品使用',
         children: [
           {
             text: 'Java版光影',
@@ -84,10 +88,6 @@ module.exports = {
           {
             text: 'Java版材质',
             link: '/instructions/java_resourcepacks/'
-          },
-          {
-            text: 'BetterRTX',
-            link: '/instructions/better_rtx/'
           }
         ]
       },
