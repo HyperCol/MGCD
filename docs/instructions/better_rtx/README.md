@@ -12,7 +12,9 @@
 
 - 使用前请安装 [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php) 。安装脚本将会自动检测，并为未安装用户提供安装包下载地址；
 
-- 为保证程序正确的运行，建议将其安装到默认地址。
+- 为保证程序正确的运行，建议将其安装到 **默认地址**。
+
+- 脚本只用于安装 BetterRTX 着色器，需要 **额外添加 PBR 材质** 。
 
 ## 安装
 
@@ -30,7 +32,7 @@ Set-ExecutionPolicy -Scope CurrentUser Bypass
 
 - 脚本会自动从 MGC 提供的 BetterRTX 国内 API 获取 BetterRTX 的最新版本，及时了解到 BetterRTX 不同配置的更新。
 
-- BetterRTX 有 **多种配置** 可供选择，可查看手动安装环节了解更多详情。
+- BetterRTX 有多种配置可供选择，可查看手动安装环节了解更多详情。
 
 - 相关视频教程：<https://www.bilibili.com/video/BV19z4y1878N>
 
