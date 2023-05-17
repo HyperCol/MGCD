@@ -1,5 +1,7 @@
 # Java版材质
 
+部分材质在此文档中含有使用指南，可前往 [Java版材质使用指南](../instructions/java_resourcepacks/) 查看
+
 | 编号 &emsp;&emsp; | 作品名称 &emsp;&emsp;&emsp;&emsp;  | 作者/团队 &emsp;&emsp; | 风格 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 状态 &emsp;&emsp;&emsp;&emsp;&emsp;| 价格（参考）&emsp;&emsp;&emsp; | 作品链接 &emsp;&emsp;&emsp;| 使用指南  &emsp;&emsp;&emsp;&emsp;|
 |-----|---------------------------------|------------------|-------------|-------|-----------|--------------|-----------------|
 | 001 | Minecraft Designer              | 鱼神Fishzera       | PBR - 写实    | 暂停更新  | RMB 5.00  | [爱发电](https://afdian.net/@Fishzera)          | -               |

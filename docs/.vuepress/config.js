@@ -79,7 +79,7 @@ module.exports = {
         ]
       },
       {
-        text: '作品使用',
+        text: '作品使用指南',
         children: [
           {
             text: 'Java版光影',
