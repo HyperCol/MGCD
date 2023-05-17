@@ -20,9 +20,17 @@
 
 - 自动安装脚本链接：[BetterRTX_Installer_MGCEdit.ps1](https://mgcfiles.skiesworld.com/BetterRTX_Installer_MGCEdit.ps1)
 
+- 以 **管理员身份** 运行脚本；
+
+- 若遇到脚本秒崩溃，请在 **具有管理员权限** 的 `CMD` 或 `PowerShell` 中运行此命令：
+
+```txt
+Set-ExecutionPolicy -Scope CurrentUser Bypass
+```
+
 - 脚本会自动从 MGC 提供的 BetterRTX 国内 API 获取 BetterRTX 的最新版本，及时了解到 BetterRTX 不同配置的更新。
 
-- BetterRTX 有 **多种配置** 可供选择，你可以查看手动安装部分了解更多详情。
+- BetterRTX 有 **多种配置** 可供选择，可查看手动安装环节了解更多详情。
 
 - 相关视频教程：<https://www.bilibili.com/video/BV19z4y1878N>
 
