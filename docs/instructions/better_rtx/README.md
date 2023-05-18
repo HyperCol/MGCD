@@ -24,7 +24,7 @@
 
 - 以 **管理员身份** 运行脚本；
 
-- 若遇到脚本秒崩溃，请在 **具有管理员权限** 的 `CMD` 或 `PowerShell` 中运行此命令：
+- 若遇到脚本秒崩溃，请在 **具有管理员权限** 的 `PowerShell` 中运行此命令：
 
 ```txt
 Set-ExecutionPolicy -Scope CurrentUser Bypass
@@ -35,6 +35,24 @@ Set-ExecutionPolicy -Scope CurrentUser Bypass
 - BetterRTX 有多种配置可供选择，可查看手动安装环节了解更多详情。
 
 - 相关视频教程：<https://www.bilibili.com/video/BV19z4y1878N>
+
+## 半自动安装
+
+本节介绍如何在读取安装列表或者自动下载时出现问题的情况下，使用半自动安装方式进行安装。
+
+- 请确保已安装 `IOBit Unlocker` ，且已阅读上方的注意事项；
+
+- 点击 [此处](https://gxm13.lanzoub.com/b07v2jw2j) 打开蓝奏云，下载压缩包。密码为 `MGC`；
+
+- 解压下载后的文件；
+
+- 将上文的脚本放至解压后的文件旁（必须在同一个目录内），运行脚本并选择 `从本地文件安装` 。
+
+## 手动安装
+
+如果你已经准备好了所有所需的文件，可以使用手动安装方式进行简化操作。
+
+- 请点击 [此处](https://gxm13.lanzoub.com/b07v2jw2j) 下载你所需的预设配置，密码为`MGC`。
 
 ## 更新
 
