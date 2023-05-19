@@ -43,7 +43,7 @@ module.exports = {
           },
           {
             text: '误区纠正',
-            chi1dren: [
+            children: [
               '/science/qas/',
               '/science/qas/shader.md',
               '/science/qas/texture.md',
@@ -54,7 +54,12 @@ module.exports = {
       },
       {
         text: '疑难解答',
-        link: '/answer_java/',
+        children: [
+          '/answer_java/',
+          '/answer_java/shaders.md',
+          '/answer_java/settings.md',
+          '/answer_java/mods.md',
+        ]
       },
       {
         text: '创作指南',
