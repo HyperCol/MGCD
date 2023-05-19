@@ -33,7 +33,7 @@ module.exports = {
           {
             text: '基础科普',
             children: [
-              '/science/README.md',
+              '/science/',
               '/science/shaders-base.md/',
               '/science/shaders-tech.md/',
               '/science/resourcepacks.md/',
@@ -44,7 +44,7 @@ module.exports = {
           {
             text: '误区纠正',
             chi1dren: [
-              '/science/qas/README.md',
+              '/science/qas/',
               '/science/qas/shader.md/',
               '/science/qas/texture.md/',
               '/scienceqas/RT_mistakes.md/'
@@ -103,30 +103,30 @@ module.exports = {
     //左侧列表
     sidebar: {
       '/guide/': [
-        "/guide/README.md",
+        "/guide/",
         "/guide/attention.md",
         "/guide/others.md",
       ],
       '/science/': [
-        "/science/README.md",
+        "/science/",
         "/science/shaders-base.md",
         "/science/shaders-tech.md",
         "/science/resourcepacks.md",
         "/science/render.md",
         "/science/film.md",
-        "/science/qas/README.md",
+        "/science/qas/",
         "/science/qas/shader.md/",
         "/science/qas/texture.md/",
         "/science/qas/RT_mistakes.md/"
       ],
       '/answer_java/': [
-        '/answer_java/README.md',
+        '/answer_java/',
         '/answer_java/shaders.md',
         '/answer_java/settings.md',
         '/answer_java/mods.md',
       ],
       '/creator/': [
-        '/creator/README.md',
+        '/creator/',
         '/creator/resources.md',
       ],
       '/instructions/': [
@@ -134,7 +134,7 @@ module.exports = {
           text: 'Java版光影',
           collapsible: true,
           children: [
-            '/instructions/java_shaders/README.md',
+            '/instructions/java_shaders/',
             '/instructions/java_shaders/itt2.md',
             '/instructions/java_shaders/itt3.md'
           ],
@@ -143,7 +143,7 @@ module.exports = {
           text: 'Java版材质',
           collapsible: true,
           children: [
-            '/instructions/java_resourcepacks/README.md',
+            '/instructions/java_resourcepacks/',
             '/instructions/java_resourcepacks/05.md',
             '/instructions/java_resourcepacks/itp.md',
             '/instructions/java_resourcepacks/mtp.md',
@@ -153,7 +153,7 @@ module.exports = {
         {
           text: 'BetterRTX',
           collapsible: true,
-          children: ['/instructions/better_rtx/README.md']
+          children: ['/instructions/better_rtx/']
         }
       ],
       '/works/': [
