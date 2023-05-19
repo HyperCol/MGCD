@@ -43,15 +43,15 @@ module.exports = {
           },
         ],
       },
-      {
-        text: '误区纠正',
-        chi1dren: [
-          '/science/qas/',
-          '/science/qas/shader.md',
-          '/science/qas/texture.md',
-          '/science/qas/RT_mistakes.md',
-        ],
-      },
+      // {
+      //   text: '误区纠正',
+      //   chi1dren: [
+      //     '/science/qas/',
+      //     '/science/qas/shader.md',
+      //     '/science/qas/texture.md',
+      //     '/science/qas/RT_mistakes.md',
+      //   ],
+      // },
       {
         text: '疑难解答',
         link: '/answer_java/',
