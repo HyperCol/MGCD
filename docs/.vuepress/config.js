@@ -47,10 +47,10 @@ module.exports = {
               '/science/qas/',
               '/science/qas/shader.md/',
               '/science/qas/texture.md/',
-              '/scienceqas/RT_mistakes.md/'
+              '/science/qas/RT_mistakes.md/'
             ],
           },
-        ]
+        ],
       },
       {
         text: '疑难解答',
@@ -82,14 +82,10 @@ module.exports = {
             ],
           },
           {
-            children: [
-              {
-                text: '使用说明',
-                chi1dren: [
-                  '/instructions/java_shaders/',
-                  '/instructions/java_resourcepacks/'
-                ]
-              },
+            text: '使用说明',
+            chi1dren: [
+              '/instructions/java_shaders/',
+              '/instructions/java_resourcepacks/'
             ]
           },
         ],
