@@ -56,19 +56,19 @@ module.exports = {
         text: '疑难解答',
         link: '/answer_java/',
       },
-      {
-        text: '创作指南',
-        children: [
-          {
-            text: '创作者指南',
-            link: '/creator/'
-          },
-          {
-            text: '资料整理',
-            link: '/creator/resources.md'
-          },
-        ],
-      },
+      // {
+      //   text: '创作指南',
+      //   children: [
+      //     {
+      //       text: '创作者指南',
+      //       link: '/creator/'
+      //     },
+      //     {
+      //       text: '资料整理',
+      //       link: '/creator/resources.md'
+      //     },
+      //   ],
+      // },
       {
         text: '作品集锦',
         children: [
@@ -85,7 +85,7 @@ module.exports = {
       },
       {
         text: '使用指南',
-        chi1dren: [
+        children: [
           {
             text: '安装光影',
             link: '/instructions/java_shaders/',
