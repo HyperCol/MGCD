@@ -29,20 +29,20 @@ module.exports = {
       },
       {
         text: '大众科普',
-        link: '/science/',
+        children: [
+          {
+            text: '基础科普',
+            children: ['/science/', '/works/java_resourcepacks/', '/works/bedrock_shaders/', '/works/bedrock_resourcepacks/']
+          },
+          {
+            text: '误区纠正',
+            chi1dren: ['/science/qas/', '/science/qas/shader.md/', '/science/qas/texture.md/', '/scienceqas/RT_mistakes.md/']
+          },
+        ]
       },
       {
         text: '疑难解答',
-        children: [
-          {
-            text: '歧义观点',
-            link: '/correct/',
-          },
-          {
-            text: '答疑手册',
-            link: '/answer_java/',
-          }
-        ]
+        link: '/answer_java/',
       },
       {
         text: '创作指南',
@@ -58,37 +58,16 @@ module.exports = {
         ]
       },
       {
-        text: '作品表格',
+        text: '作品集锦',
         children: [
           {
-            text: 'Java版光影',
-            link: '/works/java_shaders/'
+            text: '作品表格',
+            children: ['/works/java_shaders/', '/works/java_resourcepacks/', '/works/bedrock_shaders/', '/works/bedrock_resourcepacks/']
           },
           {
-            text: 'Java版材质',
-            link: '/works/java_resourcepacks/'
+            text: '使用说明',
+            chi1dren: ['/instructions/java_shaders/', '/instructions/java_resourcepacks/']
           },
-          {
-            text: '基岩版光影',
-            link: '/works/bedrock_shaders/'
-          },
-          {
-            text: '基岩版材质',
-            link: '/works/bedrock_resourcepacks/'
-          }
-        ]
-      },
-      {
-        text: '作品使用指南',
-        children: [
-          {
-            text: 'Java版光影',
-            link: '/instructions/java_shaders/'
-          },
-          {
-            text: 'Java版材质',
-            link: '/instructions/java_resourcepacks/'
-          }
         ]
       },
       {
@@ -106,23 +85,15 @@ module.exports = {
       ],
       '/science/': [
         "/science/README.md",
-        "/science/faq.md",
         "/science/shaders-base.md",
         "/science/shaders-tech.md",
         "/science/resourcepacks.md",
         "/science/render.md",
         "/science/film.md",
-      ],
-      '/correct/': [
-        '/correct/README.md',
-        {
-          text: '问题集锦',
-          collapsible: true,
-          children: ['/correct/qas/shader.md', '/correct/qas/texture.md'],
-        },
-        '/correct/RT_mistakes.md',
-        '/correct/netease_shader.md',
-        '/correct/author_says.md',
+        "/science/qas/README.md",
+        "/science/qas/shader.md/",
+        "/science/qas/texture.md/",
+        "/science/qas/RT_mistakes.md/"
       ],
       '/answer_java/': [
         '/answer_java/README.md',
