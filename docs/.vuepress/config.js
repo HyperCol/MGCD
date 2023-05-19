@@ -28,6 +28,33 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: '作品集锦',
+        children: [
+          {
+            text: '作品表格',
+            children: [
+              '/works/java_shaders/',
+              '/works/java_resourcepacks/',
+              '/works/bedrock_shaders/',
+              '/works/bedrock_resourcepacks/'
+            ],
+          },
+          {
+            text: '使用指南',
+            children: [
+              {
+                text: '安装光影',
+                link: '/instructions/java_shaders/',
+              },
+              {
+                text: '安装材质',
+                link: '/instructions/java_resourcepacks/',
+              },
+            ],
+          },
+        ],
+      },
+      {
         text: '大众科普',
         children: [
           {
@@ -56,9 +83,18 @@ module.exports = {
         text: '疑难解答',
         children: [
           '/answer_java/',
-          '/answer_java/shaders.md',
-          '/answer_java/settings.md',
-          '/answer_java/mods.md',
+          {
+            text: '光影加载',
+            link: '/answer_java/shaders.md',
+          },
+          {
+            text: '视频设置',
+            link: '/answer_java/settings.md',
+          },
+          {
+            text: '模组兼容',
+            link: '/answer_java/mods.md',
+          },
         ]
       },
       {
@@ -71,33 +107,6 @@ module.exports = {
           {
             text: '资料整理',
             link: '/creator/resources.md'
-          },
-        ],
-      },
-      {
-        text: '作品集锦',
-        children: [
-          {
-            text: '作品表格',
-            children: [
-              '/works/java_shaders/',
-              '/works/java_resourcepacks/',
-              '/works/bedrock_shaders/',
-              '/works/bedrock_resourcepacks/'
-            ],
-          },
-          {
-            text: '使用指南',
-            children: [
-              {
-                text: '安装光影',
-                link: '/instructions/java_shaders/',
-              },
-              {
-                text: '安装材质',
-                link: '/instructions/java_resourcepacks/',
-              },
-            ],
           },
         ],
       },
