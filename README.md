@@ -23,6 +23,5 @@ Minecraft Graphic Community Documents
 
 ## 联系我们
 
-- QQ 频道：[`Minecraft 图形学社区`](https://pd.qq.com/s/lem9db)，频道号：`69v35s98ma`
-- B站：[`Minecraft 图形学社区`](https://space.bilibili.com/1499821905)
+- QQ 频道：[`Minecraft 图形学社区`](https://pd.qq.com/s/lem9db)，频道号：`MineGraph101`
 - B站：[`HyperCol`](https://space.bilibili.com/480528388)
