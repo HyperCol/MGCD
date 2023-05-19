@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b5e49b20","path":"/science/qas/","title":"导言","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1684477308000,"contributors":[{"name":"shaoxiu","email":"shaoxiu@skiesworld.com","commits":1}]},"filePathRelative":"science/qas/README.md"}');export{e as data};
