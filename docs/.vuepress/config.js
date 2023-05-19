@@ -32,13 +32,23 @@ module.exports = {
         children: [
           {
             text: '基础科普',
-            children: ['/science/README.md', '/science/shaders-base.md/', '/science/shaders-tech.md/', '/science/resourcepacks.md/', '/science/render.md/', '/science/film.md/'],
+            children: [
+              '/science/README.md',
+              '/science/shaders-base.md/',
+              '/science/shaders-tech.md/',
+              '/science/resourcepacks.md/',
+              '/science/render.md/',
+              '/science/film.md/',
+            ],
           },
-        ],
-        children: [
           {
             text: '误区纠正',
-            chi1dren: ['/science/qas/README.md', '/science/qas/shader.md/', '/science/qas/texture.md/', '/scienceqas/RT_mistakes.md/']
+            chi1dren: [
+              '/science/qas/README.md',
+              '/science/qas/shader.md/',
+              '/science/qas/texture.md/',
+              '/scienceqas/RT_mistakes.md/'
+            ],
           },
         ]
       },
@@ -64,13 +74,21 @@ module.exports = {
         children: [
           {
             text: '作品表格',
-            children: ['/works/java_shaders/', '/works/java_resourcepacks/', '/works/bedrock_shaders/', '/works/bedrock_resourcepacks/'],
+            children: [
+              '/works/java_shaders/',
+              '/works/java_resourcepacks/',
+              '/works/bedrock_shaders/',
+              '/works/bedrock_resourcepacks/'
+            ],
           },
         ],
         children: [
           {
             text: '使用说明',
-            chi1dren: ['/instructions/java_shaders/', '/instructions/java_resourcepacks/']
+            chi1dren: [
+              '/instructions/java_shaders/',
+              '/instructions/java_resourcepacks/'
+            ]
           },
         ]
       },
@@ -113,12 +131,22 @@ module.exports = {
         {
           text: 'Java版光影',
           collapsible: true,
-          children: ['/instructions/java_shaders/README.md', '/instructions/java_shaders/itt2.md', '/instructions/java_shaders/itt3.md']
+          children: [
+            '/instructions/java_shaders/README.md',
+            '/instructions/java_shaders/itt2.md',
+            '/instructions/java_shaders/itt3.md'
+          ],
         },
         {
           text: 'Java版材质',
           collapsible: true,
-          children: ['/instructions/java_resourcepacks/README.md', '/instructions/java_resourcepacks/05.md', '/instructions/java_resourcepacks/itp.md', '/instructions/java_resourcepacks/mtp.md', '/instructions/java_resourcepacks/tmeo.md']
+          children: [
+            '/instructions/java_resourcepacks/README.md',
+            '/instructions/java_resourcepacks/05.md',
+            '/instructions/java_resourcepacks/itp.md',
+            '/instructions/java_resourcepacks/mtp.md',
+            '/instructions/java_resourcepacks/tmeo.md'
+          ],
         },
         {
           text: 'BetterRTX',
