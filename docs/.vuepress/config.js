@@ -81,16 +81,18 @@ module.exports = {
               '/works/bedrock_resourcepacks/'
             ],
           },
-        ],
-        children: [
           {
-            text: '使用说明',
-            chi1dren: [
-              '/instructions/java_shaders/',
-              '/instructions/java_resourcepacks/'
+            children: [
+              {
+                text: '使用说明',
+                chi1dren: [
+                  '/instructions/java_shaders/',
+                  '/instructions/java_resourcepacks/'
+                ]
+              },
             ]
           },
-        ]
+        ],
       },
       {
         text: '关于',
