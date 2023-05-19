@@ -41,15 +41,15 @@ module.exports = {
               '/science/film.md',
             ],
           },
-          {
-            text: '误区纠正',
-            chi1dren: [
-              '/science/qas/',
-              '/science/qas/shader.md',
-              '/science/qas/texture.md',
-              '/science/qas/RT_mistakes.md',
-            ],
-          },
+        ],
+      },
+      {
+        text: '误区纠正',
+        chi1dren: [
+          '/science/qas/',
+          '/science/qas/shader.md',
+          '/science/qas/texture.md',
+          '/science/qas/RT_mistakes.md',
         ],
       },
       {
@@ -81,18 +81,18 @@ module.exports = {
               '/works/bedrock_resourcepacks/'
             ],
           },
+        ],
+      },
+      {
+        text: '使用指南',
+        chi1dren: [
           {
-            text: '使用指南',
-            chi1dren: [
-              {
-                text: '安装光影',
-                link: '/instructions/java_shaders/',
-              },
-              {
-                text: '安装材质',
-                link: '/instructions/java_resourcepacks/',
-              },
-            ],
+            text: '安装光影',
+            link: '/instructions/java_shaders/',
+          },
+          {
+            text: '安装材质',
+            link: '/instructions/java_resourcepacks/',
           },
         ],
       },
