@@ -27,19 +27,19 @@ module.exports = {
         text: '社区介绍',
         link: '/guide/',
       },
-      // {
-      //   text: '大众科普',
-      //   children: [
-      //     {
-      //       text: '基础科普',
-      //       children: ['/science/README.md', '/science/shaders-base.md/', '/science/shaders-tech.md/', '/science/resourcepacks.md/', '/science/render.md/', '/science/film.md/']
-      //     },
-      //     {
-      //       text: '误区纠正',
-      //       chi1dren: ['/science/qas/README.md', '/science/qas/shader.md/', '/science/qas/texture.md/', '/scienceqas/RT_mistakes.md/']
-      //     },
-      //   ]
-      // },
+      {
+        text: '大众科普',
+        children: [
+          {
+            text: '基础科普',
+            children: ['/science/README.md', '/science/shaders-base.md/', '/science/shaders-tech.md/', '/science/resourcepacks.md/', '/science/render.md/', '/science/film.md/']
+          },
+          // {
+          //   text: '误区纠正',
+          //   chi1dren: ['/science/qas/README.md', '/science/qas/shader.md/', '/science/qas/texture.md/', '/scienceqas/RT_mistakes.md/']
+          // },
+        ]
+      },
       {
         text: '疑难解答',
         link: '/answer_java/',
@@ -64,10 +64,10 @@ module.exports = {
             text: '作品表格',
             children: ['/works/java_shaders/', '/works/java_resourcepacks/', '/works/bedrock_shaders/', '/works/bedrock_resourcepacks/']
           },
-          {
-            text: '使用说明',
-            chi1dren: ['/instructions/java_shaders/', '/instructions/java_resourcepacks/']
-          },
+          // {
+          //   text: '使用说明',
+          //   chi1dren: ['/instructions/java_shaders/', '/instructions/java_resourcepacks/']
+          // },
         ]
       },
       {
