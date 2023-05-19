@@ -34,20 +34,20 @@ module.exports = {
             text: '基础科普',
             children: [
               '/science/',
-              '/science/shaders-base.md/',
-              '/science/shaders-tech.md/',
-              '/science/resourcepacks.md/',
-              '/science/render.md/',
-              '/science/film.md/',
+              '/science/shaders-base.md',
+              '/science/shaders-tech.md',
+              '/science/resourcepacks.md',
+              '/science/render.md',
+              '/science/film.md',
             ],
           },
           {
             text: '误区纠正',
             chi1dren: [
               '/science/qas/',
-              '/science/qas/shader.md/',
-              '/science/qas/texture.md/',
-              '/science/qas/RT_mistakes.md/'
+              '/science/qas/shader.md',
+              '/science/qas/texture.md',
+              '/science/qas/RT_mistakes.md',
             ],
           },
         ],
@@ -65,9 +65,9 @@ module.exports = {
           },
           {
             text: '资料整理',
-            link: '/creator/resources.md/'
-          }
-        ]
+            link: '/creator/resources.md'
+          },
+        ],
       },
       {
         text: '作品集锦',
@@ -82,11 +82,17 @@ module.exports = {
             ],
           },
           {
-            text: '使用说明',
+            text: '使用指南',
             chi1dren: [
-              '/instructions/java_shaders/',
-              '/instructions/java_resourcepacks/'
-            ]
+              {
+                text: '安装光影',
+                link: '/instructions/java_shaders/',
+              },
+              {
+                text: '安装材质',
+                link: '/instructions/java_resourcepacks/',
+              },
+            ],
           },
         ],
       },
