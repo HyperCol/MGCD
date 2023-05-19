@@ -2,6 +2,8 @@
 
 Minecraft Graphic Community Documents
 
+由社区编写的关于 Minecraft 图形学的文档项目。主要目的是帮助对 Minecraft 图形学有兴趣的爱好者了解更多有关图形学的知识。
+
 ## 什么是 MGC？
 
 - **MGC**（**Minecraft Graphics Community**）是一个 **Minecraft** 图形学交流社区；

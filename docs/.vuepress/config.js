@@ -112,8 +112,16 @@ module.exports = {
       },
       {
         text: '关于',
-        link: '/about.md',
-        link: 'https://github.com/HyperCol/MGCD',
+        children: [
+          {
+            text: '关于文档',
+            link: '/about.md',
+          },
+          {
+            text: "GitHub",
+            link: 'https://github.com/HyperCol/MGCD',
+          },
+        ]
       },
     ],
 
