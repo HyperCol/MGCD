@@ -1,4 +1,5 @@
 import { defaultTheme } from '@vuepress/theme-default'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 module.exports = {
   lang: 'zh-CN',
@@ -7,6 +8,34 @@ module.exports = {
   port: "8080",
   head: [
     ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
+  ],
+  plugins: [
+    docsearchPlugin({
+      appId: AMQJCXFVUL,
+
+      apiKey: e64416ca58d284aad513747ae45fc027,
+
+      indexName: mgcd - hypercol,
+
+      locales: {
+        '/': {
+          placeholder: 'Search Documentation',
+          translations: {
+            button: {
+              buttonText: 'Search Documentation',
+            },
+          },
+        },
+        '/zh/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+      },
+    },),
   ],
   theme: defaultTheme({
     logo: '/images/MGC-logo.png',
