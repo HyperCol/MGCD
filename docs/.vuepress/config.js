@@ -118,7 +118,7 @@ module.exports = {
             link: '/about.md',
           },
           {
-            text: "GitHub",
+            text: 'GitHub',
             link: 'https://github.com/HyperCol/MGCD',
           },
         ]
@@ -128,21 +128,24 @@ module.exports = {
     //左侧列表
     sidebar: {
       '/guide/': [
-        "/guide/",
-        "/guide/attention.md",
-        "/guide/others.md",
+        '/guide/',
+        '/guide/attention.md',
+        '/guide/others.md',
       ],
       '/science/': [
-        "/science/",
-        "/science/shaders-base.md",
-        "/science/shaders-tech.md",
-        "/science/resourcepacks.md",
-        "/science/render.md",
-        "/science/film.md",
-        "/science/qas/",
-        "/science/qas/shader.md/",
-        "/science/qas/texture.md/",
-        "/science/qas/RT_mistakes.md/"
+        '/science/',
+        '/science/shaders-base.md',
+        '/science/shaders-tech.md',
+        '/science/resourcepacks.md',
+        '/science/render.md',
+        '/science/film.md',
+        {
+          text: '误区纠正-导言',
+          link: '/science/qas/',
+        },
+        '/science/qas/shader.md/',
+        '/science/qas/texture.md/',
+        '/science/qas/RT_mistakes.md/'
       ],
       '/answer_java/': [
         '/answer_java/',
