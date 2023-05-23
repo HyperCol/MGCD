@@ -19,14 +19,6 @@ module.exports = {
 
       locales: {
         '/': {
-          placeholder: 'Search Documentation',
-          translations: {
-            button: {
-              buttonText: 'Search Documentation',
-            },
-          },
-        },
-        '/zh/': {
           placeholder: '搜索文档',
           translations: {
             button: {
