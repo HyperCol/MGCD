@@ -11,11 +11,11 @@ module.exports = {
   ],
   plugins: [
     docsearchPlugin({
-      appId: AMQJCXFVUL,
+      appId: 'AMQJCXFVUL',
 
-      apiKey: e64416ca58d284aad513747ae45fc027,
+      apiKey: 'e64416ca58d284aad513747ae45fc027',
 
-      indexName: mgcd - hypercol,
+      indexName: 'mgcd - hypercol',
 
       locales: {
         '/': {
