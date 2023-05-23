@@ -14,6 +14,7 @@ jobs:
         cp ./docs/package-lock.json ./package-lock.json
         cp ./docs/package.json ./package.json
     - run: npm ci # 相当于npm install
+    - run: npm i -D @vuepress/plugin-docsearch@next
     - run: npm run docs:build
 
     #发布到mybells.github.io/master
