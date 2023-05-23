@@ -13,9 +13,9 @@ module.exports = {
     docsearchPlugin({
       appId: 'AMQJCXFVUL',
 
-      apiKey: 'e64416ca58d284aad513747ae45fc027',
+      apiKey: '64206f0ec56ab84f94d171e5a39b6815',
 
-      indexName: 'mgcd - hypercol',
+      indexName: 'mgcd-hypercol',
 
       locales: {
         '/': {
