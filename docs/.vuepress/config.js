@@ -181,12 +181,12 @@ module.exports = {
     //左侧列表
     sidebar: {
       '/guide/': [
-        '/guide/',
+        '/guide/README.md',
         '/guide/attention.md',
         '/guide/others.md',
       ],
       '/science/': [
-        '/science/',
+        '/science/README.md',
         '/science/shaders-base.md',
         '/science/shaders-tech.md',
         '/science/resourcepacks.md',
@@ -196,35 +196,35 @@ module.exports = {
           text: '误区纠正-导言',
           link: '/science/qas/',
         },
-        '/science/qas/shader.md/',
-        '/science/qas/texture.md/',
-        '/science/qas/RT_mistakes.md/'
+        '/science/qas/shader.md',
+        '/science/qas/texture.md',
+        '/science/qas/RT_mistakes.md'
       ],
       '/answer_java/': [
-        '/answer_java/',
+        '/answer_java/README.md',
         '/answer_java/shaders.md',
         '/answer_java/settings.md',
         '/answer_java/mods.md',
       ],
       '/creator/': [
-        '/creator/',
+        '/creator/README.md',
         '/creator/resources.md',
       ],
       '/instructions/': [
         {
           text: 'Java版光影',
-          collapsible: true,
+          collapsible: false,
           children: [
-            '/instructions/java_shaders/',
+            '/instructions/java_shaders/README.md',
             '/instructions/java_shaders/itt2.md',
             '/instructions/java_shaders/itt3.md'
           ],
         },
         {
           text: 'Java版材质',
-          collapsible: true,
+          collapsible: false,
           children: [
-            '/instructions/java_resourcepacks/',
+            '/instructions/java_resourcepacks/README.md',
             '/instructions/java_resourcepacks/05.md',
             '/instructions/java_resourcepacks/itp.md',
             '/instructions/java_resourcepacks/mtp.md',
@@ -233,9 +233,8 @@ module.exports = {
         },
         {
           text: 'BetterRTX',
-          collapsible: true,
-          children: ['/instructions/better_rtx/']
-        }
+          link: '/instructions/better_rtx/README.md'
+        },
       ],
       '/works/': [
         '/works/java_shaders.md',
