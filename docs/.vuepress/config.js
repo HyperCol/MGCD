@@ -74,11 +74,11 @@ module.exports = {
       },
       {
         text: 'BetterRTX',
-        link: '/instructions/better_rtx/'
+        link: '/instructions/better_rtx/README.md'
       },
       {
         text: '社区介绍',
-        link: '/guide/',
+        link: '/guide/README.md',
       },
       {
         text: '作品集锦',
@@ -86,10 +86,10 @@ module.exports = {
           {
             text: '作品表格',
             children: [
-              '/works/java_shaders/',
-              '/works/java_resourcepacks/',
-              '/works/bedrock_shaders/',
-              '/works/bedrock_resourcepacks/'
+              '/works/java_shaders/README.md',
+              '/works/java_resourcepacks/README.md',
+              '/works/bedrock_shaders/README.md',
+              '/works/bedrock_resourcepacks/README.md'
             ],
           },
           {
@@ -97,11 +97,11 @@ module.exports = {
             children: [
               {
                 text: '安装光影',
-                link: '/instructions/java_shaders/',
+                link: '/instructions/java_shaders/README.md',
               },
               {
                 text: '安装材质',
-                link: '/instructions/java_resourcepacks/',
+                link: '/instructions/java_resourcepacks/README.md',
               },
             ],
           },
@@ -113,7 +113,7 @@ module.exports = {
           {
             text: '基础科普',
             children: [
-              '/science/',
+              '/science/README.md',
               '/science/shaders-base.md',
               '/science/shaders-tech.md',
               '/science/resourcepacks.md',
@@ -124,10 +124,8 @@ module.exports = {
           {
             text: '误区纠正',
             children: [
-              '/science/qas/',
-              '/science/qas/shader.md',
-              '/science/qas/texture.md',
-              '/science/qas/RT_mistakes.md',
+              '/science/correct/README.md',
+              '/science/correct/RT_mistakes.md',
             ],
           },
         ],
@@ -135,18 +133,39 @@ module.exports = {
       {
         text: '疑难解答',
         children: [
-          '/answer_java/',
           {
-            text: '光影加载',
-            link: '/answer_java/shaders.md',
+            text: '基础问题',
+            children: [
+              {
+                text: '光影问答',
+                link: '/answer_java/qas/shader.md',
+              },
+              {
+                text: '材质问答',
+                link: '/answer_java/qas/texture.md',
+              },
+            ],
           },
           {
-            text: '视频设置',
-            link: '/answer_java/settings.md',
-          },
-          {
-            text: '模组兼容',
-            link: '/answer_java/mods.md',
+            text: '进阶问题',
+            children: [
+              {
+                text: '进阶导言',
+                link: '/answer_java/README.md',
+              },
+              {
+                text: '光影加载',
+                link: '/answer_java/shaders.md',
+              },
+              {
+                text: '视频设置',
+                link: '/answer_java/settings.md',
+              },
+              {
+                text: '模组兼容',
+                link: '/answer_java/mods.md',
+              },
+            ],
           },
         ]
       },
@@ -155,7 +174,7 @@ module.exports = {
         children: [
           {
             text: '创作者指南',
-            link: '/creator/'
+            link: '/creator/README.md'
           },
           {
             text: '资料整理',
@@ -194,11 +213,9 @@ module.exports = {
         '/science/film.md',
         {
           text: '误区纠正-导言',
-          link: '/science/qas/',
+          link: '/science/correct/',
         },
-        '/science/qas/shader.md',
-        '/science/qas/texture.md',
-        '/science/qas/RT_mistakes.md'
+        '/science/correct/RT_mistakes.md'
       ],
       '/answer_java/': [
         '/answer_java/README.md',
