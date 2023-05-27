@@ -86,10 +86,10 @@ module.exports = {
           {
             text: '作品表格',
             children: [
-              '/works/java_shaders/',
-              '/works/java_resourcepacks/',
-              '/works/bedrock_shaders/',
-              '/works/bedrock_resourcepacks/'
+              '/works/java_shaders.md',
+              '/works/java_resourcepacks.md',
+              '/works/bedrock_shaders.md',
+              '/works/bedrock_resourcepacks.md'
             ],
           },
           {
