@@ -218,6 +218,8 @@ module.exports = {
         '/science/correct/RT_mistakes.md'
       ],
       '/answer_java/': [
+        '/answer_java/qas/shader.md',
+        '/answer_java/qas/texture.md',
         '/answer_java/README.md',
         '/answer_java/shaders.md',
         '/answer_java/settings.md',
