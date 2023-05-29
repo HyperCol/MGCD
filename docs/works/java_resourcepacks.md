@@ -4,7 +4,7 @@
 
 | 编号 &emsp;&emsp; | 作品名称 &emsp;&emsp;&emsp;&emsp;  | 作者/团队 &emsp;&emsp; | 风格 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 状态 &emsp;&emsp;&emsp;&emsp;&emsp;| 价格（参考）&emsp;&emsp;&emsp; | 作品链接 &emsp;&emsp;&emsp;| 使用指南  &emsp;&emsp;&emsp;&emsp;|
 |-----|---------------------------------|------------------|-------------|-------|-----------|--------------|-----------------|
-| 001 | Minecraft Designer              | 鱼神Fishzera       | PBR - 写实    | 暂停更新  | RMB 5.00  | [爱发电](https://afdian.net/@Fishzera)          | -               |
+| 001 | Minecraft Designer 系列          | 鱼神Fishzera       | PBR - 写实    | 更新  | RMB 5.00  | [爱发电](https://afdian.net/@Fishzera)          | -               |
 | 002 | 春意材质                            | 中影ZY             | 田园清新        | 正常更新  | 免费        | [哔哩哔哩](https://www.bilibili.com/read/cv12522127)         | [MGC-Java版材质通用手册](../instructions/java_resourcepacks/README.md) |
 | 003 | 幻梦 Texture                      | COHK晨哦凯          | PBR - 卡通漫画  | 正常更新  | 免费        | [哔哩哔哩](https://space.bilibili.com/503826955) | -               |
 | 004 | 秦                               | 金丹哦              | PBR - 写实    | 正常更新  | RMB 5.00  | [爱发电](https://afdian.net/@qintexture)          | [MGC-作品使用手册](../instructions/java_resourcepacks/qin.md)      |
@@ -12,8 +12,8 @@
 | 006 | 3D Default                      | GeForceLegend    | 模型 - 原版像素   | 技术性维护 | 免费        | [MCBBS](https://www.mcbbs.net/thread-914350-1-1.html)        | -               |
 | 007 | BlockPixel - 方块概念材质             | Jakob.zero       | 卡通          | 正常更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1270859-1-1.html)        | -               |
 | 008 | GridPixel - 方格概念材质              | Jakob.zero       | 卡通          | 正常更新  | 免费        | [MCBBS](https://www.mcbbs.net/thread-1271173-1-1.html)        | -               |
-| 009 | Benson Story                    | 阿南               | -           | 正常更新  | RMB 15.00 | [爱发电](https://afdian.net/@oakghost)          | -               |
-| 010 | imitation of nature             | 阿南               | PBR - 写实    | 正常更新  | RMB 15.00 | [爱发电](https://afdian.net/@oakghost)          | -               |
+| 009 | Benson Story                    | 阿南               | -           | 停止更新  | RMB 15.00 | [爱发电](https://afdian.net/@oakghost)          | -               |
+| 010 | imitation of nature             | 阿南               | PBR - 写实    | 停止更新  | RMB 15.00 | [爱发电](https://afdian.net/@oakghost)          | -               |
 | 011 | Canvas 原版高清                     | Bugjump&Gealx3   | 原版高清        | 正常更新  | -         | QQ群924411105 | -               |
 | 012 | IT-Project                      | Flashtt          | 模型 - 现代     | 暂停更新  | RMB 10.00 | [爱发电](https://afdian.net/@itproject)          | [MGC-作品使用手册](../instructions/java_resourcepacks/itp.md)      |
 | 013 | Inception                       | 巷尾               | PBR - 现代    | 正常更新  | RMB 20.00 | [爱发电](https://afdian.net/@inception5832)          | -               |
