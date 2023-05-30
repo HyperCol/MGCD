@@ -107,7 +107,3 @@ PBR 有着不同的标准，例如 OldPBR 、 LabPBR 、四合一等。
 | ... | ... | ... |
 
 详细介绍可参考 MCBBS 纹理版版主 SQwatermark 的教程：[OptiFine文档](http://sqwatermark.com/resguide/optifinedoc/)
-
-## 模型材质
-
-待补充
