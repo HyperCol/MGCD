@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-25b8694c","path":"/works/bedrock_resourcepacks.html","title":"基岩版资源包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685793725000,"contributors":[{"name":"shaoxiu","email":"shaoxiu@skiesworld.com","commits":14}]},"filePathRelative":"works/bedrock_resourcepacks.md"}');export{e as data};
