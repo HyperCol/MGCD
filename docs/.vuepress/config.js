@@ -96,11 +96,11 @@ module.exports = {
             text: '使用指南',
             children: [
               {
-                text: '安装光影',
+                text: '安装光影包',
                 link: '/instructions/java_shaders/README.md',
               },
               {
-                text: '安装材质',
+                text: '安装资源包',
                 link: '/instructions/java_resourcepacks/README.md',
               },
             ],
@@ -137,11 +137,11 @@ module.exports = {
             text: '基础问题',
             children: [
               {
-                text: '光影问答',
+                text: '光影包问答',
                 link: '/answer_java/qas/shader.md',
               },
               {
-                text: '材质问答',
+                text: '资源包问答',
                 link: '/answer_java/qas/texture.md',
               },
             ],
@@ -231,7 +231,7 @@ module.exports = {
       ],
       '/instructions/': [
         {
-          text: 'Java版光影',
+          text: 'Java版光影包',
           collapsible: false,
           children: [
             '/instructions/java_shaders/README.md',
@@ -240,7 +240,7 @@ module.exports = {
           ],
         },
         {
-          text: 'Java版材质',
+          text: 'Java版资源包',
           collapsible: false,
           children: [
             '/instructions/java_resourcepacks/README.md',

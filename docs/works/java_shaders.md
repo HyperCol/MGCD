@@ -1,4 +1,4 @@
-# Java版光影
+# Java版光影包
 
 注：本表格仅记录国内光影。国外光影请前往：[ShaderLABS Wiki](https://wiki.shaderlabs.org/wiki/Shaderpacks)
 
