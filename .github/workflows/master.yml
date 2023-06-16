@@ -15,6 +15,7 @@ jobs:
         cp ./docs/package.json ./package.json
     - run: npm ci # 相当于npm install
     - run: npm i -D @vuepress/plugin-docsearch@next
+    - run: npx vp-update
     - run: npm run docs:build
 
     #发布到mybells.github.io/master
