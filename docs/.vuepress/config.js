@@ -244,6 +244,7 @@ module.exports = {
           collapsible: false,
           children: [
             '/instructions/java_resourcepacks/README.md',
+            '/instructions/java_resourcepacks/qin.md',
             '/instructions/java_resourcepacks/05.md',
             '/instructions/java_resourcepacks/itp.md',
             '/instructions/java_resourcepacks/mtp.md',

@@ -61,6 +61,7 @@ iterationT在1.16.5以下的需要在光影设置内启用“g7前兼容性”�
 #### 2. 选项→视频设置→光影→按照图片设置
 
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417808234-f10e53c7-ea72-4439-a71a-2904484a4909.png#crop=0&crop=0&crop=1&crop=1&id=BTBWD&originHeight=351&originWidth=244&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+
 渲染精度和阴影精度你也可以拉到1x以上，总之不能低于1x
 
 #### 3. 选项→视频设置→性能→区域渲染→关
@@ -74,6 +75,7 @@ iterationT在1.16.5以下的需要在光影设置内启用“g7前兼容性”�
 #### 5. 选项→视频设置→细节设置→替选方块→关
 
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417809249-22f14d2a-0bbd-4ce7-9bf5-0aebbba0af32.png#crop=0&crop=0&crop=1&crop=1&id=HfrLr&originHeight=41&originWidth=341&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+
 **关掉替选方块的目的是解决因开启替选方块而造成的小部分方块贴图旋转和视差拉扯问题（如图：因打开替选方块造成小部分方块视差异常）**
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417810409-2a75b26a-d382-4fe4-954b-54d8eca9c194.png#crop=0&crop=0&crop=1&crop=1&id=BroNz&originHeight=1048&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 **但打开替选方块可以启用模型贴图的随机效果（如图：打开替选方块启用草的随机模型）**
@@ -92,22 +94,30 @@ iterationT在1.16.5以下的需要在光影设置内启用“g7前兼容性”�
 
 #### 8. 选项→视频设置→光影→光影设置...→找到调节材质包分辨率的选项→把分辨率从16调到和加载的秦材质包一样的分辨率（相对应）
 
-Ps：**每个光影的选项位置不同**，有的光影设置还是英文的，“材质包分辨率”英文**一般**是：**texture resolution**
+Ps：**每个光影的选项位置不同**，有的光影设置还是英文的，“材质包分辨率”英文**一般**是：
+
+**`Texture Resolution`**
+
 **例如：加载的秦材质包是512x的**
-————————————————————————————————————
-**_中文光影：从16→521_**
-↓
+
+---
+
+**_中文光影：16x→512x_**
+
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417813465-311f14ca-6aa3-4a45-9e55-6890058ac508.png#crop=0&crop=0&crop=1&crop=1&id=oguBX&originHeight=49&originWidth=415&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
-————————————————————————————————————
+
+---
+
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417813987-b677758b-b5c3-408f-8fd1-1078e2c48548.png#crop=0&crop=0&crop=1&crop=1&id=jFvmr&originHeight=73&originWidth=401&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 ↓
 ![图片](https://cdn.nlark.com/yuque/0/2022/png/23104398/1642417814523-b079064a-7300-4fec-9bd8-b1a13197e120.png#crop=0&crop=0&crop=1&crop=1&id=prm9V&originHeight=59&originWidth=414&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 
-#### 9. 视频设置→光影设置→找到“PBR”字眼（不同光影所在位置不同）—→从“oldpbr,seus或ptgi”调至“labpbr或labpbr1.2+”
+#### 9. 视频设置→光影设置→找到“PBR”字眼（不同光影所在位置不同）—→从 `oldpbr,seus或ptgi` 调至 `labpbr或labpbr1.2+`
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/23104398/1643864212250-8cec62bd-7432-4b29-beae-d9eaf30c542c.png#clientId=ubb888433-445e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=167&id=u1f17c055&margin=%5Bobject%20Object%5D&name=image.png&originHeight=167&originWidth=862&originalType=binary&ratio=1&rotation=0&showTitle=false&size=118140&status=done&style=none&taskId=u4d34c5da-2ec4-4e11-bd82-c5c999044ca&title=&width=862)
 **↓**
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/23104398/1643864228065-8a020908-d56a-4ef0-b17d-235c5921dfb7.png#clientId=ubb888433-445e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=172&id=u3dba35e3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=172&originWidth=862&originalType=binary&ratio=1&rotation=0&showTitle=false&size=124026&status=done&style=none&taskId=ub12998eb-3aa4-49d9-a75c-8cd3fc56e39&title=&width=862)
+
 **_完成__！开始使用秦材质包吧！_**
 
 ---
@@ -159,6 +169,7 @@ Ps：**每个光影的选项位置不同**，有的光影设置还是英文的�
 #### 解决视频
 
 **【注意】以下内容都在下列视频说清楚了**
+
 [点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV13b4y1f7m7)
 
 #### 通过“解决视频”可解决的问题
