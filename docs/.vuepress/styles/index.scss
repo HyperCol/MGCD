@@ -8,3 +8,8 @@ html.dark {
   --c-brand: #FBC420;
   --c-brand-light: #FEA815;
 }
+
+@font-face {
+  font-family: "Source Han Sans";
+  src: url("SourceHanSansSC-VF.otf.woff2") format("woff2");
+}
