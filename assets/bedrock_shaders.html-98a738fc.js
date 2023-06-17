@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-7bb7eeca","path":"/works/bedrock_shaders.html","title":"基岩版光影包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1686902138000,"contributors":[{"name":"shaoxiu","email":"shaoxiu@skiesworld.com","commits":10}]},"filePathRelative":"works/bedrock_shaders.md"}');export{e as data};
