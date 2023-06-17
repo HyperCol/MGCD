@@ -114,6 +114,7 @@ module.exports = {
             text: '基础科普',
             children: [
               '/science/README.md',
+              '/science/terms.md',
               '/science/shaders-base.md',
               '/science/shaders-tech.md',
               '/science/resourcepacks.md',
@@ -207,6 +208,7 @@ module.exports = {
       ],
       '/science/': [
         '/science/README.md',
+        '/science/terms.md',
         '/science/shaders-base.md',
         '/science/shaders-tech.md',
         '/science/resourcepacks.md',
