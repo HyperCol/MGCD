@@ -210,6 +210,7 @@ module.exports = {
         '/science/shaders-base.md',
         '/science/shaders-tech.md',
         '/science/resourcepacks.md',
+        '/science/resourcepacks_compatibility.md',
         '/science/render.md',
         '/science/film.md',
         {
