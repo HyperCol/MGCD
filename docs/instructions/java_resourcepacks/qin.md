@@ -6,11 +6,11 @@
 
 英文名：KABUTO Texture
 
-作者：金丹（一名高二狗，学业繁忙以至于更新不频繁）
+作者：金丹（一名高考毕业生，暂时有空余时间更新）
 
 B站ID：金丹哦
 
-秦材质包，一名高二狗独自一人所制作的，目前有 Java 和手机 Bedrock 双版本。
+秦材质包，一名高二狗独自一人所制作的（现在是大学生啦），目前有 Java 和手机 Bedrock 双版本。
 
 **MCBBS发布帖：**[**我的世界中文论坛**](https://www.mcbbs.net/thread-1139771-1-1.html)
 
@@ -18,9 +18,9 @@ B站ID：金丹哦
 
 ## 光影及配置推荐
 
-推荐使用光影：SEUS PTGI HRR Test 2.1 GFME 或 iterationT 2.0.1
+推荐使用光影：SEUS PTGI HRR Test 2.1 GFME 或 iterationT 2.0.1 / 3.0.0
 
-iterationT在1.16.5以下的需要在光影设置内启用“g7前兼容性”选项
+iterationT在1.16.5以下的需要在光影设置内启用 `G7前兼容性` 选项
 
 **获取方式：·SEUS PTGI HRR Test 2.1 GFME   链接：**[**mcbbs**](https://www.mcbbs.net/thread-1211964-1-1.html)
 
@@ -197,8 +197,8 @@ Ps：**每个光影的选项位置不同**，有的光影设置还是英文的�
 
 ##### 5. 树叶显示异常
 
-![图片](/images/instructions/qin-23.png)
+![图片](/images/instructions/qin-22.png)
 
 ##### 6. 黄色错误代码1281
 
-![图片](/images/instructions/qin-24.png)
+![图片](/images/instructions/qin-23.png)
