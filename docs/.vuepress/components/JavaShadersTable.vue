@@ -31,7 +31,7 @@
 
 <script>
 
-import jsonData from '../../../works/java_shaders.json'
+import jsonData from '../works_json/java_shaders.json'
 
 export default {
   data() {

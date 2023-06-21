@@ -29,7 +29,7 @@
 
 <script>
 
-import jsonData from '../../../works/bedrock_resourcepacks.json'
+import jsonData from '../works_json/bedrock_resourcepacks.json'
 
 export default {
   data() {

@@ -31,7 +31,7 @@
 
 <script>
 
-import jsonData from '../../../works/java_resourcepacks.json'
+import jsonData from '../works_json/java_resourcepacks.json'
 
 export default {
   data() {

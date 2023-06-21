@@ -29,7 +29,7 @@
 
 <script>
 
-import jsonData from '../../../works/bedrock_shaders.json'
+import jsonData from '../works_json/bedrock_shaders.json'
 
 export default {
   data() {
