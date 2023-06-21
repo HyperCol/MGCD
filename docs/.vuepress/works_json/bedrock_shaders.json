@@ -7,8 +7,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "RMB 5.00",
-    "link_platform": "网易版内搜索",
-    "link": ""
+    "platform": "网易版内搜索",
+    "platform_link": ""
   },
   {
     "id": "002",
@@ -18,8 +18,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群1016651584",
-    "link": ""
+    "platform": "QQ群1016651584",
+    "platform_link": ""
   },
   {
     "id": "003",
@@ -29,8 +29,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群1145299676",
-    "link": ""
+    "platform": "QQ群1145299676",
+    "platform_link": ""
   },
   {
     "id": "004",
@@ -40,8 +40,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "RMB 5.00",
-    "link_platform": "网易版内搜索",
-    "link": ""
+    "platform": "网易版内搜索",
+    "platform_link": ""
   },
   {
     "id": "005",
@@ -51,8 +51,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群985015786",
-    "link": ""
+    "platform": "QQ群985015786",
+    "platform_link": ""
   },
   {
     "id": "006",
@@ -62,8 +62,8 @@
     "type": "传统光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群977868784",
-    "link": ""
+    "platform": "QQ群977868784",
+    "platform_link": ""
   },
   {
     "id": "007",
@@ -73,8 +73,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "RMB 15.00",
-    "link_platform": "网易版内搜索",
-    "link": ""
+    "platform": "网易版内搜索",
+    "platform_link": ""
   },
   {
     "id": "008",
@@ -84,8 +84,8 @@
     "type": "传统光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群271709694",
-    "link": ""
+    "platform": "QQ群271709694",
+    "platform_link": ""
   },
   {
     "id": "009",
@@ -95,8 +95,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群985616154",
-    "link": ""
+    "platform": "QQ群985616154",
+    "platform_link": ""
   },
   {
     "id": "010",
@@ -106,8 +106,8 @@
     "type": "传统光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群868090814",
-    "link": ""
+    "platform": "QQ群868090814",
+    "platform_link": ""
   },
   {
     "id": "011",
@@ -117,8 +117,8 @@
     "type": "传统光影",
     "status": "暂停更新",
     "price": "免费",
-    "link_platform": "QQ群706276708",
-    "link": ""
+    "platform": "QQ群706276708",
+    "platform_link": ""
   },
   {
     "id": "012",
@@ -128,8 +128,8 @@
     "type": "传统光影",
     "status": "暂停更新",
     "price": "免费",
-    "link_platform": "QQ群1003425399",
-    "link": ""
+    "platform": "QQ群1003425399",
+    "platform_link": ""
   },
   {
     "id": "013",
@@ -139,8 +139,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群632252949",
-    "link": ""
+    "platform": "QQ群632252949",
+    "platform_link": ""
   },
   {
     "id": "014",
@@ -150,8 +150,8 @@
     "type": "传统光影",
     "status": "暂停更新",
     "price": "免费",
-    "link_platform": "Github",
-    "link": "https://github.com/origin0110/OriginShader"
+    "platform": "Github",
+    "platform_link": "https://github.com/origin0110/OriginShader"
   },
   {
     "id": "015",
@@ -161,8 +161,8 @@
     "type": "传统光影/网易后处理光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群652983717",
-    "link": ""
+    "platform": "QQ群652983717",
+    "platform_link": ""
   },
   {
     "id": "016",
@@ -172,8 +172,8 @@
     "type": "传统光影/渲染龙光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群972380648",
-    "link": ""
+    "platform": "QQ群972380648",
+    "platform_link": ""
   },
   {
     "id": "017",
@@ -183,8 +183,8 @@
     "type": "传统光影",
     "status": "终止更新",
     "price": "免费",
-    "link_platform": "QQ群849287707",
-    "link": ""
+    "platform": "QQ群849287707",
+    "platform_link": ""
   },
   {
     "id": "018",
@@ -194,8 +194,8 @@
     "type": "传统光影",
     "status": "-",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "019",
@@ -205,8 +205,8 @@
     "type": "传统光影/网易后处理光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群905229872",
-    "link": ""
+    "platform": "QQ群905229872",
+    "platform_link": ""
   },
   {
     "id": "020",
@@ -216,8 +216,8 @@
     "type": "传统光影",
     "status": "-",
     "price": "免费",
-    "link_platform": "QQ群1104134082",
-    "link": ""
+    "platform": "QQ群1104134082",
+    "platform_link": ""
   },
   {
     "id": "021",
@@ -227,8 +227,8 @@
     "type": "传统光影/网易后处理光影/渲染龙光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群742477395",
-    "link": ""
+    "platform": "QQ群742477395",
+    "platform_link": ""
   },
   {
     "id": "022",
@@ -238,8 +238,8 @@
     "type": "传统光影",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "QQ群974582279",
-    "link": ""
+    "platform": "QQ群974582279",
+    "platform_link": ""
   },
   {
     "id": "023",
@@ -249,7 +249,7 @@
     "type": "传统光影/后处理光影",
     "status": "不定期更新",
     "price": "免费",
-    "link_platform": "QQ群338427603",
-    "link": ""
+    "platform": "QQ群338427603",
+    "platform_link": ""
   }
 ]

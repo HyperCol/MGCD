@@ -6,8 +6,8 @@
     "style": "-",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "爱发电",
-    "link": "https://afdian.net/@oakghost"
+    "platform": "爱发电",
+    "platform_link": "https://afdian.net/@oakghost"
   },
   {
     "id": "002",
@@ -16,8 +16,8 @@
     "style": "写实",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "003",
@@ -26,8 +26,8 @@
     "style": "原版高清 - RTX",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "004",
@@ -36,8 +36,8 @@
     "style": "卡通",
     "status": "暂停更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "005",
@@ -46,8 +46,8 @@
     "style": "模型 - RTX - 现代",
     "status": "正常更新",
     "price": "RMB 10.00",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "006",
@@ -56,8 +56,8 @@
     "style": "现代",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "007",
@@ -66,8 +66,8 @@
     "style": "卡通",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "百度网盘",
-    "link": "https://pan.baidu.com/s/1UUb5qFBOeyYTUggutVtxpg?pwd=76dt"
+    "platform": "百度网盘",
+    "platform_link": "https://pan.baidu.com/s/1UUb5qFBOeyYTUggutVtxpg?pwd=76dt"
   },
   {
     "id": "008",
@@ -76,8 +76,8 @@
     "style": "原版高清",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "009",
@@ -86,8 +86,8 @@
     "style": "3D 立体",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "010",
@@ -96,8 +96,8 @@
     "style": "3D 立体",
     "status": "暂停更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "011",
@@ -106,8 +106,8 @@
     "style": "-",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "012",
@@ -116,8 +116,8 @@
     "style": "四合一PBR - 原版",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "013",
@@ -126,8 +126,8 @@
     "style": "-",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "014",
@@ -136,8 +136,8 @@
     "style": "卡通",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "哔哩哔哩",
-    "link": "https://b23.tv/e6euFN"
+    "platform": "哔哩哔哩",
+    "platform_link": "https://b23.tv/e6euFN"
   },
   {
     "id": "015",
@@ -146,8 +146,8 @@
     "style": "原版高清",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "016",
@@ -156,8 +156,8 @@
     "style": "四合一/APBR - 原版",
     "status": "正常更新",
     "price": "RMB 6.00",
-    "link_platform": "爱发电",
-    "link": "https://afdian.net/@Fogg05"
+    "platform": "爱发电",
+    "platform_link": "https://afdian.net/@Fogg05"
   },
   {
     "id": "017",
@@ -166,8 +166,8 @@
     "style": "四合一PBR - 写实",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "MCBBS",
-    "link": "https://www.mcbbs.net/thread-1241007-1-1html"
+    "platform": "MCBBS",
+    "platform_link": "https://www.mcbbs.net/thread-1241007-1-1html"
   },
   {
     "id": "018",
@@ -176,8 +176,8 @@
     "style": "-",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "019",
@@ -186,8 +186,8 @@
     "style": "原版高清",
     "status": "正常更新",
     "price": "-",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "020",
@@ -196,8 +196,8 @@
     "style": "卡通",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "021",
@@ -206,8 +206,8 @@
     "style": "原版",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "022",
@@ -216,8 +216,8 @@
     "style": "-",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "023",
@@ -226,8 +226,8 @@
     "style": "写实",
     "status": "正常更新",
     "price": "RMB 8.00",
-    "link_platform": "作品官网",
-    "link": "http://xiaofaneric.com/"
+    "platform": "作品官网",
+    "platform_link": "http://xiaofaneric.com/"
   },
   {
     "id": "024",
@@ -236,8 +236,8 @@
     "style": "PVP",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "025",
@@ -246,8 +246,8 @@
     "style": "3D立体",
     "status": "停止更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "026",
@@ -256,8 +256,8 @@
     "style": "3D立体",
     "status": "暂停更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "027",
@@ -266,8 +266,8 @@
     "style": "四合一PBR - 原版",
     "status": "开发中",
     "price": "",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "028",
@@ -276,8 +276,8 @@
     "style": "原版高清",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "029",
@@ -286,8 +286,8 @@
     "style": "四合一PBR - 写实",
     "status": "正常更新",
     "price": "RMB 5.00",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "030",
@@ -296,8 +296,8 @@
     "style": "写实",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "031",
@@ -306,8 +306,8 @@
     "style": "原版",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "032",
@@ -316,8 +316,8 @@
     "style": "原版",
     "status": "停止更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "033",
@@ -326,8 +326,8 @@
     "style": "原版",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "034",
@@ -336,8 +336,8 @@
     "style": "魔幻",
     "status": "开发中",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "035",
@@ -346,8 +346,8 @@
     "style": "原版",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "",
-    "link": ""
+    "platform": "",
+    "platform_link": ""
   },
   {
     "id": "036",
@@ -356,8 +356,8 @@
     "style": "卡通",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "MCBBS",
-    "link": "https://www.mcbbs.net/thread-1035869-1-1.html"
+    "platform": "MCBBS",
+    "platform_link": "https://www.mcbbs.net/thread-1035869-1-1.html"
   },
   {
     "id": "037",
@@ -366,7 +366,7 @@
     "style": "卡通",
     "status": "正常更新",
     "price": "免费",
-    "link_platform": "苦力怕论坛",
-    "link": "https://klpbbs.com/thread-30816-1-1.html"
+    "platform": "苦力怕论坛",
+    "platform_link": "https://klpbbs.com/thread-30816-1-1.html"
   }
 ]
