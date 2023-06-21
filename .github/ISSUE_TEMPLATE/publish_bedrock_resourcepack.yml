@@ -1,7 +1,7 @@
 name: 投稿Bedrock材质
-title: "ResourcePackage: {name}"
+title: "ResourcePack: {name}"
 description: 投稿Bedrock材质到文档作品列表
-labels: [ "Bedrock ResourcePackage" ]
+labels: [ "Bedrock ResourcePack" ]
 body:
   - type: input
     id: name
