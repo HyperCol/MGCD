@@ -10,7 +10,7 @@
         <th style="width: 3em;">状态</th>
         <th>价格</th>
         <th>平台</th>
-        <th v-if="this.work_type === 'java_shader' || work_type === 'java_resourcepack'">手册</th>
+        <th v-if="work_type === 'java_shader' || work_type === 'java_resourcepack'">手册</th>
       </tr>
       </thead>
       <tbody>
@@ -22,7 +22,7 @@
         <td>{{ item.status }}</td>
         <td>{{ item.price }}</td>
         <td><a :href="item.platform_link">{{ item.platform }}</a></td>
-        <td v-if="this.work_type === 'java_shader' || work_type === 'java_resourcepack'">
+        <td v-if="work_type === 'java_shader' || work_type === 'java_resourcepack'">
           <a :href="item.guide_link">{{ item.guide }}</a>
         </td>
       </tr>
