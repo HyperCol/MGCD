@@ -8,16 +8,33 @@
 
 @media(max-width: 959px) {
     .page {
-        padding-left: var(--sidebar-width-mobile)
+        padding-left: var(--sidebar-width-mobile);
     }
 }
 
 @media(max-width: 719px) {
     .page {
-        padding-left: 0
+        padding-left: 0;
     }
 }
 
+.page .theme-default-content {
+    max-width: 900px;
+}
+
+@media(max-width: 959px) {
+    .page .theme-default-content {
+        padding:2rem;
+        max-width: var(--content-width);
+    }
+}
+
+@media(max-width: 419px) {
+    .page .theme-default-content {
+        padding:1.5rem;
+        max-width: var(--content-width);
+    }
+}
 </style>
 
 注：本表格仅记录国内光影。国外光影请前往：[ShaderLABS Wiki](https://wiki.shaderlabs.org/wiki/Shaderpacks)
