@@ -21,7 +21,7 @@
         <td>{{ item.style }}</td>
         <td>{{ item.status }}</td>
         <td>{{ item.price }}</td>
-        <td><a :href="item.link">{{ item.link_platform }}</a></td>
+        <td><a :href="item.platform_link">{{ item.platform }}</a></td>
         <td><a :href="item.guide_link">{{ item.guide }}</a></td>
       </tr>
       </tbody>
@@ -36,11 +36,10 @@ import jsonData from '../works_json/java_shaders.json'
 export default {
   data() {
     return {
-      data: [] // 存储从 JSON 中读取的数据
+      data: []
     };
   },
   mounted() {
-    // 模拟从 JSON 中读取数据
     this.data = jsonData;
   }
 };
@@ -48,7 +47,7 @@ export default {
 
 <style scoped>
 .custom-table {
-  text-align: center; /* 设置表格中所有内容居中对齐 */
+  text-align: center;
 }
 
 .custom-table th, .custom-table td {
