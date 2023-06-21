@@ -1,5 +1,25 @@
 # Java版光影包
 
+<style>
+.page {
+    padding-top: var(--navbar-height);
+    padding-left: 50px;
+}
+
+@media(max-width: 959px) {
+    .page {
+        padding-left: var(--sidebar-width-mobile)
+    }
+}
+
+@media(max-width: 719px) {
+    .page {
+        padding-left: 0
+    }
+}
+
+</style>
+
 注：本表格仅记录国内光影。国外光影请前往：[ShaderLABS Wiki](https://wiki.shaderlabs.org/wiki/Shaderpacks)
 
 部分光影在此文档中含有使用指南，可前往 [Java版光影使用指南](../instructions/java_shaders/) 查看
