@@ -1,35 +1,59 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <div>
+  <div style="text-align: center">
     <button @click="openForm" class="code-button">投稿</button>
-
-    <form v-if="showForm" class="overlay" @click.self="closeForm">
-      <div class="form-container">
-
-        名称 <input type="text" ref="name"/><br/>
-        作者 <input type="text" ref="author"/><br/>
-        风格 <input type="text" ref="style"/><br/>
-        状态 <input type="text" ref="status"/><br/>
-        价格 <input type="text" ref="price"/><br/>
-        平台 <input type="text" ref="platform"/><br/>
-        平台链接 <input type="text" ref="platform_link"/><br/>
-
-        <span v-if="this.work_type === 'java_shader' || work_type === 'java_resourcepack'">
-          手册 <input type="text" ref="guide"/><br/>
-        </span>
-        <span v-if="this.work_type === 'java_shader' || work_type === 'java_resourcepack'">
-          手册链接 <input type="text" ref="guide_link"/><br/>
-        </span>
-
-        <button @click="submitForm" type="submit" class="code-button">提交</button>
-
-      </div>
-    </form>
-
   </div>
+
+  <form v-if="showForm" class="overlay" @click.self="closeForm">
+    <div class="form-container">
+      <label>名称：</label>
+      <input type="text" ref="name" />
+      <br />
+      <label>作者：</label>
+      <input type="text" ref="author" />
+      <br />
+      <label>风格：</label>
+      <input type="text" ref="style" />
+      <br />
+      <label>状态：</label>
+      <input type="text" ref="status" />
+      <br />
+      <label>价格：</label>
+      <input type="text" ref="price" />
+      <br />
+      <label>平台：</label>
+      <input type="text" ref="platform" />
+      <br />
+      <label>平台链接：</label>
+      <input type="text" ref="platform_link" />
+      <br />
+
+      <span
+        v-if="
+          this.work_type === 'java_shader' || work_type === 'java_resourcepack'
+        "
+      >
+        <label>手册：</label>
+        <input type="text" ref="guide" />
+        <br />
+      </span>
+      <span
+        v-if="
+          this.work_type === 'java_shader' || work_type === 'java_resourcepack'
+        "
+      >
+        <label>手册链接：</label>
+        <input type="text" ref="guide_link" />
+        <br />
+      </span>
+
+      <button @click="submitForm" type="submit" class="code-button">
+        提交
+      </button>
+    </div>
+  </form>
 </template>
 
 <style>
-
 .overlay {
   position: fixed;
   top: 0;
@@ -43,27 +67,42 @@
 }
 
 .form-container {
+  width: 300px;
   background-color: white;
   padding: 3em;
+  text-align: center;
+}
+
+.form-container label {
+  display: inline-block;
+  width: 80px;
 }
 
 .form-container input {
-  width: 100%;
+  width: 200px;
   padding: 0.5em;
   margin-bottom: 1em;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: 0 solid #efefef;
+  background-color: #f3f4f5;
 }
 
 .code-button {
   background-color: rgb(254, 168, 21);
+  transition: background-color 0.3s ease-in-out;
   color: white;
   border: none;
   padding: 1em 2em;
   border-radius: 4px;
   cursor: pointer;
-  width: 100%;
+  width: 300px;
+  scroll-behavior: smooth;
 }
 
-
+.code-button:hover {
+  background-color: #fbc420;
+}
 </style>
 
 <script>
@@ -71,15 +110,15 @@ export default {
   props: {
     work_type: {
       type: String,
-      required: true
+      required: true,
     },
     label_name: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
-    return {showForm: false};
+    return { showForm: false };
   },
   methods: {
     openForm() {
@@ -103,9 +142,23 @@ export default {
       const template = `publish_${this.work_type}.yml`;
       const title = `Shader: ${name}`;
 
-      const url = `https://github.com/HyperCol/MGCD/issues/new?&labels=${this.label_name}&projects=&template=${template}&title=${encodeURIComponent(title)}&name=${encodeURIComponent(name)}&author=${encodeURIComponent(author)}&style=${encodeURIComponent(style)}&status=${encodeURIComponent(status)}&price=${encodeURIComponent(price)}&platform=${encodeURIComponent(platform)}&platform_link=${encodeURIComponent(platform_link)}&guide=${encodeURIComponent(guide)}&guide_link=${encodeURIComponent(guide_link)}`;
+      const url = `https://github.com/HyperCol/MGCD/issues/new?&labels=${
+        this.label_name
+      }&projects=&template=${template}&title=${encodeURIComponent(
+        title
+      )}&name=${encodeURIComponent(name)}&author=${encodeURIComponent(
+        author
+      )}&style=${encodeURIComponent(style)}&status=${encodeURIComponent(
+        status
+      )}&price=${encodeURIComponent(price)}&platform=${encodeURIComponent(
+        platform
+      )}&platform_link=${encodeURIComponent(
+        platform_link
+      )}&guide=${encodeURIComponent(guide)}&guide_link=${encodeURIComponent(
+        guide_link
+      )}`;
 
-      window.open(url)
+      window.open(url);
 
       // 关闭表单
       this.closeForm();
