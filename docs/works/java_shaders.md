@@ -4,6 +4,8 @@
 
 部分光影在此文档中含有使用指南，可前往 [Java版光影使用指南](../instructions/java_shaders/) 查看
 
+同时欢迎新的开发者前来投稿！
+
 <SubmitWork :work_type="'java_shader'" :label_name="'Java Shader'"></SubmitWork>
 
 <WorkTable :work_type="'java_shader'"></WorkTable>
