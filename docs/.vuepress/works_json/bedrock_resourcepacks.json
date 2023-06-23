@@ -1,6 +1,6 @@
 [
   {
-    "id": "001",
+    "id": 1,
     "name": "BensonStory",
     "author": "阿南",
     "style": "-",
@@ -10,7 +10,7 @@
     "platform_link": "https://afdian.net/@oakghost"
   },
   {
-    "id": "002",
+    "id": 2,
     "name": "CambrianArt",
     "author": "【莫語浮生】",
     "style": "写实",
@@ -20,7 +20,7 @@
     "platform_link": ""
   },
   {
-    "id": "003",
+    "id": 3,
     "name": "Canvas 原版高清",
     "author": "Bugjump",
     "style": "原版高清 - RTX",
@@ -30,7 +30,7 @@
     "platform_link": ""
   },
   {
-    "id": "004",
+    "id": 4,
     "name": "EVBE材质",
     "author": "GoldPPX",
     "style": "卡通",
@@ -40,7 +40,7 @@
     "platform_link": ""
   },
   {
-    "id": "005",
+    "id": 5,
     "name": "IT-Project-基岩版",
     "author": "Flashtt",
     "style": "模型 - RTX - 现代",
@@ -50,7 +50,7 @@
     "platform_link": ""
   },
   {
-    "id": "006",
+    "id": 6,
     "name": "Keep improving · 现代材质",
     "author": "NintHencz",
     "style": "现代",
@@ -60,7 +60,7 @@
     "platform_link": ""
   },
   {
-    "id": "007",
+    "id": 7,
     "name": "PIXEL TEXTURES",
     "author": "听雨的鱼FISH",
     "style": "卡通",
@@ -70,7 +70,7 @@
     "platform_link": "https://pan.baidu.com/s/1UUb5qFBOeyYTUggutVtxpg?pwd=76dt"
   },
   {
-    "id": "008",
+    "id": 8,
     "name": "R3D DR",
     "author": "EnderXu",
     "style": "原版高清",
@@ -80,7 +80,7 @@
     "platform_link": ""
   },
   {
-    "id": "009",
+    "id": 9,
     "name": "S3D",
     "author": "仰望星空",
     "style": "3D 立体",
@@ -90,7 +90,7 @@
     "platform_link": ""
   },
   {
-    "id": "010",
+    "id": 10,
     "name": "T3D（TY3D）",
     "author": "淡",
     "style": "3D 立体",
@@ -100,7 +100,7 @@
     "platform_link": ""
   },
   {
-    "id": "011",
+    "id": 11,
     "name": "TBC纹理包",
     "author": "瀧天遗迹",
     "style": "-",
@@ -110,7 +110,7 @@
     "platform_link": ""
   },
   {
-    "id": "012",
+    "id": 12,
     "name": "Texnry Texture",
     "author": "花开富贵",
     "style": "四合一PBR - 原版",
@@ -120,7 +120,7 @@
     "platform_link": ""
   },
   {
-    "id": "013",
+    "id": 13,
     "name": "Undeliverable Texture（UETE）",
     "author": "tgdmin",
     "style": "-",
@@ -130,7 +130,7 @@
     "platform_link": ""
   },
   {
-    "id": "014",
+    "id": 14,
     "name": "XeKr材质包BE",
     "author": "茶匙",
     "style": "卡通",
@@ -140,7 +140,7 @@
     "platform_link": "https://b23.tv/e6euFN"
   },
   {
-    "id": "015",
+    "id": 15,
     "name": "Volume Pixel",
     "author": "是我信念哒！",
     "style": "原版高清",
@@ -150,7 +150,7 @@
     "platform_link": ""
   },
   {
-    "id": "016",
+    "id": 16,
     "name": "立方构想",
     "author": "Fogg05",
     "style": "四合一/APBR - 原版",
@@ -160,7 +160,7 @@
     "platform_link": "https://afdian.net/@Fogg05"
   },
   {
-    "id": "017",
+    "id": 17,
     "name": "秦 · 四合一",
     "author": "金丹哦",
     "style": "四合一PBR - 写实",
@@ -170,7 +170,7 @@
     "platform_link": "https://www.mcbbs.net/thread-1241007-1-1html"
   },
   {
-    "id": "018",
+    "id": 18,
     "name": "像素概念",
     "author": "鱼十六",
     "style": "-",
@@ -180,7 +180,7 @@
     "platform_link": ""
   },
   {
-    "id": "019",
+    "id": 19,
     "name": "Square",
     "author": "Zhaomaoniu",
     "style": "原版高清",
@@ -190,7 +190,7 @@
     "platform_link": ""
   },
   {
-    "id": "020",
+    "id": 20,
     "name": "中规中矩",
     "author": "基拉韦厄",
     "style": "卡通",
@@ -200,7 +200,7 @@
     "platform_link": ""
   },
   {
-    "id": "021",
+    "id": 21,
     "name": "oCd续更",
     "author": "Aijienlement",
     "style": "原版",
@@ -210,7 +210,7 @@
     "platform_link": ""
   },
   {
-    "id": "022",
+    "id": 22,
     "name": "简--世界资源包",
     "author": "憨憨小Z",
     "style": "-",
@@ -220,7 +220,7 @@
     "platform_link": ""
   },
   {
-    "id": "023",
+    "id": 23,
     "name": "XEHD BE",
     "author": "小凡Eric",
     "style": "写实",
@@ -230,7 +230,7 @@
     "platform_link": "http://xiaofaneric.com/"
   },
   {
-    "id": "024",
+    "id": 24,
     "name": "LDBE材质",
     "author": "light van",
     "style": "PVP",
@@ -240,7 +240,7 @@
     "platform_link": ""
   },
   {
-    "id": "025",
+    "id": 25,
     "name": "T3D",
     "author": "淡",
     "style": "3D立体",
@@ -250,7 +250,7 @@
     "platform_link": ""
   },
   {
-    "id": "026",
+    "id": 26,
     "name": "L3D",
     "author": "流年",
     "style": "3D立体",
@@ -260,7 +260,7 @@
     "platform_link": ""
   },
   {
-    "id": "027",
+    "id": 27,
     "name": "原版视差",
     "author": "millk",
     "style": "四合一PBR - 原版",
@@ -270,7 +270,7 @@
     "platform_link": ""
   },
   {
-    "id": "028",
+    "id": 28,
     "name": "乘方像素",
     "author": "邹陈云飞",
     "style": "原版高清",
@@ -280,7 +280,7 @@
     "platform_link": ""
   },
   {
-    "id": "029",
+    "id": 29,
     "name": "Misaka's Texutre · 四合一",
     "author": "Misaka9217",
     "style": "四合一PBR - 写实",
@@ -290,7 +290,7 @@
     "platform_link": ""
   },
   {
-    "id": "030",
+    "id": 30,
     "name": "纸绘工艺",
     "author": "茫帛",
     "style": "写实",
@@ -300,7 +300,7 @@
     "platform_link": ""
   },
   {
-    "id": "031",
+    "id": 31,
     "name": "8x Default+",
     "author": "SamXU1322",
     "style": "原版",
@@ -310,7 +310,7 @@
     "platform_link": ""
   },
   {
-    "id": "032",
+    "id": 32,
     "name": "primary 3D",
     "author": "温煦和风",
     "style": "原版",
@@ -320,7 +320,7 @@
     "platform_link": ""
   },
   {
-    "id": "033",
+    "id": 33,
     "name": "原版护眼&功能材质",
     "author": "淡",
     "style": "原版",
@@ -330,7 +330,7 @@
     "platform_link": ""
   },
   {
-    "id": "034",
+    "id": 34,
     "name": "ARSC纹理包",
     "author": "ElePrC",
     "style": "魔幻",
@@ -340,7 +340,7 @@
     "platform_link": ""
   },
   {
-    "id": "035",
+    "id": 35,
     "name": "Y3D",
     "author": "云生结影",
     "style": "原版",
@@ -350,7 +350,7 @@
     "platform_link": ""
   },
   {
-    "id": "036",
+    "id": 36,
     "name": "oCd Pack Modified by Aijienlement",
     "author": "Aijienlement",
     "style": "卡通",
@@ -360,7 +360,7 @@
     "platform_link": "https://www.mcbbs.net/thread-1035869-1-1.html"
   },
   {
-    "id": "037",
+    "id": 37,
     "name": "oCd Pack Replaced",
     "author": "EscapeBacteia",
     "style": "卡通",

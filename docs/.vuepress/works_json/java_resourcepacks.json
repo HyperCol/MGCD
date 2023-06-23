@@ -1,6 +1,6 @@
 [
   {
-    "id": "001",
+    "id": 1,
     "name": "Minecraft Designer 系列",
     "author": "鱼神Fishzera",
     "style": "PBR - 写实",
@@ -12,7 +12,7 @@
     "guide_link": ""
   },
   {
-    "id": "002",
+    "id": 2,
     "name": "春意材质",
     "author": "中影ZY",
     "style": "田园清新",
@@ -24,7 +24,7 @@
     "guide_link": "/instructions/java_resourcepacks/"
   },
   {
-    "id": "003",
+    "id": 3,
     "name": "幻梦 Texture",
     "author": "COHK晨哦凯",
     "style": "PBR - 卡通漫画",
@@ -36,7 +36,7 @@
     "guide_link": ""
   },
   {
-    "id": "004",
+    "id": 4,
     "name": "秦",
     "author": "金丹哦",
     "style": "PBR - 写实",
@@ -48,7 +48,7 @@
     "guide_link": "/instructions/java_resourcepacks/qin.html"
   },
   {
-    "id": "005",
+    "id": 5,
     "name": "唐",
     "author": "金丹哦",
     "style": "-",
@@ -60,7 +60,7 @@
     "guide_link": ""
   },
   {
-    "id": "006",
+    "id": 6,
     "name": "3D Default",
     "author": "GeForceLegend",
     "style": "模型 - 原版像素",
@@ -72,7 +72,7 @@
     "guide_link": ""
   },
   {
-    "id": "007",
+    "id": 7,
     "name": "BlockPixel - 方块概念材质",
     "author": "Jakob.zero",
     "style": "卡通",
@@ -84,7 +84,7 @@
     "guide_link": ""
   },
   {
-    "id": "008",
+    "id": 8,
     "name": "GridPixel - 方格概念材质",
     "author": "Jakob.zero",
     "style": "卡通",
@@ -96,7 +96,7 @@
     "guide_link": ""
   },
   {
-    "id": "009",
+    "id": 9,
     "name": "Benson Story",
     "author": "阿南",
     "style": "-",
@@ -108,7 +108,7 @@
     "guide_link": ""
   },
   {
-    "id": "010",
+    "id": 10,
     "name": "imitation of nature",
     "author": "阿南",
     "style": "PBR - 写实",
@@ -120,7 +120,7 @@
     "guide_link": ""
   },
   {
-    "id": "011",
+    "id": 11,
     "name": "Canvas 原版高清",
     "author": "Bugjump&Gealx3",
     "style": "原版高清",
@@ -132,7 +132,7 @@
     "guide_link": ""
   },
   {
-    "id": "012",
+    "id": 12,
     "name": "IT-Project",
     "author": "Flashtt",
     "style": "模型 - 现代",
@@ -144,7 +144,7 @@
     "guide_link": "/instructions/java_resourcepacks/itp.html"
   },
   {
-    "id": "013",
+    "id": 13,
     "name": "Inception",
     "author": "巷尾",
     "style": "PBR - 现代",
@@ -156,7 +156,7 @@
     "guide_link": ""
   },
   {
-    "id": "014",
+    "id": 14,
     "name": "神秘材质",
     "author": "渃江TACG",
     "style": "未来",
@@ -168,7 +168,7 @@
     "guide_link": ""
   },
   {
-    "id": "015",
+    "id": 15,
     "name": "Midgart纹理",
     "author": "Pixel_Lancaster",
     "style": "卡通",
@@ -180,7 +180,7 @@
     "guide_link": ""
   },
   {
-    "id": "016",
+    "id": 16,
     "name": "Misaka's Texture",
     "author": "Misaka9217",
     "style": "PBR - 写实",
@@ -192,7 +192,7 @@
     "guide_link": "/instructions/java_resourcepacks/mtp.html"
   },
   {
-    "id": "017",
+    "id": 17,
     "name": "PBR - MaterRoughness",
     "author": "MLDXRI",
     "style": "PBR - 原版",
@@ -204,7 +204,7 @@
     "guide_link": ""
   },
   {
-    "id": "018",
+    "id": 18,
     "name": "Realistic fantasy 3D V15 END",
     "author": "冷风AD",
     "style": "PBR - 写实",
@@ -216,7 +216,7 @@
     "guide_link": ""
   },
   {
-    "id": "019",
+    "id": 19,
     "name": "Surreal 3D",
     "author": "Scarf",
     "style": "PBR - 原版高清",
@@ -228,7 +228,7 @@
     "guide_link": ""
   },
   {
-    "id": "020",
+    "id": 20,
     "name": "TBC",
     "author": "瀧天遗迹",
     "style": "原版",
@@ -240,7 +240,7 @@
     "guide_link": ""
   },
   {
-    "id": "021",
+    "id": 21,
     "name": "TMEO",
     "author": "TMEO丶",
     "style": "模型 - 现代高清",
@@ -252,7 +252,7 @@
     "guide_link": "/instructions/java_resourcepacks/tmeo.html"
   },
   {
-    "id": "022",
+    "id": 22,
     "name": "XEHD",
     "author": "小凡Eric",
     "style": "PBR - 写实",
@@ -264,7 +264,7 @@
     "guide_link": "http://xiaofaneric.com/cn/?page_id=1066"
   },
   {
-    "id": "023",
+    "id": 23,
     "name": "NUANCED VOXEL",
     "author": "Mr_RUA",
     "style": "模型 - 现代",
@@ -276,7 +276,7 @@
     "guide_link": ""
   },
   {
-    "id": "024",
+    "id": 24,
     "name": "英华灼灼",
     "author": "静谧在秋雨中的妖姬",
     "style": "PBR - 中式写实",
@@ -288,7 +288,7 @@
     "guide_link": ""
   },
   {
-    "id": "025",
+    "id": 25,
     "name": "零雾构想系列",
     "author": "Fogg05",
     "style": "PBR - 原版",
@@ -300,7 +300,7 @@
     "guide_link": "/instructions/java_resourcepacks/05.html"
   },
   {
-    "id": "026",
+    "id": 26,
     "name": "乘方像素",
     "author": "邹陈云飞",
     "style": "原版高清",
@@ -312,7 +312,7 @@
     "guide_link": ""
   },
   {
-    "id": "027",
+    "id": 27,
     "name": "Synesthesia",
     "author": "龙鳞 无血",
     "style": "卡通",
@@ -324,7 +324,7 @@
     "guide_link": ""
   },
   {
-    "id": "028",
+    "id": 28,
     "name": "Extremely Realistic 2048x（ER2K）",
     "author": "钦",
     "style": "PBR - 写实",
@@ -336,7 +336,7 @@
     "guide_link": ""
   },
   {
-    "id": "029",
+    "id": 29,
     "name": "REaLIFE",
     "author": "Duke__",
     "style": "PBR - 写实",
@@ -348,7 +348,7 @@
     "guide_link": ""
   },
   {
-    "id": "030",
+    "id": 30,
     "name": "8x Default+",
     "author": "SamXU1322",
     "style": "原版",
@@ -360,7 +360,7 @@
     "guide_link": ""
   },
   {
-    "id": "031",
+    "id": 31,
     "name": "VHPT",
     "author": "tgdmin",
     "style": "PBR - 原版",
@@ -372,7 +372,7 @@
     "guide_link": ""
   },
   {
-    "id": "032",
+    "id": 32,
     "name": "墨鱼重工系列",
     "author": "墨鱼鱼酱",
     "style": "MoYuYuPrime",
@@ -384,7 +384,7 @@
     "guide_link": "https://unicorni72.lanzouw.com/s/myzg-resourcepacks"
   },
   {
-    "id": "033",
+    "id": 33,
     "name": "SPBR",
     "author": "𝙎𝙝𝙪𝙡𝙠𝙚𝙧",
     "style": "PBR - 原版",
@@ -396,7 +396,7 @@
     "guide_link": ""
   },
   {
-    "id": "034",
+    "id": 34,
     "name": "小困超高清材质包",
     "author": "从早困到晚",
     "style": "PBR - 写实&梦幻",
@@ -408,7 +408,7 @@
     "guide_link": ""
   },
   {
-    "id": "035",
+    "id": 35,
     "name": "DoubleCraft",
     "author": "Cazes-",
     "style": "模型 - 原版",
@@ -420,7 +420,7 @@
     "guide_link": ""
   },
   {
-    "id": "036",
+    "id": 36,
     "name": "UPBRT",
     "author": "Cazes-",
     "style": "PBR - 原版",
@@ -432,7 +432,7 @@
     "guide_link": ""
   },
   {
-    "id": "037",
+    "id": 37,
     "name": "花园梦香材质包",
     "author": "花环BH",
     "style": "卡通",
@@ -444,7 +444,7 @@
     "guide_link": ""
   },
   {
-    "id": "038",
+    "id": 38,
     "name": "oCd Pack Modified by Aijienlement",
     "author": "Aijienlement",
     "style": "卡通",
@@ -456,7 +456,7 @@
     "guide_link": ""
   },
   {
-    "id": "039",
+    "id": 39,
     "name": "梧桐材质",
     "author": "药水棒冰",
     "style": "原版",

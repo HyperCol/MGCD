@@ -1,6 +1,6 @@
 [
   {
-    "id": "001",
+    "id": 1,
     "name": "ABC Shader",
     "author": "闲事杂谈",
     "style": "写实",
@@ -11,7 +11,7 @@
     "platform_link": ""
   },
   {
-    "id": "002",
+    "id": 2,
     "name": "ASPE",
     "author": "浅夏",
     "style": "-",
@@ -22,7 +22,7 @@
     "platform_link": ""
   },
   {
-    "id": "003",
+    "id": 3,
     "name": "BAPE",
     "author": "湖边的渔夫",
     "style": "原版",
@@ -33,7 +33,7 @@
     "platform_link": ""
   },
   {
-    "id": "004",
+    "id": 4,
     "name": "CGPE",
     "author": "风度儿",
     "style": "写实",
@@ -44,7 +44,7 @@
     "platform_link": ""
   },
   {
-    "id": "005",
+    "id": 5,
     "name": "Charity Shader - 澄筱光影",
     "author": "黯筱",
     "style": "原版",
@@ -55,7 +55,7 @@
     "platform_link": ""
   },
   {
-    "id": "006",
+    "id": 6,
     "name": "COLACAPE - 高乐高光影",
     "author": "乐高密",
     "style": "梦幻",
@@ -66,7 +66,7 @@
     "platform_link": ""
   },
   {
-    "id": "007",
+    "id": 7,
     "name": "CSPE - 苦力怕光影",
     "author": "氯皮怪",
     "style": "写实",
@@ -77,7 +77,7 @@
     "platform_link": ""
   },
   {
-    "id": "008",
+    "id": 8,
     "name": "DSPE",
     "author": "关于本人",
     "style": "梦幻",
@@ -88,7 +88,7 @@
     "platform_link": ""
   },
   {
-    "id": "009",
+    "id": 9,
     "name": "EBPE",
     "author": "晚风",
     "style": "半写实",
@@ -99,7 +99,7 @@
     "platform_link": ""
   },
   {
-    "id": "010",
+    "id": 10,
     "name": "FMDS",
     "author": "Fly My Dream",
     "style": "写实",
@@ -110,7 +110,7 @@
     "platform_link": ""
   },
   {
-    "id": "011",
+    "id": 11,
     "name": "GSPE",
     "author": "NTE然后呢",
     "style": "梦幻",
@@ -121,7 +121,7 @@
     "platform_link": ""
   },
   {
-    "id": "012",
+    "id": 12,
     "name": "HSPE",
     "author": "滑稽菌",
     "style": "梦幻",
@@ -132,7 +132,7 @@
     "platform_link": ""
   },
   {
-    "id": "013",
+    "id": 13,
     "name": "ISPE",
     "author": "墨鸽",
     "style": "原版",
@@ -143,7 +143,7 @@
     "platform_link": ""
   },
   {
-    "id": "014",
+    "id": 14,
     "name": "Origin Shader",
     "author": "linlin",
     "style": "写实",
@@ -154,7 +154,7 @@
     "platform_link": "https://github.com/origin0110/OriginShader"
   },
   {
-    "id": "015",
+    "id": 15,
     "name": "ReShader - 重生光影",
     "author": "老楚",
     "style": "梦幻",
@@ -165,7 +165,7 @@
     "platform_link": ""
   },
   {
-    "id": "016",
+    "id": 16,
     "name": "REJS",
     "author": "Huloud",
     "style": "原版",
@@ -176,7 +176,7 @@
     "platform_link": ""
   },
   {
-    "id": "017",
+    "id": 17,
     "name": "Skyrim Shader - 天际光影",
     "author": "黄蓝",
     "style": "原版",
@@ -187,7 +187,7 @@
     "platform_link": ""
   },
   {
-    "id": "018",
+    "id": 18,
     "name": "SRVE",
     "author": "红火",
     "style": "-",
@@ -198,7 +198,7 @@
     "platform_link": ""
   },
   {
-    "id": "019",
+    "id": 19,
     "name": "Vortex Shader",
     "author": "Vortex",
     "style": "写实",
@@ -209,7 +209,7 @@
     "platform_link": ""
   },
   {
-    "id": "020",
+    "id": 20,
     "name": "XSPE",
     "author": "缩缩",
     "style": "-",
@@ -220,7 +220,7 @@
     "platform_link": ""
   },
   {
-    "id": "021",
+    "id": 21,
     "name": "YSS - 岁月静好光影",
     "author": "只问为何",
     "style": "梦幻",
@@ -231,7 +231,7 @@
     "platform_link": ""
   },
   {
-    "id": "022",
+    "id": 22,
     "name": "MYNS",
     "author": "Kaimiao",
     "style": "原版",
@@ -242,7 +242,7 @@
     "platform_link": ""
   },
   {
-    "id": "023",
+    "id": 23,
     "name": "AUSH",
     "author": "立白",
     "style": "原版",
