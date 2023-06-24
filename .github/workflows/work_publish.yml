@@ -31,5 +31,5 @@ jobs:
           body: |
             New Work: ${{ github.event.issue.title }}"
           branch: work-issue-${{ github.event.issue.number }}
-          base: main
+          base: master
           labels: ${{ join(github.event.issue.labels.*.name, ',') }}
