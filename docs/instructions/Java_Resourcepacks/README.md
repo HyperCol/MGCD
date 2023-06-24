@@ -84,7 +84,7 @@
 
 ## 进阶基础知识
 
-[MGC 大众科普](../../science/resourcepacks.md)
+[MGC 大众科普](../../science/resourcepacks_compatibility.md)
 
 ---
 
