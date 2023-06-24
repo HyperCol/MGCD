@@ -13,6 +13,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Check Labels
+        if: |
+          !(contains(github.event.pull_request.labels.*.name, 'Java Shader') ||
+          contains(github.event.pull_request.labels.*.name, 'Java ResourcePack') ||
+          contains(github.event.pull_request.labels.*.name, 'Bedrock Shader') ||
+          contains(github.event.pull_request.labels.*.name, 'Bedrock ResourcePack'))
+        run: exit 0
+
       - name: Run JavaScript
         env:
           WORK_INFO: ${{ runner.workspace }}/.env
