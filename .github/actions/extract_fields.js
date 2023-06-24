@@ -60,7 +60,7 @@ async function extractFields() {
         break;
       } else {
         console.log('Labels not need');
-        process.exit(1);
+        process.exit(0);
       }
     }
 
