@@ -1,1 +1,0 @@
-import{_ as o,r,o as s,c,d as t,a as e,b as d}from"./app-67798263.js";const n={},_=e("h1",{id:"基岩版光影包",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#基岩版光影包","aria-hidden":"true"},"#"),d(" 基岩版光影包")],-1);function h(l,i){const a=r("BedRockShadersTable");return s(),c("div",null,[_,t(a)])}const m=o(n,[["render",h],["__file","bedrock_shaders.html.vue"]]);export{m as default};
