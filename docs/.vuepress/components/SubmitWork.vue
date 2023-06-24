@@ -140,7 +140,7 @@ export default {
       const guide_link = this.$refs.guide_link.value;
 
       const template = `publish_${this.work_type}.yml`;
-      const title = `Shader: ${name}`;
+      const title = `${this.label_name}: ${name}`;
 
       const url = `https://github.com/HyperCol/MGCD/issues/new?&labels=${
         this.label_name
