@@ -67,7 +67,7 @@
 
 版本区间由资源包内一个名为 `pack.mcmeta` 的文件
 
-```txt
+```json
 {
   "pack": {
     "pack_format": N,
