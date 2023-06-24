@@ -136,11 +136,16 @@ export default {
       const price = this.$refs.price.value;
       const platform = this.$refs.platform.value;
       const platform_link = this.$refs.platform_link.value;
-      const guide = this.$refs.guide.value;
-      const guide_link = this.$refs.guide_link.value;
+
+      let guide = '';
+      let guide_link = '';
+      if (this.work_type === 'java_shader' || this.work_type === 'java_resourcepack') {
+        guide = this.$refs.guide.value;
+        guide_link = this.$refs.guide_link.value;
+      }
 
       const template = `publish_${this.work_type}.yml`;
-      const title = `Shader: ${name}`;
+      const title = `${this.label_name}: ${name}`;
 
       const url = `https://github.com/HyperCol/MGCD/issues/new?&labels=${
         this.label_name
