@@ -1,0 +1,19 @@
+name: pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: npm install && npm run docs:build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 生成的 secret
+          BRANCH: gh-pages # 部署到 gh-pages 分支
+          FOLDER: docs/.vuepress/dist # vuepress 生成的静态文件存放的地方

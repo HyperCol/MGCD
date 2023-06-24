@@ -157,8 +157,8 @@
 
 ### 常见误区纠正
 
-- [MGC 歧义及观点纠正](../../correct/)
+- [MGC 歧义及观点纠正](../../science/correct/)
 
 ### 光线追踪误区纠正
 
-- [MGC 歧义观点 - 光线追踪](../../correct/RT_mistakes.md)
+- [MGC 歧义观点 - 光线追踪](../../science/correct/RT_mistakes.md)
