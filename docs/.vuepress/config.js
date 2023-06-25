@@ -136,7 +136,7 @@ module.exports = {
               '/science/terms.md',
               '/science/shaders-base.md',
               '/science/shaders-tech.md',
-              // '/science/resourcepacks.md', // 暂时禁用含有扩展语法的版本
+              '/science/resourcepacks.md',
               '/science/resourcepacks_compatibility.md',
               '/science/render.md',
               '/science/film.md',
@@ -230,7 +230,7 @@ module.exports = {
         '/science/terms.md',
         '/science/shaders-base.md',
         '/science/shaders-tech.md',
-        // '/science/resourcepacks.md', // 暂时禁用含有扩展语法的版本
+        '/science/resourcepacks.md',
         '/science/resourcepacks_compatibility.md',
         '/science/render.md',
         '/science/film.md',
