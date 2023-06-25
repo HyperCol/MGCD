@@ -3,7 +3,7 @@
     <table class="custom-table">
       <thead>
       <tr>
-        <th>ID</th>
+        <th>序号</th>
         <th>名称</th>
         <th>作者</th>
         <th>风格</th>
