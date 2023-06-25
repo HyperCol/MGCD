@@ -1,7 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
-import {path} from '@vuepress/utils'
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { path } from '@vuepress/utils'
 
 module.exports = {
   lang: 'zh-CN',
@@ -62,6 +62,11 @@ module.exports = {
             },
           },
         },
+        markdown: {
+          extendMarkdown: md => {
+            md.use(require('markdown-it-katex'))
+          }
+        }
       },
     ),
     registerComponentsPlugin(
