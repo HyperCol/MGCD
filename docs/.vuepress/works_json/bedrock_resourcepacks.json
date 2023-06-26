@@ -368,5 +368,17 @@
     "price": "免费",
     "platform": "苦力怕论坛",
     "platform_link": "https://klpbbs.com/thread-30816-1-1.html"
+  },
+  {
+    "id": 38,
+    "name": "巧克力纹理包",
+    "author": "🍞bread",
+    "style": "简洁",
+    "status": "正常更新",
+    "price": "免费/国服6元",
+    "platform": "MCBBS",
+    "platform_link": "",
+    "guide": "",
+    "guide_link": ""
   }
 ]
