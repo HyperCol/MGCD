@@ -13,3 +13,9 @@ html.dark {
   font-family: "Source Han Sans";
   src: url("SourceHanSansSC-VF.otf.woff2") format("woff2");
 }
+
+.mathjax {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
