@@ -10,9 +10,8 @@ module.exports = {
     port: "8080",
     head: [
         ["link", {rel: "icon", href: "/images/MGC-logo.png"}],
-        ['link', {rel: 'stylesheet', href: '/styles/index.scss'}],
-        ['script', {src: 'https://polyfill.io/v3/polyfill.min.js?features=es6'}],
-        ['script', {src: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-mml-chtml.js', async: true}]
+        ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css'}],
+        ['script', {src: 'https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js'}],
     ],
     plugins: [
         docsearchPlugin(
@@ -289,5 +288,13 @@ module.exports = {
                 '/works/bedrock_resourcepacks.md',
             ]
         },
-    })
+    }),
+    markdown: {
+        lineNumbers: true,
+        anchor: {permalink: false},
+        toc: {includeLevel: [1, 2]},
+        extendMarkdown: md => {
+            md.use(require('markdown-it-texmath'))
+        }
+    }
 }
