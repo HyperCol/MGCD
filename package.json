@@ -18,8 +18,6 @@
   "dependencies": {
     "@vuepress/theme-default": "^2.0.0-beta.63",
     "@vuepress/utils": "^2.0.0-beta.63",
-    "markdown-it": "^13.0.1",
-    "markdown-it-mathjax3": "^4.3.2",
-    "markdown-it-texmath": "^1.0.0"
+    "vue-mathjax": "^0.1.1"
   }
 }
