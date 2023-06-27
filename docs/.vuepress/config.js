@@ -284,12 +284,4 @@ module.exports = {
             ]
         },
     }),
-    markdown: {
-        lineNumbers: true,
-        anchor: {permalink: false},
-        toc: {includeLevel: [1, 2]},
-        extendMarkdown: md => {
-            md.use(require('markdown-it-texmath'))
-        }
-    }
 }
