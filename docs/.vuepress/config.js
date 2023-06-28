@@ -1,7 +1,7 @@
-import {defaultTheme} from '@vuepress/theme-default'
-import {docsearchPlugin} from '@vuepress/plugin-docsearch'
-import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
-import {path} from '@vuepress/utils'
+import { defaultTheme } from '@vuepress/theme-default'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { path } from '@vuepress/utils'
 
 module.exports = {
     lang: 'zh-CN',
@@ -9,10 +9,10 @@ module.exports = {
     description: 'Minecraft Graphic Community Documents',
     port: "8080",
     head: [
-        ["link", {rel: "icon", href: "/images/MGC-logo.png"}],
-        ['link', {rel: 'stylesheet', href: '/styles/math.css'}],
-        ['script', {src: 'https://polyfill.io/v3/polyfill.min.js?features=es6'}],
-        ['script', {src: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-mml-chtml.js', async: true}]
+        ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
+        ['link', { rel: 'stylesheet', href: '/styles/math.css' }],
+        ['script', { src: 'https://polyfill.io/v3/polyfill.min.js?features=es6' }],
+        ['script', { src: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-mml-chtml.js', async: true }]
     ],
     plugins: [
         docsearchPlugin({
@@ -66,16 +66,16 @@ module.exports = {
             },
             markdown: {
                 // markdown-it-anchor 的选项
-                anchor: {permalink: false},
+                anchor: { permalink: false },
                 // markdown-it-toc 的选项
-                toc: {includeLevel: [1, 2]},
+                toc: { includeLevel: [1, 2] },
                 extendMarkdown: md => {
                     // 使用更多的 markdown-it 插件!
                     md.use(require('markdown-it-katex'))
                 }
             }
         }),
-        registerComponentsPlugin({componentsDir: path.resolve(__dirname, './components')}),
+        registerComponentsPlugin({ componentsDir: path.resolve(__dirname, './components') }),
     ],
     theme: defaultTheme({
         logo: '/images/MGC-logo.png',
@@ -134,7 +134,6 @@ module.exports = {
                             '/science/shaders-base.md',
                             '/science/shaders-tech.md',
                             '/science/resourcepacks.md',
-                            '/science/resourcepacks_compatibility.md',
                             '/science/render.md',
                             '/science/film.md',
                         ],
@@ -210,6 +209,9 @@ module.exports = {
                     {
                         text: 'GitHub',
                         link: 'https://github.com/HyperCol/MGCD',
+                    }, {
+                        text: 'Dev文档',
+                        link: 'https://dev.mgcd.pages.dev',
                     },
                 ]
             },
@@ -228,7 +230,6 @@ module.exports = {
                 '/science/shaders-base.md',
                 '/science/shaders-tech.md',
                 '/science/resourcepacks.md',
-                '/science/resourcepacks_compatibility.md',
                 '/science/render.md',
                 '/science/film.md',
                 {
