@@ -122,7 +122,7 @@ module.exports = {
                         ],
                     },
                     {
-                        text: '汉化',
+                        text: '设置汉化',
                         children: [
                             {
                                 text: '光影包',
