@@ -121,6 +121,15 @@ module.exports = {
                             },
                         ],
                     },
+                    {
+                        text: '汉化',
+                        children: [
+                            {
+                                text: '光影包',
+                                link: 'https://github.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files',
+                            },
+                        ],
+                    },
                 ],
             },
             {
