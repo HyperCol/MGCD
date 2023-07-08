@@ -234,7 +234,10 @@ module.exports = {
                 '/guide/others.md',
             ],
             '/science/': [
-                '/science/README.md',
+                {
+                    text: '大众科普-导言',
+                    link: '/science/introduction.md',
+                },
                 '/science/terms.md',
                 '/science/shaders-base.md',
                 '/science/shaders-tech.md',
@@ -243,7 +246,7 @@ module.exports = {
                 '/science/film.md',
                 {
                     text: '误区纠正-导言',
-                    link: '/science/correct/',
+                    link: '/science/correct/introduction.md',
                 },
                 '/science/correct/RT_mistakes.md'
             ],
