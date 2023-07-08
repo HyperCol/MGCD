@@ -138,7 +138,7 @@ module.exports = {
                     {
                         text: '基础科普',
                         children: [
-                            '/science/README.md',
+                            '/science/header.md',
                             '/science/terms.md',
                             '/science/shaders-base.md',
                             '/science/shaders-tech.md',
@@ -150,7 +150,7 @@ module.exports = {
                     {
                         text: '误区纠正',
                         children: [
-                            '/science/correct/README.md',
+                            '/science/correct/header.md',
                             '/science/correct/RT_mistakes.md',
                         ],
                     },
