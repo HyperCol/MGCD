@@ -197,8 +197,7 @@ Ps：**每个光影的选项位置不同**，有的光影设置还是英文的�
 
 ##### 5. 树叶显示异常
 
-![图片](/images/instructions/qin-22.png)
+![图片](/images/instructions/qin-24.png)
+![图片](/images/instructions/qin-23.png)
 
 ##### 6. 黄色错误代码1281
-
-![图片](/images/instructions/qin-23.png)
