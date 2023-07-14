@@ -8,7 +8,7 @@ actions:
   - text: 社区介绍
     link: /guide/README.md
     type: primary
-heroText: MGC图形学文档
+heroText: MGC | 图形学文档
 features:
 - title: 兴趣集萃
   details: 由光影、纹理爱好者共同编写。
