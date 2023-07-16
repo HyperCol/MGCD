@@ -60,7 +60,7 @@
 
 作品一：\
 作者：JustinBibab\
-作品名：\
+作品名：无
 
 ![图片](/images/gallery/2021-autumn/je/1.jpg)
 
@@ -69,20 +69,20 @@
 mod：little tiles\
 材质：inceptionv1.1+itp v3\
 光影：ptgi e10（modified by tahnass）\
-场景：墨尔本山崖别墅 by villa-qi #GN work住宅服\
+场景：墨尔本山崖别墅 by villa-qi #GN work住宅服
 
 ![图片](/images/gallery/2021-autumn/je/2.png)
 
 作品三：\
 作者：秦千久\
 光影：BSL 8.1p1\
-场地：@TeaCon展馆服\
+场地：@TeaCon展馆服
 
 ![图片](/images/gallery/2021-autumn/je/3.png)
 
 作品四：\
 作者：™227\
-光影：BSL_Edit_Pasquale\
+光影：BSL_Edit_Pasquale
 
 ![图片](/images/gallery/2021-autumn/je/4.png)
 
@@ -91,7 +91,7 @@ mod：little tiles\
 “烟花三月下扬州”\
 光影：SEUS Renewed 1.0.1 修改版\
 材质：无\
-场地：TeaCon 2021 服务器\
+场地：TeaCon 2021 服务器
 
 ![图片](/images/gallery/2021-autumn/je/5.png)
 
@@ -99,7 +99,7 @@ mod：little tiles\
 作者：Ciitta シータ\
 光影：jmseus fcm\
 材质：ion仿生自然\
-场地：斯卡纳托斯\
+场地：斯卡纳托斯
 
 ![图片](/images/gallery/2021-autumn/je/6.jpg)
 
@@ -110,21 +110,21 @@ mod：little tiles\
 光影：iterationT Next 1.1.0\
 模组：Ultimate Immersion Modern Archviz v2.8\
 场地：Ultimate Immersion by Hunger_Legend\
-截图分辨率：4096*2160\
+截图分辨率：4096*2160
 
 ![图片](/images/gallery/2021-autumn/je/7.png)
 
 作品八：\
 作者：GeForceLegend\
 某未公开申必项目流出图像\
-使用Vanilla Normal Renewed纹理包\
+使用Vanilla Normal Renewed纹理包
 
 ![图片](/images/gallery/2021-autumn/je/8.png)
 
 作品九：\
 作者：亚克\
 冬\
-光影：Nostalgia\
+光影：Nostalgia
 
 ![图片](/images/gallery/2021-autumn/je/9.png)
 
@@ -133,7 +133,7 @@ mod：little tiles\
 1.12 服务器 云梦阁\
 材质：原版\
 光影：SEUS-v10.0 \
-场地：云梦阁\
+场地：云梦阁
 
 ![图片](/images/gallery/2021-autumn/je/10.png)
 
@@ -142,7 +142,7 @@ mod：little tiles\
 暗夜星辰 峡湾天际\
 材质：忘了\
 光影：忘了\
-场地：随便开的图\
+场地：随便开的图
 
 ![图片](/images/gallery/2021-autumn/je/11.png)
 
@@ -151,7 +151,7 @@ mod：little tiles\
 夕阳空中楼阁\
 材质：Soartex Fanver\
 光影：Lrbs SEUS MABS V3.2\
-地图：狞幕by冷冰\
+地图：狞幕by冷冰
 
 ![图片](/images/gallery/2021-autumn/je/12.jpeg)
 
@@ -160,7 +160,7 @@ mod：little tiles\
 教堂\
 材质：原版\
 光影：iterationT\
-地图：柏林大教堂\
+地图：柏林大教堂
 
 ![图片](/images/gallery/2021-autumn/je/13.jpeg)
 
@@ -169,7 +169,7 @@ mod：little tiles\
 花田\
 材质：原版\
 光影：Chocapic v8\
-地图：卡露蒂亚by 珀尔\
+地图：卡露蒂亚by 珀尔
 
 ![图片](/images/gallery/2021-autumn/je/14.png)
 
@@ -178,7 +178,7 @@ mod：little tiles\
 光影：BSL_v8.0.01 轻度自改\
 材质：Ultimate Immersion v2.8 1024x\
 地图：多人模式\
-地形使用TerraForge生成\
+地形使用TerraForge生成
 
 ![图片](/images/gallery/2021-autumn/je/15.png)
 
@@ -186,7 +186,7 @@ mod：little tiles\
 作者：秋暮OVTG\
 光影：ComplementaryShaders\
 材质：YuushyaMod配套纹理包\
-使用1.18ES6随机地图生成\
+使用1.18ES6随机地图生成
 
 ![图片](/images/gallery/2021-autumn/je/16.png)
 
@@ -195,7 +195,7 @@ mod：little tiles\
 光影：SEUS v11\
 材质：无\
 作者：BojackWAF \
-名称：摸鱼的中式\
+名称：摸鱼的中式
 
 ![图片](/images/gallery/2021-autumn/je/17.png)
 
@@ -204,7 +204,7 @@ mod：little tiles\
 mod：little tiles\
 材质：inception+itp\
 光影：ptgi e8\
-场景：Sanatus未完成的别墅\
+场景：Sanatus未完成的别墅
 
 ![图片](/images/gallery/2021-autumn/je/18.jpeg)
 
@@ -213,7 +213,7 @@ mod：little tiles\
 mod：little tiles\
 材质：inception+itp\
 光影：ptgi e12\
-场景：暂未命名\
+场景：暂未命名
 
 ![图片](/images/gallery/2021-autumn/je/19.jpeg)
 
@@ -222,7 +222,7 @@ mod：little tiles\
 光影：BSL＿v8.0.01\
 材质：Cocricot\
 mod：Cocricot\
-场地：湖边木屋\
+场地：湖边木屋
 
 ![图片](/images/gallery/2021-autumn/je/20.png)
 
@@ -231,7 +231,7 @@ mod：Cocricot\
 光影：seus ptgi e12(duke edit)
 材质：rtx pbr\
 mod：无\
-场地：个人建筑\
+场地：个人建筑
 
 ![图片](/images/gallery/2021-autumn/je/21.png)
 
@@ -240,14 +240,14 @@ mod：无\
 光影：seus ptgi hrr GFME 1.4\
 材质：Nebby&#039;s Better PBR Release 1.0\
 mod：无\
-场地：基姆城服务器ETC\
+场地：基姆城服务器ETC
 
 ![图片](/images/gallery/2021-autumn/je/22.png)
 
 作品二十三：\
 作者：冇欸\
 光影：seus dazzling 1.9\
-地图：卡露蒂亚\
+地图：卡露蒂亚
 
 ![图片](/images/gallery/2021-autumn/je/23.jpeg)
 
@@ -255,7 +255,7 @@ mod：无\
 作者：杜豫Isih\
 光影：自改光影【116工程】\
 地图：早期测试开发地图\
-模组：团队自研模组HE ENGINE\
+模组：团队自研模组HE ENGINE
 
 ![图片](/images/gallery/2021-autumn/je/24.jpeg)
 
@@ -263,7 +263,7 @@ mod：无\
 作者：氪皮怪okami\
 走进梦中的仙境\
 光影：SEUS DAZZING 1.9.9.1（frix）\
-地图：卡露蒂亚（珀尔）\
+地图：卡露蒂亚（珀尔）
 
 ![图片](/images/gallery/2021-autumn/je/25.png)
 
@@ -272,7 +272,7 @@ mod：无\
 图书馆\
 光影：ptgi E12\
 建筑：阿南\
-材质：原版\
+材质：原版
 
 ![图片](/images/gallery/2021-autumn/je/26.png)
 
@@ -280,7 +280,7 @@ mod：无\
 作者：RW25G-552004（ZHYX）\
 光影 IterationT 1.1.0\
 材质realistico-full\
-场景自制\
+场景自制
 
 ![图片](/images/gallery/2021-autumn/je/27.png)
 
@@ -289,13 +289,13 @@ mod：无\
 作品一：\
 作者：sdog\
 光影：dspe10 冷色超配\
-地图：Stonehill Castle\
+地图：Stonehill Castle
 
 ![图片](/images/gallery/2021-autumn/be/1.jpeg)
 
 作品二：\
 作者：zhoujiaxin66\
-光影：HSPEv9.4 地图自创\
+光影：HSPEv9.4 地图自创
 
 ![图片](/images/gallery/2021-autumn/be/2.jpeg)
 
@@ -304,7 +304,7 @@ mod：无\
 光影：重生LUX5\
 材质：舒服细致\
 地图：重生RSG服务器\
-建筑：自建服务器大厅\
+建筑：自建服务器大厅
 
 ![图片](/images/gallery/2021-autumn/be/3.jpeg)
 
@@ -312,7 +312,7 @@ mod：无\
 作者：多彩石\
 光影：GSPEV6.0\
 材质：乘方像素\
-下界门遗迹\
+下界门遗迹
 
 ![图片](/images/gallery/2021-autumn/be/4.jpg)
 
@@ -320,13 +320,13 @@ mod：无\
 作者：kuuga\
 光影：cspe真实版\
 材质：itp材质包\
-地图：自创\
+地图：自创
 
 ![图片](/images/gallery/2021-autumn/be/5.jpeg)
 
 作品六：\
 作者：身旁\
-图片中材质贴图及模型均来自IT-probect\
+图片中材质贴图及模型均来自IT-project
 
 ![图片](/images/gallery/2021-autumn/be/6.jpeg)
 
@@ -334,27 +334,27 @@ mod：无\
 作者：肉炒生姜\
 光影：cspe7生存版\
 地图：原创\
-材质：自己改了一改冰块材质\
+材质：自己改了一改冰块材质
 
 ![图片](/images/gallery/2021-autumn/be/7.jpeg)
 
 作品八：\
 作者：先知\
 光影：无\
-材质贴图及模型：IT-project\
+材质贴图及模型：IT-project
 
 ![图片](/images/gallery/2021-autumn/be/8.jpeg)
 
 作品九：\
 作者：夜辰Sanatus\
 光影：rtx\
-地图：原创，福州延安中学还原\
+地图：原创，福州延安中学还原
 
 ![图片](/images/gallery/2021-autumn/be/9.jpeg)
 
 作品十：\
 作者：　　　　　　　　\
 光影：rtx\
-地图：贫民窟\
+地图：贫民窟
 
 ![图片](/images/gallery/2021-autumn/be/10.png)

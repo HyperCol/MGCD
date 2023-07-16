@@ -22,14 +22,14 @@
 往日不再\
 投稿者：Σοβιετική Ένωση\
 使用的光影：NostalgiaVX\
-使用的材质：Patrix\
+使用的材质：Patrix
 
 ![图片](/images/gallery/2023-spring/1.jpg)
 
 作品二：\
 终末之前的挑战\
 投稿者：milk\
-使用的光影：Kappa 5.0\
+使用的光影：Kappa 5.0
 
 ![图片](/images/gallery/2023-spring/2.png)
 
@@ -37,7 +37,7 @@
 亭子里的火堆（重发）\
 投稿者：lpp\
 使用的光影：sundial\
-使用的地图：CastleWithDragons\
+使用的地图：CastleWithDragons
 
 ![图片](/images/gallery/2023-spring/3.jpg)
 
@@ -47,7 +47,7 @@ Floating Tower\
 使用的光影: Sundial\
 使用的材质: SPBR-1-10_Beta_4\
 使用的mod: Iris 1.5.1\
-使用的地图: theFrontier服务器\
+使用的地图: theFrontier服务器
 
 ![图片](/images/gallery/2023-spring/4.png)
 
@@ -56,7 +56,7 @@ Floating Tower\
 投稿者:曚\
 使用的光影:kappa\
 使用的 mod:iris\
-使用的地图:ihou2\
+使用的地图:ihou2
 
 ![图片](/images/gallery/2023-spring/5.png)
 
@@ -64,7 +64,7 @@ Floating Tower\
 归家\
 投稿者：欧皇寿命极短\
 使用的光影：Rethinking Voxels\
-使用的材质：光影内置的原版PBR\
+使用的材质：光影内置的原版PBR
 
 ![图片](/images/gallery/2023-spring/6.png)
 
@@ -74,7 +74,7 @@ Floating Tower\
 使用的光影：Sundial\
 使用的资源包：Patrix32x\
 使用的mod：Optifine H9\
-自制地图\
+自制地图
 
 ![图片](/images/gallery/2023-spring/7.png)
 
@@ -84,7 +84,7 @@ Floating Tower\
 使用的光影: Sundial\
 使用的材质: Patrix \
 使用的mod: Optifine\
-使用的地图: 景园JingYuan\
+使用的地图: 景园JingYuan
 
 ![图片](/images/gallery/2023-spring/8.png)
 
@@ -93,7 +93,7 @@ Floating Tower\
 投稿者：Wake Up\
 使用的光影：Kappa5.0\
 使用的材质包：Conquest\
-使用的地图：Island\
+使用的地图：Island
 
 ![图片](/images/gallery/2023-spring/9.png)
 
@@ -102,7 +102,7 @@ Floating Tower\
 投稿者：超级晚上\
 使用的光影：Sundial\
 使用的材质包：SPBR\
-使用的地图：cyberpunk\
+使用的地图：cyberpunk
 
 ![图片](/images/gallery/2023-spring/10.jpg)
 
@@ -111,7 +111,7 @@ Floating Tower\
 投稿者：COHK晨哦凯\
 使用的光影：Sundial\
 使用的材质包：SPBR\
-使用的地图：二进制之城\
+使用的地图：二进制之城
 
 ![图片](/images/gallery/2023-spring/11.png)
 
@@ -120,7 +120,7 @@ Floating Tower\
 投稿者：XxCMDBxX\
 使用的光影：Sundial\
 使用的材质包：SPBR\
-使用的地图：审判者\
+使用的地图：审判者
 
 ![图片](/images/gallery/2023-spring/12.jpg)
 
@@ -129,7 +129,7 @@ Floating Tower\
 投稿者：HZYgrandma\
 使用的光影：Kappa\
 使用的材质包：Stay True\
-使用的地图：枝江熠光\
+使用的地图：枝江熠光
 
 ![图片](/images/gallery/2023-spring/13.png)
 
@@ -138,7 +138,7 @@ Floating Tower\
 投稿者：奥斯熊洛夫\
 使用的光影：seus ptgi e12\
 使用的材质：Patrix32x\
-使用的地图：The Ceranese Hotel\
+使用的地图：The Ceranese Hotel
 
 ![图片](/images/gallery/2023-spring/14.png)
 
@@ -146,7 +146,7 @@ Floating Tower\
 机械\
 投稿者:听风\
 光影:Rethinking Voxels\
-材质:光影自带PBR\
+材质:光影自带PBR
 
 ![图片](/images/gallery/2023-spring/15.jpg)
 
@@ -155,7 +155,7 @@ Floating Tower\
 投稿者：EpsilonSatoshi\
 使用的光影：Sundial\
 使用的材质：Ultimacarft\
-使用的地图：自制\
+使用的地图：自制
 
 ![图片](/images/gallery/2023-spring/16.png)
 
@@ -164,7 +164,7 @@ Floating Tower\
 投稿者：梓川阿拉斯加\
 使用的光影：RTX\
 使用的材质：Kelly's RTX Vanilla\
-使用的地图：Tropical Survival\
+使用的地图：Tropical Survival
 
 ![图片](/images/gallery/2023-spring/17.png)
 
@@ -173,7 +173,7 @@ Floating Tower\
 投稿者：LHOAVTEE\
 光影：seus ptgi hrr 3\
 材质：patrix 32x\
-地图：forest\
+地图：forest
 
 ![图片](/images/gallery/2023-spring/18.png)
 
@@ -182,7 +182,7 @@ Floating Tower\
 投稿者：Codi\
 光影：NostalgiaVX\
 材质：patrix 128x\
-地图：自制\
+地图：自制
 
 ![图片](/images/gallery/2023-spring/19.jpg)
 
@@ -191,6 +191,6 @@ Floating Tower\
 投稿者：大大怪\
 光影：SEUS PTGI E12\
 材质：Inception 256x\
-地图：自制\
+地图：自制
 
 ![图片](/images/gallery/2023-spring/20.png)

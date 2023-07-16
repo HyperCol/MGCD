@@ -15,7 +15,7 @@
 #创作者：漪曚\
 #使用的光影：SEUS DAZZLING V2.2.4\
 #使用的材质：Synesthesia Pixel T3\
-#使用的地图：喜马拉雅 1.18\
+#使用的地图：喜马拉雅 1.18
 
 ![图片](/images/gallery/2022-autumn/1.png)
 
@@ -24,7 +24,7 @@
 #创作者：Σοβιετική Ένωση\
 #使用的光影：iterationT\
 #使用的材质：Misaka's Texture\
-#使用的地图：七彩丹霞\
+#使用的地图：七彩丹霞
 
 ![图片](/images/gallery/2022-autumn/2.jpg)
 
@@ -33,7 +33,7 @@
 #创作者：介介子\
 #使用的光影：iterationT\
 #使用的材质：无\
-#使用的地图：黄土高原\
+#使用的地图：黄土高原
 
 ![图片](/images/gallery/2022-autumn/3.png)
 
@@ -42,7 +42,7 @@
 #创作者：游手好闲的言大人\
 #使用的光影：iterationT\
 #使用的材质：Misaka's Texture\
-#使用的地图：张家界\
+#使用的地图：张家界
 
 ![图片](/images/gallery/2022-autumn/4.png)
 
@@ -51,7 +51,7 @@
 #创作者：DragonScaleBLD-龙鳞\
 #使用的光影：BSL v8.1.03\
 #使用的材质：SynesthesiaPixel T4\
-#使用的地图：张家界\
+#使用的地图：张家界
 
 ![图片](/images/gallery/2022-autumn/5.png)
 
@@ -60,7 +60,7 @@
 #创作者：Allen\
 #使用的光影：iterationT\
 #使用的材质：无\
-#使用的地图：张家界\
+#使用的地图：张家界
 
 ![图片](/images/gallery/2022-autumn/6.png)
 
@@ -69,7 +69,7 @@
 #创作者：MILK\
 #使用的光影：ComplementaryShaders_v4.2.1\
 #使用的材质：无\
-#使用的地图：喜马拉雅 1.18\
+#使用的地图：喜马拉雅 1.18
 
 ![图片](/images/gallery/2022-autumn/7.jpg)
 
@@ -79,7 +79,7 @@
 #使用的光影：\
 SEUS DAZZLING\
 #使用的材质：无\
-#使用的地图：张家界\
+#使用的地图：张家界
 
 ![图片](/images/gallery/2022-autumn/8.png)
 
@@ -88,6 +88,6 @@ SEUS DAZZLING\
 #创作者：EpsilonSatoshi\
 #使用的光影：iterationT 3.0.0\
 #使用的材质：无\
-#使用的地图：自制\
+#使用的地图：自制
 
 ![图片](/images/gallery/2022-autumn/9.jpg)
