@@ -89,10 +89,6 @@ module.exports = {
                 link: '/',
             },
             {
-                text: 'BetterRTX',
-                link: '/instructions/better_rtx/README.md'
-            },
-            {
                 text: '社区介绍',
                 link: '/guide/README.md',
             },
@@ -118,6 +114,10 @@ module.exports = {
                             {
                                 text: '安装资源包',
                                 link: '/instructions/java_resourcepacks/README.md',
+                            },
+                            {
+                                text: '安装BetterRTX',
+                                link: '/instructions/better_rtx/README.md',
                             },
                         ],
                     },
@@ -207,6 +207,17 @@ module.exports = {
                         link: '/creator/resources.md'
                     },
                 ],
+            },
+            {
+                text: '画廊',
+                children: [
+                    '/gallery/2021-autumn.md',
+                    '/gallery/2021-winter.md',
+                    '/gallery/2022-spring.md',
+                    '/gallery/2022-summer.md',
+                    '/gallery/2022-autumn.md',
+                    '/gallery/2023-spring.md'
+                ]
             },
             {
                 text: '关于',
