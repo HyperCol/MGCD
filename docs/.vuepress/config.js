@@ -10,7 +10,7 @@ module.exports = {
     port: "8080",
     head: [
         ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
-        ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" }],
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
         ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
     ],
     plugins: [
@@ -67,11 +67,9 @@ module.exports = {
         registerComponentsPlugin({ componentsDir: path.resolve(__dirname, './components') }),
     ],
 
-    extendMarkdown: md => {
-        md.set({
-            html: true
-        })
-        md.use(require('markdown-it-katex'))
+    extendMarkdown(md) {
+        md.set({ html: true });
+        md.use(require("markdown-it-katex"));
     },
 
     theme: defaultTheme({
