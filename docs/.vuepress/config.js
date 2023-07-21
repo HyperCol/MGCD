@@ -9,10 +9,9 @@ module.exports = {
     description: 'Minecraft Graphic Community Documents',
     port: "8080",
     head: [
-        ["link", { rel: "icon", href: "/images/MGC-logo.png" }],
-        ['link', { rel: 'stylesheet', href: '/styles/math.css' }],
-        ['script', { src: 'https://polyfill.io/v3/polyfill.min.js?features=es6' }],
-        ['script', { src: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-mml-chtml.js', async: true }]
+        ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
+        ['link', { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" }],
+        ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
     ],
     plugins: [
         docsearchPlugin({
@@ -67,6 +66,14 @@ module.exports = {
         }),
         registerComponentsPlugin({ componentsDir: path.resolve(__dirname, './components') }),
     ],
+
+    extendMarkdown: md => {
+        md.set({
+            html: true
+        })
+        md.use(require('markdown-it-katex'))
+    },
+
     theme: defaultTheme({
         logo: '/images/MGC-logo.png',
         logoDark: '/images/MGC-darklogo.png',
