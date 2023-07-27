@@ -35,7 +35,7 @@ BE渲染引擎
 ### 辅助渲染模组
 
 - `AdvancedShader` 是一个 `OptiFine` 的辅助模组，仅在 `1.12.2` 可用。它能够允许用户使用**仅在更高版本中可用**的着色器（如 iterationT 3.0.0）。
-  - [AdvancedShader 的 CurseForge 页面](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
+  - [AdvancedShader 的 MCMOD 页面](https://www.mcmod.cn/class/7814.html)
 
 ## 关于基岩版光影与渲染龙
 

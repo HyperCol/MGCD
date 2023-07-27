@@ -20,7 +20,7 @@
 
 要安装 BetterRTX，需要注意以下几点。
 
-- 自动安装脚本链接：[BetterRTX_Installer_MGCEdit.ps1](https://mgcfiles.skiesworld.com/BetterRTX_Installer_MGCEdit.ps1)
+- 自动安装脚本链接：[BetterRTX_Installer_MGCEdit.ps1](https://bbrtx.minegraph.cn/BetterRTX_Installer_MGCEdit.ps1)
 
 - 以 **管理员身份** 运行脚本；
 
