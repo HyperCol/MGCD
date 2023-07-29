@@ -1,8 +1,8 @@
 ---
 home: true
 title: 首页
-heroImage: /images/MGC.png
-heroImageDark: /images/MGC-HeroDark.png
+heroImage:   https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/MGC.png
+heroImageDark:   https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/MGC-HeroDark.png
 actionText: 社区文档
 actions:
   - text: 社区介绍
