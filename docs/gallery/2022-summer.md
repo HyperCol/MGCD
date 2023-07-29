@@ -28,7 +28,7 @@
 #使用的地图：云中鲸（地图来自minecraft中文下载站）  \
 建议原图欣赏 
 
-![图片](/images/gallery/2022-summer/je/1.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/1.jpg)
 
 作品二：\
 雨中水城\
@@ -37,7 +37,7 @@
 #使用纹理包：Vanilla \
 #使用地图：Venice（来自：MinecraftMap） 
 
-![图片](/images/gallery/2022-summer/je/2.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/2.jpg)
 
 作品三：\
 违法建筑\
@@ -47,7 +47,7 @@
 ＃使用的模组：无 \
 ＃使用的地图：IHOU: 違法建築，链接：https://www.planetminecraft.com/project/ihou-download/ 
 
-![图片](/images/gallery/2022-summer/je/3.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/3.jpg)
 
 作品四：\
 乐园\
@@ -59,7 +59,7 @@
 ＃鉴赏说明：使用大屏或手机横屏解锁最佳姿势 \
 ＃备注：个人非常遗憾itt2.0取消了一代的各种滤镜 
 
-![图片](/images/gallery/2022-summer/je/4.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/4.jpg)
 
 作品五：\
 蓬莱仙岛\
@@ -68,7 +68,7 @@
 #使用的纹理包：Vanilla \
 #使用的地图：蓬莱仙岛(链接：https://www.mcbbs.net/thread-1171349-1-1.html) 
 
-![图片](/images/gallery/2022-summer/je/5.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/5.jpg)
 
 作品六：\
 苍雪龙城\
@@ -80,7 +80,7 @@
 ＃游戏版本：1.18.2 \
 ＃鉴赏说明：重在参与，啥都没设置直接截图就来了，大家看后给点建议交流交流更好:) 
 
-![图片](/images/gallery/2022-summer/je/6.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/6.jpg)
 
 作品七：\
 阳故宫-鬼怪\
@@ -90,7 +90,7 @@
 ＃使用的地图：沈阳故宫 \
 ＃游戏版本：1.16.2 
 
-![图片](/images/gallery/2022-summer/je/7.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/je/7.jpg)
 
 ## Bedrock版赛道
 
@@ -102,7 +102,7 @@
 #使用的地图：失落的仙境（作者：锴锴格兰）  \
 建议原图查看，不然会很灰 
 
-![图片](/images/gallery/2022-summer/be/1.png)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/be/1.png)
 
 作品二：\
 遗落战境\
@@ -112,7 +112,7 @@
 #使用的地图：YoRHa_废墟都市（作者：兜里有糖别惦记） \
 #地图链接:https://www.mcbbs.net/thread-1296851-1-1.html 
 
-![图片](/images/gallery/2022-summer/be/2.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/be/2.jpg)
 
 作品三：\
 中国神话九头鸟\
@@ -121,7 +121,7 @@
 ＃使用的模组：（Vspe 3前置） \
 #使用的地图：九头鸟浴火重生-荆楚风闻录（作者：易魔方）
 
-![图片](/images/gallery/2022-summer/be/3.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/be/3.jpg)
 
 作品四：\
 海湾码头，未知的边际\
@@ -129,7 +129,7 @@
 ＃使用的光影包：bicbicu 3.1dev   \
 ＃使用的地图：Snowcoal's Medieval Kingdom  (作者:snowcoal) 
 
-![图片](/images/gallery/2022-summer/be/4.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/be/4.jpg)
 
 作品五：\
 霍格沃兹的夜晚\
@@ -141,4 +141,4 @@
 ＃游戏版本：1.18.12 \
 ＃鉴赏说明:建议横屏观看 
 
-![图片](/images/gallery/2022-summer/be/5.jpg)
+![图片](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/gallery/2022-summer/be/5.jpg)
