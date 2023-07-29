@@ -64,8 +64,8 @@
 
 ### 自动安装 OptiFine
 
-![安装optifine-1.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/安装optifine-1.png)
-![安装optifine-2.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/安装optifine-2.png)
+![安装optifine-1.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/安装optifine-1.png)
+![安装optifine-2.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/安装optifine-2.png)
 
 安装步骤：
 
@@ -82,7 +82,7 @@
 - 在启动器中 **预先安装并启动一次** 原版游戏；
 - 双击打开下载到的文件，选择想要安装的客户端根目录，点击 `Install` 即可完成安装。
 
-![安装optifine-3.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/安装optifine-3.png)
+![安装optifine-3.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/安装optifine-3.png)
 
 ### 加载光影
 
@@ -98,7 +98,7 @@
 - 在较低版本中（如 `1.12.2` ），从官网下载的 `OptiFine JAR` 文件可以作为 `Mod` 使用 （即可以用 Forge 直接加载）；
 - 由于 **Forge 更新速度快于 OptiFine**，部分新版本的最新 Forge 可能会与 OptiFine 不兼容。此时需要前往 OptiFine 官网的 `更新日志`，**检查支持的 Forge 版本并回退。**
 
-![image.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/forge.png)
+![image.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/forge.png)
 
 ### 自动安装 Forge
 
@@ -106,11 +106,11 @@
 
 ### 手动安装 Forge
 
-![extract.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/extract.png)
+![extract.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/extract.png)
 
 - 双击 OptiFine 官网的 Jar 文件打开安装器，将目录引导至你的游戏根目录下。在预先装好原版游戏后，点击 `Extract` ，会自动生成一个`模组版 OptiFine` 。
 
-![mods.png](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/mods.png)
+![mods.png](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/mods.png)
 
 - 将 **模组版 OptiFine** 放到 `mods` 文件夹，即可正常加载 OptiFine 。
 
@@ -141,7 +141,7 @@
 
 - 安装光影的过程与上方 [加载光影](#加载光影) 的步骤大同小异，只是界面上不同。
 
-![Iris安装列表](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/instructions/Iris安装列表.jpg)
+![Iris安装列表](  https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/instructions/Iris安装列表.jpg)
 
 ---
 

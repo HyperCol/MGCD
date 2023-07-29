@@ -33,7 +33,7 @@
 
 - 创作流程图：
 
-![创作流程图](https://github.com/MineGraphCN/ImageLib/blob/main/MGCD/images/creator/yuque_mind.jpeg "创作流程图")
+![创作流程图](https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/creator/yuque_mind.jpeg "创作流程图")
 
 ---
 
