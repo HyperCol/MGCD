@@ -20,7 +20,7 @@ footer: "Copyright&copy  2023
 <a href='https://minegraph.cn/' title='MGC图形学文档' target='_blank'>MineGraph</a>  All  Rights  Reserved.
 <br />
             <br />
-            <embed src='https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/svg/police_budge.svg' type='image/svg+xml' pluginspage='http://www.adobe.com/svg/viewer/install/'>粤公网安备44142702000034  
+            <embed src='svg/police_budge.svg' type='image/svg+xml' pluginspage='http://www.adobe.com/svg/viewer/install/'>粤公网安备44142702000034  
             <a href='http://beian.miit.gov.cn/' title='beian' target='_blank'>粤ICP备2021038061号</a>"
 footerHtml: true
 ---
