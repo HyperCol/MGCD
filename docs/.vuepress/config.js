@@ -9,7 +9,7 @@ module.exports = {
     description: 'Minecraft Graphic Community Documents',
     port: "8080",
     head: [
-        ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
+        ['link', { rel: "icon", href: "https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/MGC-logo.png" }],
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
     ],
 
@@ -81,8 +81,8 @@ module.exports = {
     },
 
     theme: defaultTheme({
-        logo: '/images/MGC-logo.png',
-        logoDark: '/images/MGC-darklogo.png',
+        logo: 'https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/MGC-logo.png',
+        logoDark: 'https://raw.githubusercontent.com/MineGraphCN/ImageLib/main/MGCD/images/MGC-darklogo.png',
         notFound: ["404 Not Found，页面丢失。"],
         backToHome: "<-回到首页",
         // repo: 'HyperCol/MGCD',
