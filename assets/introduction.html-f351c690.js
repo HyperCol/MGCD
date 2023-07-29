@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6066f254","path":"/science/correct/introduction.html","title":"导言","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1690627119000,"contributors":[{"name":"17TheWord","email":"54731914+17TheWord@users.noreply.github.com","commits":1}]},"filePathRelative":"science/correct/introduction.md"}');export{e as data};
