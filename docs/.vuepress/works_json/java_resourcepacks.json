@@ -502,5 +502,17 @@
     "platform_link": "https://www.bilibili.com/video/BV1GW4y1d7LU?vd_source=d6cf51fe889d82f497fa4c4fbafca695",
     "guide": "_No response_",
     "guide_link": ""
+  },
+  {
+    "id": 43,
+    "name": "像素起源",
+    "author": "Fishbai",
+    "style": "原版-pbr",
+    "status": "开发中",
+    "price": "5 RMB",
+    "platform": "爱发电",
+    "platform_link": "_No response_",
+    "guide": "_No response_",
+    "guide_link": ""
   }
 ]
