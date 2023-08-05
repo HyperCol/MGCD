@@ -191,16 +191,6 @@
   },
   {
     "id": 20,
-    "name": "中规中矩",
-    "author": "基拉韦厄",
-    "style": "卡通",
-    "status": "正常更新",
-    "price": "免费",
-    "platform": "",
-    "platform_link": ""
-  },
-  {
-    "id": 21,
     "name": "oCd续更",
     "author": "Aijienlement",
     "style": "原版",
@@ -210,7 +200,7 @@
     "platform_link": ""
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "简--世界资源包",
     "author": "憨憨小Z",
     "style": "-",
@@ -220,7 +210,7 @@
     "platform_link": ""
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "XEHD BE",
     "author": "小凡Eric",
     "style": "写实",
@@ -230,7 +220,7 @@
     "platform_link": "http://xiaofaneric.com/"
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "LDBE材质",
     "author": "light van",
     "style": "PVP",
@@ -240,7 +230,7 @@
     "platform_link": ""
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "T3D",
     "author": "淡",
     "style": "3D立体",
@@ -250,7 +240,7 @@
     "platform_link": ""
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "L3D",
     "author": "流年",
     "style": "3D立体",
@@ -260,7 +250,7 @@
     "platform_link": ""
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "原版视差",
     "author": "millk",
     "style": "四合一PBR - 原版",
@@ -270,7 +260,7 @@
     "platform_link": ""
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "乘方像素",
     "author": "邹陈云飞",
     "style": "原版高清",
@@ -280,7 +270,7 @@
     "platform_link": ""
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "Misaka's Texutre · 四合一",
     "author": "Misaka9217",
     "style": "四合一PBR - 写实",
@@ -290,7 +280,7 @@
     "platform_link": ""
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "纸绘工艺",
     "author": "茫帛",
     "style": "写实",
@@ -300,7 +290,7 @@
     "platform_link": ""
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "8x Default+",
     "author": "SamXU1322",
     "style": "原版",
@@ -310,7 +300,7 @@
     "platform_link": ""
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "primary 3D",
     "author": "温煦和风",
     "style": "原版",
@@ -320,7 +310,7 @@
     "platform_link": ""
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "原版护眼&功能材质",
     "author": "淡",
     "style": "原版",
@@ -330,7 +320,7 @@
     "platform_link": ""
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "ARSC纹理包",
     "author": "ElePrC",
     "style": "魔幻",
@@ -340,7 +330,7 @@
     "platform_link": ""
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "Y3D",
     "author": "云生结影",
     "style": "原版",
@@ -350,7 +340,7 @@
     "platform_link": ""
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "oCd Pack Modified by Aijienlement",
     "author": "Aijienlement",
     "style": "卡通",
@@ -360,7 +350,7 @@
     "platform_link": "https://www.mcbbs.net/thread-1035869-1-1.html"
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "oCd Pack Replaced",
     "author": "EscapeBacteia",
     "style": "卡通",
