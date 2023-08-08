@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-04d64784","path":"/works/java_resourcepacks.html","title":"Java版资源包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691220447000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"works/java_resourcepacks.md"}');export{a as data};
