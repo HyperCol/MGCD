@@ -16,6 +16,8 @@ B站ID：金丹哦
 
 **赞助渠道：**[**爱发电**](https://afdian.net/@qintexture?tab=home)
 
+频道：[点击加入QQ频道【KABUTO | 纹理社区】](https://pd.qq.com/s/8cglq8gn1)
+
 ## 光影及配置推荐
 
 推荐使用光影：SEUS PTGI HRR Test 2.1 GFME 或 iterationT 2.0.1 / 3.0.0
@@ -24,7 +26,9 @@ iterationT在1.16.5以下的需要在光影设置内启用 `G7前兼容性` 选�
 
 **获取方式：·SEUS PTGI HRR Test 2.1 GFME   链接：**[**mcbbs**](https://www.mcbbs.net/thread-1211964-1-1.html)
 
-**iterationT 2.0.1 链接：**[**B站发布帖**](https://www.bilibili.com/read/cv15049938)
+**iterationT 2.0.1 链接：**[**B站发布专栏**](https://www.bilibili.com/read/cv15049938)
+
+光影也可在上方频道获取！
 
 光影设置内视差打开
 
@@ -45,7 +49,8 @@ iterationT在1.16.5以下的需要在光影设置内启用 `G7前兼容性` 选�
 
 ### 第一章  如何安装秦材质包
 
-[点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV13b4y1f7m7)
+<iframe src="//player.bilibili.com/player.html?aid=630543306&bvid=BV13b4y1f7m7&cid=338922619&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 **注意：1.17.x和1.18.x可能会出现游戏资源包列表读取不到秦256x和1024x的情况，原因未知，mojang出来挨打！解压成文件夹形式可以读取**
 
 ---
@@ -56,7 +61,7 @@ iterationT在1.16.5以下的需要在光影设置内启用 `G7前兼容性` 选�
 
 #### 1. 装载光影
 
-[点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV1CE411H7Cz)
+[MGC Docs - 光影安装手册](../Java_Shaders/README.md)
 
 #### 2. 选项→视频设置→光影→按照图片设置
 
@@ -175,7 +180,7 @@ Ps：**每个光影的选项位置不同**，有的光影设置还是英文的�
 
 **【注意】以下内容都在下列视频说清楚了**
 
-[点击查看【bilibili】](https://player.bilibili.com/player.html?bvid=BV13b4y1f7m7)
+<iframe src="//player.bilibili.com/player.html?aid=630543306&bvid=BV13b4y1f7m7&cid=338922619&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 #### 通过“解决视频”可解决的问题
 
