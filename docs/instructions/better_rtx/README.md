@@ -64,6 +64,20 @@ Set-ExecutionPolicy -Scope CurrentUser Bypass
 - Realistic RTX (TheBlackDragon's Edit)：将许多参数调整为贴近生活色调，有运动模糊。
 - BetterRTX Prizma Preset：具有不同的风格，不追求极致真实的画面。
 
+## 搭配资源包
+
+国内：
+- 平方构想V2000：零雾〇五Fogg05 推荐的资源包，在原版风格的基础上增加诸多效果如PBR反射（如金属块）、PBR自发光（如紫水晶）；
+- 立方构想V4000：与平方构想相比，更加个性化、风格化，适合追求新颖的原版风格资源包爱好者。
+  - 资源包链接：https://afdian.net/a/Fogg05
+
+国外（需自备翻墙工具）：
+-  DefinedPBR：BetterRTX作者开发，除PBR反射外，有实体发光（需搭配实验版Better RTX）。
+   - 资源包链接：https://www.patreon.com/MADLAD3718
+
+- Kelly's RTX：知名资源包，可搭配Kelly版BetterRTX使用。
+  - 资源包链接：https://discord.gg/stw2JGjbWm
+
 ## 更新
 
 文档会同步更新官方 BetterRTX 的新功能和默认配置的内容，可能还用于公布一些尚未揭示的其他项目！
