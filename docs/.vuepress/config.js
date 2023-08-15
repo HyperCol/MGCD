@@ -69,7 +69,6 @@ module.exports = {
         }),
     ],
 
-
     bundlerConfig: {
         vuePluginOptions: {
             template: {
