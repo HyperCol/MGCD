@@ -514,5 +514,17 @@
     "platform_link": "_No response_",
     "guide": "_No response_",
     "guide_link": ""
+  },
+  {
+    "id": 44,
+    "name": "复合",
+    "author": "大队长_Captain&是亚克力",
+    "style": "原版",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "哔哩哔哩",
+    "platform_link": "https://www.bilibili.com/video/BV1vv4y1X7b2",
+    "guide": "_No response_",
+    "guide_link": ""
   }
 ]
