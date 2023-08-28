@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-23017832","path":"/instructions/Java_Resourcepacks/tmeo.html","title":"TMEO现代材质","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1693207250000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"instructions/Java_Resourcepacks/tmeo.md"}');export{t as data};
