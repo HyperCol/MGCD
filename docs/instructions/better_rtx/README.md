@@ -1,5 +1,7 @@
 # BetterRTX
 
+<iframe src="//player.bilibili.com/player.html?aid=363608376&bvid=BV1Z94y1H74o&cid=1270158044&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;height:420px"> </iframe>
+
 ## 前言
 
 感谢你选择 BetterRTX ，这是 Minecraft Bedrock 平台上的首款光线追踪模组！
