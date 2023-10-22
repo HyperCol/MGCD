@@ -466,5 +466,89 @@
     "platform_link": "https://afdian.net/a/YSBBBB",
     "guide": "密码：YSBB",
     "guide_link": "https://wwwu.lanzouf.com/b031x2b3e"
+  },
+  {
+    "id": 40,
+    "name": "KDCraft",
+    "author": "KuLou_D",
+    "style": "低饱和度中世纪",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "哔哩哔哩",
+    "platform_link": "https://b23.tv/kU8HvXQ",
+    "guide": "-",
+    "guide_link": ""
+  },
+  {
+    "id": 41,
+    "name": "巧克力纹理包",
+    "author": "🍞bread",
+    "style": "简洁",
+    "status": "正常更新",
+    "price": "免费/国服6元",
+    "platform": "MCBBS",
+    "platform_link": "https://www.mcbbs.net/thread-653595-1-1.html",
+    "guide": "_No response_",
+    "guide_link": ""
+  },
+  {
+    "id": 42,
+    "name": "Rist_Flawless纹理",
+    "author": "建筑师俭朴的奎",
+    "style": "PBR-写实",
+    "status": "不定时更新",
+    "price": "RMB5.00",
+    "platform": "哔哩哔哩",
+    "platform_link": "https://www.bilibili.com/video/BV1GW4y1d7LU?vd_source=d6cf51fe889d82f497fa4c4fbafca695",
+    "guide": "_No response_",
+    "guide_link": ""
+  },
+  {
+    "id": 43,
+    "name": "像素起源",
+    "author": "Fishbai",
+    "style": "原版-pbr",
+    "status": "开发中",
+    "price": "5 RMB",
+    "platform": "爱发电",
+    "platform_link": "_No response_",
+    "guide": "_No response_",
+    "guide_link": ""
+  },
+  {
+    "id": 44,
+    "name": "复合",
+    "author": "大队长_Captain&是亚克力",
+    "style": "原版",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "哔哩哔哩",
+    "platform_link": "https://www.bilibili.com/video/BV1vv4y1X7b2",
+    "guide": "_No response_",
+    "guide_link": ""
+  },
+  {
+    "id": 45,
+    "name": "星落之晶",
+    "author": "大队长_Captain&是亚克力&小史龙吖Slime_Dragon&KuLou_D&爱玩的小尽",
+    "style": "晶体",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "苦力怕论坛",
+    "platform_link": "https://klpbbs.com/thread-101104-1-1.html",
+    "guide": "_No response_",
+    "guide_link": ""
+  },
+  {
+    "id": 46,
+    "name": "Diwang Blocks系列模组材质",
+    "author": "地王之星团队：建筑师俭朴的奎",
+    "style": "综合",
+    "status": "不定时更新",
+    "price": "RMB 19.80",
+    "platform": "哔哩哔哩",
+    "platform_link": "https://www.bilibili.com/video/BV1PN411B7xj/?spm_id_from=333.999.0.0&vd_source=ec1c54f2ec5fd8ae6ba217bd46b9ce86",
+    "guide": "_No response_",
+    "guide_link": ""
   }
 ]

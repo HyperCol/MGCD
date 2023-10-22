@@ -358,5 +358,41 @@
     "price": "免费",
     "platform": "苦力怕论坛",
     "platform_link": "https://klpbbs.com/thread-30816-1-1.html"
+  },
+  {
+    "id": 38,
+    "name": "巧克力纹理包",
+    "author": "🍞bread",
+    "style": "简洁",
+    "status": "正常更新",
+    "price": "免费/国服6元",
+    "platform": "MCBBS",
+    "platform_link": "",
+    "guide": "",
+    "guide_link": ""
+  },
+  {
+    "id": 38,
+    "name": "复合",
+    "author": "大队长_Captain&是亚克力",
+    "style": "原版",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "哔哩哔哩",
+    "platform_link": "",
+    "guide": "",
+    "guide_link": ""
+  },
+  {
+    "id": 39,
+    "name": "星落之晶",
+    "author": "大队长_Captain&是亚克力&小史龙吖Slime_Dragon&KuLou_D&爱玩的小尽",
+    "style": "晶体",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "苦力怕论坛",
+    "platform_link": "",
+    "guide": "",
+    "guide_link": ""
   }
 ]
