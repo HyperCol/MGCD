@@ -195,6 +195,23 @@ module.exports = {
                             },
                         ],
                     },
+                    {
+                        text: '基岩版',
+                        children: [
+                            {
+                                text: '基础问答',
+                                link: '/answer_bedrock/qas.md',
+                            },
+                            {
+                                text: '作品安装',
+                                link: '/answer_bedrock/install.md',
+                            },
+                            {
+                                text: '作品分级',
+                                link: '/answer_bedrock/works.md',
+                            },
+                        ],
+                    },
                 ]
             },
             {
