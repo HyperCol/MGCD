@@ -8,6 +8,10 @@ module.exports = {
     title: 'MGC Docs',
     description: 'Minecraft Graphic Community Documents',
     port: "8080",
+    // 配置 base
+    base: '/#/',
+    // 配置 permalink
+    permalink: '/:regular',
     head: [
         ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
@@ -84,7 +88,7 @@ module.exports = {
         logoDark: '/images/MGC-darklogo.png',
         notFound: ["404 Not Found，页面丢失。"],
         backToHome: "<-回到首页",
-        // repo: 'HyperCol/MGCD',
+        repo: 'HyperCol/MGCD',
         navbar: [
             {
                 text: '首页',
