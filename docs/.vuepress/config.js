@@ -10,8 +10,6 @@ module.exports = {
     port: "8080",
     // 配置 base
     base: '/#/',
-    // 配置 permalink
-    permalink: '/:regular',
     head: [
         ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
