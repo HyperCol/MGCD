@@ -9,7 +9,9 @@ module.exports = {
     description: 'Minecraft Graphic Community Documents',
     port: "8080",
     // 配置 base
-    base: '/docs/',
+    router: {
+        mode: 'hash'
+    },
     head: [
         ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
