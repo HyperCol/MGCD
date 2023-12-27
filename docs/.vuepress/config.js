@@ -14,6 +14,12 @@ module.exports = {
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
     ],
 
+    themeConfig: {
+        router: {
+            mode: 'hash',
+        },
+    },
+
     plugins: [
         docsearchPlugin({
             appId: 'AMQJCXFVUL',
