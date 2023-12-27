@@ -4,7 +4,6 @@ import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from '@vuepress/utils'
 
 module.exports = {
-    base: '#',
     lang: 'zh-CN',
     title: 'MGC Docs',
     description: 'Minecraft Graphic Community Documents',
