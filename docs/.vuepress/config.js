@@ -85,7 +85,6 @@ module.exports = {
         logoDark: '/images/MGC-darklogo.png',
         notFound: ["404 Not Found，页面丢失。"],
         backToHome: "<-回到首页",
-        routerMode: 'hash',
         // repo: 'HyperCol/MGCD',
         navbar: [
             {
