@@ -4,6 +4,7 @@ import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from '@vuepress/utils'
 
 module.exports = {
+    base: '#',
     lang: 'zh-CN',
     title: 'MGC Docs',
     description: 'Minecraft Graphic Community Documents',
@@ -13,12 +14,6 @@ module.exports = {
         ['link', { rel: "icon", href: "/images/MGC-logo.png" }],
         ['script', { src: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML" }],
     ],
-
-    themeConfig: {
-        router: {
-            mode: 'hash',
-        },
-    },
 
     plugins: [
         docsearchPlugin({
