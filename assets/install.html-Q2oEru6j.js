@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-4f86af6f","path":"/answer_bedrock/install.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703660864000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"answer_bedrock/install.md"}');export{e as data};
