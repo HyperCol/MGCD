@@ -251,5 +251,17 @@
     "price": "免费",
     "platform": "QQ群338427603",
     "platform_link": ""
+  },
+  {
+    "id": 24,
+    "name": "Gala光影",
+    "author": "gala_2nd",
+    "style": "梦幻",
+    "status": "24年元旦发布",
+    "price": "免费",
+    "platform": "QQ群:187974283",
+    "platform_link": "",
+    "guide": "",
+    "guide_link": ""
   }
 ]
