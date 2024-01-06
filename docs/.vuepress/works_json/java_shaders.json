@@ -286,5 +286,17 @@
     "platform_link": "",
     "guide": "",
     "guide_link": ""
+  },
+  {
+    "id": 25,
+    "name": "Area",
+    "author": "漪曚",
+    "style": "梦幻",
+    "status": "正常更新",
+    "price": "免费",
+    "platform": "bilbil",
+    "platform_link": "https://www.bilibili.com/video/BV1sT4y1H7TU/?spm_id_from=333.999.0.0&vd_source=4d2860d23affada47011948a64a8dd76",
+    "guide": "_No response_",
+    "guide_link": ""
   }
 ]
