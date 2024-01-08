@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from '@vuepress/utils'
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 module.exports = {
     lang: 'zh-CN',
@@ -67,6 +68,9 @@ module.exports = {
         }),
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
+        }),
+        sitemapPlugin({
+            hostname: 'https://docs.minegraph.cn/',
         }),
     ],
 
