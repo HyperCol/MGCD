@@ -2,7 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from '@vuepress/utils'
-import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+// import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 module.exports = {
     lang: 'zh-CN',
@@ -69,9 +69,9 @@ module.exports = {
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
         }),
-        sitemapPlugin({
-            hostname: 'https://docs.minegraph.cn/',
-        }),
+        // sitemapPlugin({
+        //     hostname: 'https://docs.minegraph.cn/',
+        // }),
     ],
 
     bundlerConfig: {
@@ -202,7 +202,7 @@ module.exports = {
                             // {
                             //     text: '基岩版',
                             //     children: [
-                                
+
                             //     ]
                             // }
                         ]
@@ -311,14 +311,14 @@ module.exports = {
                     ]
                 }
             ],
-            '/library/' :[
+            '/library/': [
                 '/library/README.md',
                 '/library/terms.md',
                 '/library/shaders.md',
                 '/library/shaders-advanced.md',
                 '/library/resourcepacks.md',
             ],
-            '/library/qas/' :[
+            '/library/qas/': [
                 '/library/qas/je_shaders.md',
                 '/library/qas/je_resourcepacks.md',
                 '/library/qas/be.md',
@@ -361,7 +361,7 @@ module.exports = {
                 '/gallery/2022-summer.md',
                 '/gallery/2022-autumn.md',
                 '/gallery/2023-spring.md'
-        ]
+            ]
         },
     }),
 }
