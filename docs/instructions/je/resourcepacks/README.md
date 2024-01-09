@@ -23,7 +23,7 @@
 
 ## 如何安装 Optifine 与光影
 
-[Java版光影通用教程（新手必看）](../java_shaders/README.md)
+[Java版光影通用教程（新手必看）](../shaderpacks/README.md)
 
 ## 关于资源包文件名中的版本号
 
@@ -92,7 +92,7 @@
 
 记录如 `资源包推荐`、`资源包占用` 等基础问题的答案。
 
-- [MGC 疑难解答 - 资源包问答](../../answer_java/qas/texture.md)
+- [MGC 疑难解答 - 资源包问答](../../../library/qas/je_resourcepacks.md)
 
 ---
 
@@ -102,10 +102,10 @@
 
 介绍了 `分辨率`、`版本兼容性`、`贴图类型`、`PBR 标准` 等。
 
-- [MGC 大众科普 - 资源包相关](../../science/resourcepacks.md)
+- [MGC 大众科普 - 资源包相关](../../../library/resourcepacks.md)
 
 ### 光线追踪误区纠正
 
 记录如 `伪光追`、`贴图光追` 等错误概念。
 
-- [MGC 歧义观点 - 光线追踪](../../science/correct/RT_mistakes.md)
+- [MGC 歧义观点 - 光线追踪](../../../library/correction/rt_misunderstanding.md)

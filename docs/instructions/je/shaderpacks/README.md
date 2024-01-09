@@ -41,7 +41,7 @@
 >
 >   - [相关链接 - AdvancedShader](https://www.curseforge.com/minecraft/mc-mods/advancedshader)
 
-—— 引用自 [MGC 大众科普](../../science/shaders-base.md)
+—— 引用自 [MGC 大众科普](../../../library/shaders.md)
 
 ---
 
@@ -131,7 +131,7 @@
 
 - 国外光影社区 ShaderLABS 整理了一份`不兼容的模组名单`，并逐一写明了如何使它们与 OptiFine 光影兼容。我们将这些内容汉化并搬运到了 **MGC 答疑手册 - Java版着色器(Shader)**，并额外添加了一些后续发现的模组。内容如下：
 
-- [MGC 答疑手册 - Java版着色器(Shader)](../../answer_java/mods.md)
+- [MGC 答疑手册 - Java版着色器(Shader)](../../../library/troubleshoot/je/mods_compatibility.md)
 
 - 此外，该文档还记录了许多 OptiFine 设置上的问题与解决方法。如果你的 OptiFine 光影表现不正常，请一定要认真看完上述文档。
 
@@ -155,13 +155,13 @@
 
 记录如 `光影包推荐`、`光影包占用`、`游戏优化` 等基础问题的答案。
 
-- [MGC 光影包基础问答](../../answer_java/qas/shader.md)
+- [MGC 光影包基础问答](../../../library/qas/je_shaders.md)
 
 ### 光影包进阶问答
 
 记录如 `光影包安装错误`、`视频设置错误`、`模组兼容冲突` 等进阶问题的解决办法。
 
-- [MGC 光影包进阶问答](../../answer_java/README.md)
+- [MGC 光影包进阶问答](../../../library/troubleshoot/je/shaders.md)
 
 ---
 
@@ -171,16 +171,16 @@
 
 介绍了 `主要渲染模组引擎`、`基岩版的渲染引擎` 。
 
-- [MGC 大众科普 - 着色器基础概念](../../science/shaders-base.md)
+- [MGC 大众科普 - 着色器基础概念](../../../library/shaders.md)
 
 ### 光影包进阶概念
 
 介绍了 `光线追踪在 MC 中的应用`、`全局光照简介` 。
 
-- [MGC 大众科普 - 着色器技术科普](../../science/shaders-tech.md)
+- [MGC 大众科普 - 着色器技术科普](../../../library/shaders-advanced.md)
 
 ### 光线追踪误区纠正
 
 记录如 `伪光追`、`贴图光追` 等错误概念。
 
-- [MGC 歧义观点 - 光线追踪](../../science/correct/RT_mistakes.md)
+- [MGC 歧义观点 - 光线追踪](../../../library/correction/rt_misunderstanding.md)

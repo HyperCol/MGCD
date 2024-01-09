@@ -63,7 +63,7 @@ iterationT在1.16.5以下的需要在光影设置内启用 `G7前兼容性` 选�
 
 #### 1. 装载光影
 
-[MGC Docs - 光影安装手册](../Java_Shaders/README.md)
+[MGC Docs - 光影安装手册](../shaderpacks/README.md)
 
 #### 2. 选项→视频设置→光影→按照图片设置
 
