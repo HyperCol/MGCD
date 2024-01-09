@@ -117,7 +117,7 @@
     "platform": "哔哩哔哩",
     "platform_link": "https://www.bilibili.com/read/cv15049938",
     "guide": "iterationT2.0.0使用手册",
-    "guide_link": "/instructions/java_shaders/itt2.html"
+    "guide_link": "instructions/je/shaderpacks/itt2.html"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "platform": "哔哩哔哩",
     "platform_link": "https://www.bilibili.com/read/cv17966453",
     "guide": "iterationT3.0.0使用手册",
-    "guide_link": "/instructions/java_shaders/itt3.html"
+    "guide_link": "/instructions/je/shaderpacks/itt3.html"
   },
   {
     "id": 12,

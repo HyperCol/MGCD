@@ -20,8 +20,8 @@
     "price": "免费",
     "platform": "哔哩哔哩",
     "platform_link": "https://www.bilibili.com/read/cv12522127",
-    "guide": "MGC-Java版材质通用手册",
-    "guide_link": "/instructions/java_resourcepacks/"
+    "guide": "",
+    "guide_link": ""
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "platform": "爱发电",
     "platform_link": "https://afdian.net/@qintexture",
     "guide": "MGC-作品使用手册",
-    "guide_link": "/instructions/java_resourcepacks/qin.html"
+    "guide_link": "/instructions/je/resourcepacks/qin.html"
   },
   {
     "id": 5,
@@ -141,7 +141,7 @@
     "platform": "爱发电",
     "platform_link": "https://afdian.net/@itproject",
     "guide": "MGC-作品使用手册",
-    "guide_link": "/instructions/java_resourcepacks/itp.html"
+    "guide_link": "/instructions/je/resourcepacks/itp.html"
   },
   {
     "id": 13,
@@ -189,7 +189,7 @@
     "platform": "爱发电",
     "platform_link": "https://afdian.net/@Misaka9217",
     "guide": "MGC-作品使用手册",
-    "guide_link": "/instructions/java_resourcepacks/mtp.html"
+    "guide_link": "/instructions/je/resourcepacks/mtp.html"
   },
   {
     "id": 17,
@@ -249,7 +249,7 @@
     "platform": "爱发电",
     "platform_link": "https://afdian.net/@TMEO123",
     "guide": "MGC-作品使用手册",
-    "guide_link": "/instructions/java_resourcepacks/tmeo.html"
+    "guide_link": "/instructions/je/resourcepacks/tmeo.html"
   },
   {
     "id": 22,
@@ -297,7 +297,7 @@
     "platform": "爱发电",
     "platform_link": "https://afdian.net/@Fogg05",
     "guide": "MGC-作品使用手册",
-    "guide_link": "/instructions/java_resourcepacks/05.html"
+    "guide_link": "/instructions/je/resourcepacks/05.html"
   },
   {
     "id": 26,
