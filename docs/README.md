@@ -5,8 +5,8 @@ heroImage: /images/MGC.png
 heroImageDark: /images/MGC-HeroDark.png
 actionText: 社区文档
 actions:
-  - text: 社区介绍
-    link: /guide/README.md
+  - text: 社区入门
+    link: /community/
     type: primary
 heroText: MGC | 图形学文档
 features:
