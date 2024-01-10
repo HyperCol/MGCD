@@ -137,7 +137,7 @@ module.exports = {
                 ],
             },
             {
-                text: '作品安装指南',
+                text: '作品安装',
                 children: [
                     {
                         text: '通用指南',
@@ -159,7 +159,32 @@ module.exports = {
                     {
                         text: '作品手册',
                         link: '/instructions/',
-                        children: [],
+                        children: [
+                            {
+                                text: 'iterationT 2',
+                                link: '/instructions/je/shaderpacks/itt2.md',
+                            },
+                            {
+                                text: 'iterationT 3',
+                                link: '/instructions/je/shaderpacks/itt3.md',
+                            },
+                            {
+                                text: 'IT-Project',
+                                link: '/instructions/je/resourcepacks/itp.md',
+                            },
+                            {
+                                text: "Misaka's Texture",
+                                link: '/instructions/je/resourcepacks/MTP.md',
+                            },
+                            {
+                                text: '秦',
+                                link: '/instructions/je/resourcepacks/qin.md',
+                            },
+                            {
+                                text: 'TMEO现代材质',
+                                link: '/instructions/je/resourcepacks/tmeo.md',
+                            },
+                        ],
                     }
                 ]
             },
