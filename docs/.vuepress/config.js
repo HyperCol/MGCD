@@ -137,7 +137,7 @@ module.exports = {
                 ],
             },
             {
-                text: '作品安装指南',
+                text: '作品安装',
                 children: [
                     {
                         text: '通用指南',
@@ -159,7 +159,16 @@ module.exports = {
                     {
                         text: '作品手册',
                         link: '/instructions/',
-                        children: [],
+                        children: [
+                            {
+                                text: 'iterationT 2',
+                                link: '/instructions/je/shaderpacks/itt2.md',
+                            },
+                            {
+                                text: 'iterationT 3',
+                                link: '/instructions/je/resourcepacks/itt3.md',
+                            },
+                        ],
                     }
                 ]
             },
