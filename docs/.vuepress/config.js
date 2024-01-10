@@ -166,7 +166,23 @@ module.exports = {
                             },
                             {
                                 text: 'iterationT 3',
-                                link: '/instructions/je/resourcepacks/itt3.md',
+                                link: '/instructions/je/shaderpacks/itt3.md',
+                            },
+                            {
+                                text: 'IT-Project',
+                                link: '/instructions/je/resourcepacks/itp.md',
+                            },
+                            {
+                                text: "Misaka's Texture",
+                                link: '/instructions/je/resourcepacks/MTP.md',
+                            },
+                            {
+                                text: '秦',
+                                link: '/instructions/je/resourcepacks/qin.md',
+                            },
+                            {
+                                text: 'TMEO现代材质',
+                                link: '/instructions/je/resourcepacks/tmeo.md',
                             },
                         ],
                     }
