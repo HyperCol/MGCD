@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5ff4f37a","path":"/works/be_resourcepacks.html","title":"基岩版资源包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705683639000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"works/be_resourcepacks.md"}');export{e as data};

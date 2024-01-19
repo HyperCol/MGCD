@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6beb5d16","path":"/gallery/","title":"关于画廊","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705683639000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"gallery/README.md"}');export{e as data};

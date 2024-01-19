@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-47b605db","path":"/instructions/be/","title":"基岩版","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705683639000,"contributors":[{"name":"ShaoXiu","email":"50393917+shaoxiu@users.noreply.github.com","commits":1}]},"filePathRelative":"instructions/be/README.md"}');export{t as data};
