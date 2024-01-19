@@ -16,7 +16,7 @@ features:
   details: 致力于科普图形学知识，纠正误区。
 - title: 自助性强
   details: 适用于解决游戏内的许多问题。
-footer: "Copyright&copy  2023  
+footer: "Copyright&copy  2023-2024  
 <a href='https://minegraph.cn/' title='MGC图形学文档' target='_blank'>MineGraph</a>  All  Rights  Reserved.
 <br />      
 <a href='http://beian.miit.gov.cn/' title='beian' target='_blank'>沪ICP备2023036853号</a>"

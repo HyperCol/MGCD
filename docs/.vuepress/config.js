@@ -87,8 +87,8 @@ module.exports = {
     theme: defaultTheme({
         logo: '/images/MGC-logo.png',
         logoDark: '/images/MGC-darklogo.png',
-        notFound: ["404 Not Found，页面丢失。"],
-        backToHome: "<-回到首页",
+        notFound: ["看起来你不小心踏入了虚空。"],
+        backToHome: "←重生",
         // repo: 'HyperCol/MGCD',
         navbar: [
             {
@@ -221,6 +221,7 @@ module.exports = {
                         text: '疑难解答',
                         link: '/library/troubleshoot/',
                         children: [
+                            '/library/troubleshoot/common.md',
                             '/library/troubleshoot/je/shaders.md',
                             '/library/troubleshoot/je/settings.md',
                             '/library/troubleshoot/je/mods_compatibility.md',
@@ -352,6 +353,7 @@ module.exports = {
                 '/library/correction/rt_misunderstanding.md',
             ],
             '/library/troubleshoot/': [
+                '/library/troubleshoot/common.md',
                 {
                     text: "Java 版",
                     collapsible: false,

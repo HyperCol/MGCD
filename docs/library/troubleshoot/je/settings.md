@@ -10,7 +10,7 @@
 
 确保此选项为`高品质`。不要将其设置为流畅，*很容易导致树叶、草地等贴图效果不正常*。
 
-![图片](/images/answer_java/quality.png)  
+![图片](/images/library/qas/je/quality.png)  
 **问题截图**
 
 ### 亮度
@@ -25,17 +25,17 @@
 
 MipMap 还会破坏一些 Shader 的自发光渲染。一旦纹理包含自发光，视差所有凹下去的地方边缘都会异常发光。如果你有这方面的问题，请将其`关闭`。
 
-![图片](/images/answer_java/mipmap.png)  
+![图片](/images/library/qas/je/mipmap.png)  
 **问题截图1-贴图显示错误**
 
-![图片](/images/answer_java/line.png)  
+![图片](/images/library/qas/je/line.png)  
 **问题截图2-偶尔还会导致视线内出现横线**
 
 ### 各向异性过滤
 
 有时会破坏使用虚化的光影包。如果你看见*天空有奇怪的线条或撕裂*，同时*地面上出现了一道道横线*，请把它关闭。同时注意关闭显卡驱动设置中的该选项或将其设置为`由应用程序决定`。
 
-![图片](/images/answer_java/cloud.png)  
+![图片](/images/library/qas/je/cloud.png)  
 **问题截图**
 
 ### 自发光纹理
@@ -64,14 +64,14 @@ MipMap 还会破坏一些 Shader 的自发光渲染。一旦纹理包含自发�
 
 原版云总是不能与光影包兼容，特别是在旧版本中。如果你看到*疑似原版云在天空表现违和*，请将其`关闭`。
 
-![图片](/images/answer_java/cloud-origin.png)  
+![图片](/images/library/qas/je/cloud-origin.png)  
 **问题截图**
 
 ### 树
 
 如果*树叶呈现出 X 射线风格*，请将其设置为`高品质`。
 
-![图片](/images/answer_java/leaves.jpg)  
+![图片](/images/library/qas/je/leaves.jpg)  
 **问题截图**
 
 ### 天空
@@ -84,7 +84,7 @@ MipMap 还会破坏一些 Shader 的自发光渲染。一旦纹理包含自发�
 
 但在一些带有 CTM 贴图（连接纹理贴图）的资源包中，此选项必须打开以获得最佳效果。
 
-![图片](/images/answer_java/draw.png)  
+![图片](/images/library/qas/je/draw.png)  
 **问题截图**
 
 ## 子菜单-性能
