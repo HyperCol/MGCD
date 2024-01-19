@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from '@vuepress/utils'
+// import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 module.exports = {
     lang: 'zh-CN',
@@ -68,6 +69,9 @@ module.exports = {
         registerComponentsPlugin({
             componentsDir: path.resolve(__dirname, './components')
         }),
+        // sitemapPlugin({
+        //     hostname: 'https://docs.minegraph.cn/',
+        // }),
     ],
 
     bundlerConfig: {
@@ -83,154 +87,178 @@ module.exports = {
     theme: defaultTheme({
         logo: '/images/MGC-logo.png',
         logoDark: '/images/MGC-darklogo.png',
-        notFound: ["404 Not Found，页面丢失。"],
-        backToHome: "<-回到首页",
+        notFound: ["看起来你不小心踏入了虚空。"],
+        backToHome: "←重生",
         // repo: 'HyperCol/MGCD',
         navbar: [
             {
-                text: '首页',
-                link: '/',
+                text: '社区入门',
+                link: '/community/',
             },
             {
-                text: '社区介绍',
-                link: '/guide/README.md',
-            },
-            {
-                text: '作品集锦',
+                text: '作品收录',
                 children: [
                     {
-                        text: '作品表格',
-                        children: [
-                            '/works/java_shaders.md',
-                            '/works/java_resourcepacks.md',
-                            '/works/bedrock_shaders.md',
-                            '/works/bedrock_resourcepacks.md'
-                        ],
-                    },
-                    {
-                        text: '使用指南',
-                        children: [
-                            {
-                                text: '安装光影包',
-                                link: '/instructions/java_shaders/README.md',
-                            },
-                            {
-                                text: '安装资源包',
-                                link: '/instructions/java_resourcepacks/README.md',
-                            },
-                            {
-                                text: '安装BetterRTX',
-                                link: '/instructions/better_rtx/README.md',
-                            },
-                        ],
-                    },
-                    {
-                        text: '设置汉化',
+                        text: 'Java 版作品',
                         children: [
                             {
                                 text: '光影包',
+                                link: '/works/je_shaderpacks.md',
+                            },
+                            {
+                                text: '资源包',
+                                link: '/works/je_resourcepacks.md',
+                            }
+                        ]
+                    },
+                    {
+                        text: '基岩版作品',
+                        children: [
+                            {
+                                text: '光影包',
+                                link: '/works/be_shaderpacks.md',
+                            },
+                            {
+                                text: '资源包',
+                                link: '/works/be_resourcepacks.md',
+                            },
+                            '/works/better_rtx.md',
+                        ]
+                    },
+                    {
+                        text: '光影设置汉化',
+                        children: [
+                            {
+                                text: 'GitHub',
                                 link: 'https://github.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files',
                             },
-                        ],
+                        ]
                     },
                 ],
             },
             {
-                text: '大众科普',
+                text: '作品安装',
                 children: [
                     {
-                        text: '基础科普',
+                        text: '通用指南',
                         children: [
-                            '/science/introduction.md',
-                            '/science/terms.md',
-                            '/science/shaders-base.md',
-                            '/science/shaders-tech.md',
-                            '/science/resourcepacks.md',
-                            '/science/render.md',
-                            '/science/film.md',
+                            {
+                                text: 'Java 版光影包',
+                                link: '/instructions/je/shaderpacks/',
+                            },
+                            {
+                                text: 'Java 版资源包',
+                                link: '/instructions/je/resourcepacks/',
+                            },
+                            {
+                                text: '基岩版',
+                                link: '/instructions/be/',
+                            },
+                        ]
+                    },
+                    {
+                        text: '作品手册',
+                        link: '/instructions/',
+                        children: [
+                            {
+                                text: 'iterationT 2',
+                                link: '/instructions/je/shaderpacks/itt2.md',
+                            },
+                            {
+                                text: 'iterationT 3',
+                                link: '/instructions/je/shaderpacks/itt3.md',
+                            },
+                            {
+                                text: 'IT-Project',
+                                link: '/instructions/je/resourcepacks/itp.md',
+                            },
+                            {
+                                text: "Misaka's Texture",
+                                link: '/instructions/je/resourcepacks/MTP.md',
+                            },
+                            {
+                                text: '秦',
+                                link: '/instructions/je/resourcepacks/qin.md',
+                            },
+                            {
+                                text: 'TMEO现代材质',
+                                link: '/instructions/je/resourcepacks/tmeo.md',
+                            },
                         ],
+                    }
+                ]
+            },
+            {
+                text: '知识库',
+                children: [
+                    '/library/',
+                    '/library/terms.md',
+                    {
+                        text: '科普文档',
+                        children: [
+                            '/library/shaders.md',
+                            '/library/shaders-advanced.md',
+                            '/library/resourcepacks.md',
+                        ]
+                    },
+                    {
+                        text: '问答',
+                        link: '/library/qas/',
+                        children: [
+                            '/library/qas/je_shaders.md',
+                            '/library/qas/je_resourcepacks.md',
+                            '/library/qas/be.md',
+                        ]
                     },
                     {
                         text: '误区纠正',
+                        link: '/library/correction/',
                         children: [
-                            '/science/correct/introduction.md',
-                            '/science/correct/RT_mistakes.md',
-                        ],
+                            '/library/correction/rt_misunderstanding.md',
+                        ]
+                    },
+                    {
+                        text: '疑难解答',
+                        link: '/library/troubleshoot/',
+                        children: [
+                            '/library/troubleshoot/common.md',
+                            '/library/troubleshoot/je/shaders.md',
+                            '/library/troubleshoot/je/settings.md',
+                            '/library/troubleshoot/je/mods_compatibility.md',
+                            // {
+                            //     text: '基岩版',
+                            //     children: [
+
+                            //     ]
+                            // }
+                        ]
                     },
                 ],
             },
             {
-                text: '疑难解答',
+                text: '创作者文档',
                 children: [
+                    '/creator/',
+                    '/creator/resources.md',
+                    '/creator/film_and_anim.md',
+                    '/creator/model_and_rendering.md',
                     {
-                        text: '基础问题',
+                        text: '光影开发教程',
                         children: [
                             {
-                                text: '光影包问答',
-                                link: '/answer_java/qas/shader.md',
+                                text: '序言',
+                                link: '/creator/shaders_tutorial/',
                             },
-                            {
-                                text: '资源包问答',
-                                link: '/answer_java/qas/texture.md',
-                            },
-                        ],
-                    },
-                    {
-                        text: '进阶问题',
-                        children: [
-                            {
-                                text: '进阶导言',
-                                link: '/answer_java/README.md',
-                            },
-                            {
-                                text: '光影加载',
-                                link: '/answer_java/shaders.md',
-                            },
-                            {
-                                text: '视频设置',
-                                link: '/answer_java/settings.md',
-                            },
-                            {
-                                text: '模组兼容',
-                                link: '/answer_java/mods.md',
-                            },
-                        ],
-                    },
-                    {
-                        text: '基岩版',
-                        children: [
-                            {
-                                text: '基础问答',
-                                link: '/answer_bedrock/qas.md',
-                            },
-                            {
-                                text: '作品安装',
-                                link: '/answer_bedrock/install.md',
-                            },
-                            {
-                                text: '作品分级',
-                                link: '/answer_bedrock/works.md',
-                            },
-                        ],
+                            '/creator/shaders_tutorial/01-file_and_pipeline.md',
+                            '/creator/shaders_tutorial/02-prepare.md',
+                        ]
                     },
                 ]
             },
             {
-                text: '创作指南',
-                children: [
-                    {
-                        text: '创作者指南',
-                        link: '/creator/README.md'
-                    },
-                    {
-                        text: '资料整理',
-                        link: '/creator/resources.md'
-                    },
-                ],
-            },
-            {
                 text: '画廊',
                 children: [
+                    '/gallery/',
                     '/gallery/2021-autumn.md',
                     '/gallery/2021-winter.md',
                     '/gallery/2022-spring.md',
@@ -242,15 +270,13 @@ module.exports = {
             {
                 text: '关于',
                 children: [
-                    {
-                        text: '关于文档',
-                        link: '/about.md',
-                    },
+                    '/about.md',
                     {
                         text: 'GitHub',
                         link: 'https://github.com/HyperCol/MGCD',
-                    }, {
-                        text: 'Dev文档',
+                    },
+                    {
+                        text: '测试版文档',
                         link: 'https://dev.mgcd.pages.dev',
                     },
                 ]
@@ -259,71 +285,109 @@ module.exports = {
 
         //左侧列表
         sidebar: {
-            '/guide/': [
-                '/guide/README.md',
-                '/guide/attention.md',
-                '/guide/others.md',
+            '/community/': [
+                '/community/README.md',
             ],
-            '/science/': [
-                {
-                    text: '大众科普-导言',
-                    link: '/science/introduction.md',
-                },
-                '/science/terms.md',
-                '/science/shaders-base.md',
-                '/science/shaders-tech.md',
-                '/science/resourcepacks.md',
-                '/science/render.md',
-                '/science/film.md',
-                {
-                    text: '误区纠正-导言',
-                    link: '/science/correct/introduction.md',
-                },
-                '/science/correct/RT_mistakes.md'
+            '/works/': [
+                '/works/je_shaderpacks.md',
+                '/works/je_resourcepacks.md',
+                '/works/be_shaderpacks.md',
+                '/works/be_resourcepacks.md',
+                '/works/better_rtx.md'
             ],
-            '/answer_java/': [
-                '/answer_java/qas/shader.md',
-                '/answer_java/qas/texture.md',
-                '/answer_java/README.md',
-                '/answer_java/shaders.md',
-                '/answer_java/settings.md',
-                '/answer_java/mods.md',
+            '/instructions/': [
+                '/instructions/README.md',
+                {
+                    text: 'Java 版光影手册',
+                    collapsible: false,
+                    children: [
+                        {
+                            text: '通用指南',
+                            link: '/instructions/je/shaderpacks/README.md',
+                        },
+                        '/instructions/je/shaderpacks/itt2.md',
+                        '/instructions/je/shaderpacks/itt3.md'
+                    ]
+                },
+                {
+                    text: 'Java 版资源包手册',
+                    collapsible: false,
+                    children: [
+                        {
+                            text: '通用指南',
+                            link: '/instructions/je/resourcepacks/README.md',
+                        },
+                        '/instructions/je/resourcepacks/itp.md',
+                        '/instructions/je/resourcepacks/MTP.md',
+                        '/instructions/je/resourcepacks/qin.md',
+                        '/instructions/je/resourcepacks/tmeo.md',
+                    ]
+                },
+                {
+                    text: '基岩版手册',
+                    collapsible: false,
+                    children: [
+                        {
+                            text: '通用指南',
+                            link: '/instructions/be/README.md',
+                        },
+                        {
+                            text: '暂时没有手册',
+                        },
+                    ]
+                }
+            ],
+            '/library/': [
+                '/library/README.md',
+                '/library/terms.md',
+                '/library/shaders.md',
+                '/library/shaders-advanced.md',
+                '/library/resourcepacks.md',
+            ],
+            '/library/qas/': [
+                '/library/qas/je_shaders.md',
+                '/library/qas/je_resourcepacks.md',
+                '/library/qas/be.md',
+            ],
+            '/library/correction/': [
+                '/library/correction/rt_misunderstanding.md',
+            ],
+            '/library/troubleshoot/': [
+                '/library/troubleshoot/common.md',
+                {
+                    text: "Java 版",
+                    collapsible: false,
+                    children: [
+                        '/library/troubleshoot/je/shaders.md',
+                        '/library/troubleshoot/je/settings.md',
+                        '/library/troubleshoot/je/mods_compatibility.md',
+                    ]
+                },
+                // {
+                //     text: "基岩版",
+                //     children: [
+
+                //     ]
+                // }
             ],
             '/creator/': [
                 '/creator/README.md',
                 '/creator/resources.md',
+                '/creator/film_and_anim.md',
+                '/creator/model_and_rendering.md',
             ],
-            '/instructions/': [
-                {
-                    text: 'Java版光影包',
-                    collapsible: false,
-                    children: [
-                        '/instructions/java_shaders/README.md',
-                        '/instructions/java_shaders/itt2.md',
-                        '/instructions/java_shaders/itt3.md'
-                    ],
-                },
-                {
-                    text: 'Java版资源包',
-                    collapsible: false,
-                    children: [
-                        '/instructions/java_resourcepacks/README.md',
-                        '/instructions/java_resourcepacks/qin.md',
-                        '/instructions/java_resourcepacks/itp.md',
-                        '/instructions/java_resourcepacks/mtp.md',
-                        '/instructions/java_resourcepacks/tmeo.md'
-                    ],
-                },
-                {
-                    text: 'BetterRTX',
-                    link: '/instructions/better_rtx/README.md'
-                },
+            '/creator/shaders_tutorial/': [
+                '/creator/shaders_tutorial/README.md',
+                '/creator/shaders_tutorial/01-file_and_pipeline.md',
+                '/creator/shaders_tutorial/02-prepare.md',
             ],
-            '/works/': [
-                '/works/java_shaders.md',
-                '/works/java_resourcepacks.md',
-                '/works/bedrock_shaders.md',
-                '/works/bedrock_resourcepacks.md',
+            '/gallery/': [
+                '/gallery/2021-autumn.md',
+                '/gallery/2021-winter.md',
+                '/gallery/2022-spring.md',
+                '/gallery/2022-summer.md',
+                '/gallery/2022-autumn.md',
+                '/gallery/2023-spring.md'
             ]
         },
     }),
