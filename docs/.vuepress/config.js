@@ -225,12 +225,6 @@ module.exports = {
                             '/library/troubleshoot/je/shaders.md',
                             '/library/troubleshoot/je/settings.md',
                             '/library/troubleshoot/je/mods_compatibility.md',
-                            // {
-                            //     text: '基岩版',
-                            //     children: [
-
-                            //     ]
-                            // }
                         ]
                     },
                 ],
@@ -363,12 +357,6 @@ module.exports = {
                         '/library/troubleshoot/je/mods_compatibility.md',
                     ]
                 },
-                // {
-                //     text: "基岩版",
-                //     children: [
-
-                //     ]
-                // }
             ],
             '/creator/': [
                 '/creator/README.md',
