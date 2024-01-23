@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-8995f30e","path":"/library/qas/","title":"问答","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"library/qas/README.md"}');export{a as data};

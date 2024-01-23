@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6beb5d16","path":"/gallery/","title":"关于画廊","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"gallery/README.md"}');export{e as data};

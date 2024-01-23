@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-1da744b8","path":"/library/correction/","title":"误区纠正","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"library/correction/README.md"}');export{t as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-98ecb24c","path":"/works/be_shaderpacks.html","title":"基岩版光影包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"works/be_shaderpacks.md"}');export{e as data};
