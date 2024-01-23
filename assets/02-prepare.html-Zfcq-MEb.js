@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-70053ad9","path":"/creator/shaders_tutorial/02-prepare.html","title":"准备工作","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"creator/shaders_tutorial/02-prepare.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-68510e5e","path":"/instructions/","title":"手册和指南","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705973876000,"contributors":[{"name":"OviganTG","email":"38832518+rcng2333@users.noreply.github.com","commits":1}]},"filePathRelative":"instructions/README.md"}');export{t as data};
