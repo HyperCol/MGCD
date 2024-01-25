@@ -12,9 +12,7 @@
 
 $$ y = ax^2+b $$
 
-若你看到的是以 `$$` 开头的代码，请点击以下按钮刷新。
-
-<button onclick="location.reload()">点击刷新</button>
+若你看到的是以 `$$` 开头的代码，请刷新页面，或点击 <button onclick="location.reload()">此处刷新</button> 。
 :::
 
 ## 写在前面
