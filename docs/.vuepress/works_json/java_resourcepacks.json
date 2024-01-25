@@ -505,13 +505,13 @@
   },
   {
     "id": 43,
-    "name": "像素起源",
+    "name": "VOXT PBR",
     "author": "Fishbai",
     "style": "原版-pbr",
-    "status": "开发中",
-    "price": "5 RMB",
+    "status": "正常更新",
+    "price": "7 RMB",
     "platform": "爱发电",
-    "platform_link": "_No response_",
+    "platform_link": "https://afdian.net/a/fishpbr",
     "guide": "_No response_",
     "guide_link": ""
   },
